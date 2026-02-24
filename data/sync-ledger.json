@@ -1,0 +1,38 @@
+{
+  "ab88893c-fd4b-400f-b684-780e56e03db1": {
+    "clickupTaskId": "86affd5n4",
+    "clickupUrl": "https://app.clickup.com/t/86affd5n4",
+    "clickupListId": "901318626259",
+    "clientDomain": "withsammy.ai",
+    "clientName": "Sammy",
+    "syncedAt": "2026-02-16T23:15:00Z",
+    "title": "[2/16] Sammy Recap: Call Attribution, Onboarding Automation, Rebooking Flow, DNC Sync & HubSpot"
+  },
+  "0b7a8d72-4c85-4561-8116-e49f56197fc4": {
+    "clickupTaskId": "86affd76v",
+    "clickupUrl": "https://app.clickup.com/t/86affd76v",
+    "clickupListId": "901318626259",
+    "clientDomain": "withsammy.ai",
+    "clientName": "Sammy",
+    "syncedAt": "2026-02-17T03:00:00Z",
+    "title": "[2/3] Sammy Recap: Payment Flow Issues, Deal 400 Error, HubSpot Purchase, Feb Dev Plan"
+  },
+  "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515": {
+    "clickupTaskId": "86affd77h",
+    "clickupUrl": "https://app.clickup.com/t/86affd77h",
+    "clickupListId": "901318626259",
+    "clientDomain": "withsammy.ai",
+    "clientName": "Sammy",
+    "syncedAt": "2026-02-17T03:00:30Z",
+    "title": "[1/26] Sammy Recap: Nurture Sequences, HubSpot Workflow, SMS, Lead Scoring, Lucas Performance"
+  },
+  "2e97a26a-efd7-4fa2-a7f2-7999aabc824e": {
+    "clickupTaskId": "86affd6a3",
+    "clickupUrl": "https://app.clickup.com/t/86affd6a3",
+    "clickupListId": "901305827687",
+    "clientDomain": "fanofafan.co",
+    "clientName": "FOAF",
+    "syncedAt": "2026-02-16T23:15:30Z",
+    "title": "Recap + next steps for Ryan"
+  }
+}

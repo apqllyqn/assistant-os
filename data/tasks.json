@@ -1,0 +1,4374 @@
+{
+  "version": 1,
+  "refreshedAt": "2026-02-17T12:00:00Z",
+  "tasks": [
+    {
+      "objectId": "a7743698-ab83-4218-99be-ffd2ae9dbe4d",
+      "title": "Chris needs CPA letter of competency for Adam",
+      "description": "You need to have your CPA write a competency letter for Adam mirroring his example for the visa interview.",
+      "descriptionPoints": [
+        "Chris needs: CPA letter of competency for Adam (mirror example)",
+        "How: Provide Adam's example to CPA & send the finalized letter to Adam via email",
+        "From: Work collaboration and visa sponsorship on 2/16",
+        "Why: Supporting documentation for Adam's March 11 visa interview - important"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "SUPPORT",
+      "sourceId": "0d73a7ff-fb78-4f45-87ff-691ee186ad91",
+      "sourceLabel": "Chris x Adam - Work collaboration and visa sponsorship",
+      "people": [
+        "adam@stellargrowth.ai"
+      ],
+      "domains": [
+        "stellargrowth.ai"
+      ],
+      "clientDomain": "stellargrowth.ai",
+      "clientName": "Stellar Growth",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "dc56c9e4-ddfc-48c1-aa82-68205dc815e1",
+      "title": "Chris needs spin-taxed copy for Celery",
+      "description": "You need to finish spin tax & spam-word removal for Celery and approve LinkedIn copy to launch the campaign.",
+      "descriptionPoints": [
+        "Chris needs: Final spin-taxed copy & spam-word cleanup for Celery",
+        "How: Finalize copy using the spam-word tool & confirm approval via email to Joshua",
+        "From: Celery campaign launch and client updates on 2/16",
+        "Why: Celery launch is approved; launch depends on final copy & Chris's approval"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "SUPPORT",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": "selery.com",
+      "clientName": "Selery",
+      "clickupListId": "901323619034",
+      "clickupFolderId": "901315849284",
+      "clickupFolderName": "Selery",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": null,
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "2822a311-7a34-4c04-85a9-747fb2352837",
+      "title": "Michael needs sources for 50k property tax assessor emails",
+      "description": "You need to reply with recommended sources or guidance to obtain ~50,000 county/local property tax assessor emails.",
+      "descriptionPoints": [
+        "Michael needs: Sources/recommendations for ~50,000 county/local property tax assessor emails",
+        "How: Reply to Michael's email with vendor names, marketplaces, or legal guidance",
+        "From: Email on Sun 2/15/2026",
+        "Why: His friend may pay $0.50/email; need reliable list and compliance details"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "442f6a1b-540b-4337-bcdb-2347841fbe06",
+      "sourceLabel": "Michael Butts asked Chris Booth for sources to obtain 50,000 reliable property tax assessor emails",
+      "people": [
+        "michael@turboclaim.ai"
+      ],
+      "domains": [],
+      "clientDomain": "turboclaim.ai",
+      "clientName": "TurboClaim",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "860f3817-12f3-407a-945d-098707aae5bb",
+      "title": "BridgeNow needs: MDM CEO lead lists from AI ARC",
+      "description": "You need to pull lead data queries for Nathan & Carlos using AI ARC and send results.",
+      "descriptionPoints": [
+        "BridgeNow needs: MDM CEO lead lists & query results from AI ARC",
+        "How: Pull queries in AI ARC & email CSV/MD results to Nathan & Carlos",
+        "From: Lead Scraping Strategy and Tools Discussed on 2/13",
+        "Why: They're targeting MDM CEOs for their first cold email campaign & are blocked"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "SUPPORT",
+      "sourceId": "b2c5c56d-86ec-41d5-919e-cd89d11c6c35",
+      "sourceLabel": "Nathan x Chris - Weekly Check-In - Lead Scraping Strategy and Tools Discussed",
+      "people": [
+        "nate@bridgenow.co",
+        "carlos@bridgenow.co"
+      ],
+      "domains": [
+        "bridgenow.co"
+      ],
+      "clientDomain": "bridgenow.co",
+      "clientName": "BridgeNow",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "921cbf59-b31f-427d-ab75-30eafb95b3e1",
+      "title": "Jay Sapovits needs source explanation",
+      "description": "You need to explain where the items Jay asked about are coming from.",
+      "descriptionPoints": [
+        "Jay Sapovits needs: source of the items Jay is asking about",
+        "How: Reply to Jay's email with source details and any supporting links",
+        "From: Email on Thu Feb 12 2026",
+        "Why: Clarify confusion and resolve the question"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "795d7ba7-607f-462e-853d-8715888ef763",
+      "sourceLabel": "Jay Sapovits asked Chris Booth where certain items are coming from",
+      "people": [
+        "jay@inkdstores.com"
+      ],
+      "domains": [],
+      "clientDomain": "inkdstores.com",
+      "clientName": "Ink'd",
+      "clickupListId": "901309965902",
+      "clickupFolderId": "90135847941",
+      "clickupFolderName": "Ink'd",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "efa4f188-4d5f-4ce0-869e-16a2cd2a397e",
+      "title": "Eli Keetch needs confirmation of receipt",
+      "description": "You need to reply to Eli confirming receipt of his previous email.",
+      "descriptionPoints": [
+        "Eli needs: confirmation that his prior email was received",
+        "How: Reply to Eli's email",
+        "From: Email on Tue 2/10/2026",
+        "Why: Ensures communication continuity"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "3abb0c2c-0be4-4102-9686-deac68e19988",
+      "sourceLabel": "Eli Keetch asks Christopher if his prior email was received",
+      "people": [
+        "elikeetch@thriceagencydevelopment.com"
+      ],
+      "domains": [],
+      "clientDomain": "thriceagencydevelopment.com",
+      "clientName": "Thrice Agency",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "2b04d98c-0c7a-47ed-8b40-2d8db2c4dca2",
+      "title": "Nico needs issue reports from Chris",
+      "description": "You need to email Nico if any issues arise with gtme.business.",
+      "descriptionPoints": [
+        "Chris needs: Report any issues with gtme.business",
+        "How: Send an email to nico@followingg.co",
+        "From: Email on Tue 2/10/2026",
+        "Why: To report issues and ensure smooth operation"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "9dc27b68-e703-4b58-b862-79ec37c3ee5f",
+      "sourceLabel": "Nico announced that gtme.business is live",
+      "people": [
+        "nico@followingg.co"
+      ],
+      "domains": [],
+      "clientDomain": "followingg.co",
+      "clientName": "Followingg",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "74a8c5b7-8e77-4630-8a3b-8b6ee32d647e",
+      "title": "Evelyn Harris needs: confirmation for 10-15 min call",
+      "description": "You need to reply to Evelyn Harris confirming openness to a 10-15 minute call.",
+      "descriptionPoints": [
+        "Evelyn Harris needs: confirmation for a 10-15 min call",
+        "How: Reply to Evelyn's email with availability",
+        "From: Email on Mon Feb 09 2026",
+        "Why: To move forward with potential white-label collaboration"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "d52d33d1-6b27-42d0-b04b-49b1a8c961a4",
+      "sourceLabel": "Evelyn Harris proposed a white-label partnership",
+      "people": [
+        "evelyn@demandgenho.com"
+      ],
+      "domains": [],
+      "clientDomain": "demandgenho.com",
+      "clientName": "DemandGenHO",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "879bf1c7-5fa5-4651-8364-cb99800e3476",
+      "title": "Sam Agrawal needs meeting - brief call on lead forms",
+      "description": "You need to schedule a 25-minute call with Sam Agrawal.",
+      "descriptionPoints": [
+        "Sam Agrawal needs: 25-min call to discuss high-converting forms & lead qualification",
+        "How: Pick a time via Sam's Calendly link",
+        "From: Email on Mon 2/9/2026",
+        "Why: To evaluate Surfaceboost's forms"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "SCHEDULE_MEETING",
+      "sourceId": "a057d2c7-0803-4c8c-b672-50b6126deb58",
+      "sourceLabel": "Sam Agrawal followed up asking about lead-form questions",
+      "people": [
+        "samagrawal@surfaceboost.company"
+      ],
+      "domains": [],
+      "clientDomain": "surfaceboost.company",
+      "clientName": "Surfaceboost",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "fb8077ba-e43c-468a-ad9c-0086486984b0",
+      "title": "Reactivate RB2B website visitor de-anonymization/retargeting",
+      "description": "Chris Booth needs: reactivate RB2B website visitor de-anonymization/retargeting and document pause reasons.",
+      "descriptionPoints": [
+        "Chris Booth needs: reactivate RB2B visitor de-anonymization/retargeting",
+        "How: Review current setup, determine cause of pause, document findings, reactivate, verify data flow",
+        "From: Email on Mon Feb 09 2026",
+        "Why: To enable visitor retargeting on SK site"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "382547e6-dd06-4c03-9a2d-437323626dce",
+      "sourceLabel": "Emily King asked Chris Booth to investigate and reactivate RB2B",
+      "people": [
+        "Emily King"
+      ],
+      "domains": [],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderId": "90134376979",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "7580f585-dd21-4ec2-a654-d67bcab3988a",
+      "title": "Prepare answers to pre-call questions",
+      "description": "Christopher needs: answers to three pre-call questions",
+      "descriptionPoints": [
+        "Christopher needs: answers to three pre-call questions",
+        "How: Think about and be prepared to discuss during the call",
+        "From: Email on Sat Feb 07 2026",
+        "Why: To make the upcoming call productive"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "992f53d4-9311-410b-9f77-2ec05abbcdac",
+      "sourceLabel": "Matt reminded Christopher of their upcoming call",
+      "people": [
+        "Matt @ Ember Tech"
+      ],
+      "domains": [],
+      "clientDomain": "embertechgrowth.com",
+      "clientName": "Ember Tech",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "21d1d0d6-ada5-40e2-a28a-16e5743fa28a",
+      "title": "Justice Nikkel needs meeting time confirmed",
+      "description": "You need to reply to Justice confirming the meeting is moved to 6pm EST on Tuesday.",
+      "descriptionPoints": [
+        "Justice Nikkel needs: confirmation to move Tuesday call to 6pm EST",
+        "How: Reply to the email",
+        "From: Email on Fri Feb 06 2026",
+        "Why: Ensures meeting fits both schedules"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "47eb8d24-7c0d-4345-85e4-4c28c96a460d",
+      "sourceLabel": "Justice Nikkel asked Chris to move Tuesday's call to 6 pm EST",
+      "people": [
+        "justice@embertechgrowth.com"
+      ],
+      "domains": [],
+      "clientDomain": "embertechgrowth.com",
+      "clientName": "Ember Tech",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "44a3c57d-6337-4296-ba39-9ece2c306c6c",
+      "title": "Chris Booth needs to send questions to Sam Agrawal",
+      "description": "You need to send Sam a list of questions about Surfaceboost's high-converting forms.",
+      "descriptionPoints": [
+        "Sam Agrawal needs: list of questions about forms deployment & qualification insights",
+        "How: Reply to Sam's email",
+        "From: Email on Fri 2/6/2026",
+        "Why: So Sam can provide detailed answers"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "a057d2c7-0803-4c8c-b672-50b6126deb58",
+      "sourceLabel": "Sam followed up asking Chris what questions he has about Surfaceboost",
+      "people": [
+        "samagrawal@surfaceboost.company"
+      ],
+      "domains": [],
+      "clientDomain": "surfaceboost.company",
+      "clientName": "Surfaceboost",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "a0ac0ed7-cef5-473c-8b4d-cc743702638a",
+      "title": "David Meeker needs call moved to Mon 2/7",
+      "description": "You need to reschedule the call to Monday 2/7 between 4:00 PM-8:00 PM EST.",
+      "descriptionPoints": [
+        "David Meeker needs: Move the call to Mon 2/7 between 4:00 PM-8:00 PM EST",
+        "How: Reply to David's email and send an updated calendar invite",
+        "From: Email on Fri 2/6/2026",
+        "Why: To accommodate David's half-day school pickup"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "5f173f60-16af-40c4-bce5-45f5b6d46965",
+      "sourceLabel": "David Meeker asks Chris Booth to reschedule their call",
+      "people": [
+        "david.meeker@stablekernel.com"
+      ],
+      "domains": [],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderId": "90134376979",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "c466ae0a-f474-4321-b1fb-fbb011c76c0c",
+      "title": "Aram needs project/pitch for review",
+      "description": "You need to send upcoming project or pitch details to Aram for early review.",
+      "descriptionPoints": [
+        "Aram needs: Details of any upcoming project or pitch",
+        "How: Reply to Aram's email with project/pitch materials",
+        "From: Email on Fri 2/6/2026",
+        "Why: So Aram can review early ideas and offer production support"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "f6033d62-ba42-44c4-8bc6-82ead097c718",
+      "sourceLabel": "Aram Movsisyan followed up offering to support future projects",
+      "people": [
+        "aram@yansmedia.com"
+      ],
+      "domains": [],
+      "clientDomain": "yansmedia.com",
+      "clientName": "Yans Media",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "9cc96385-fa29-4495-a76e-e23778a92848",
+      "title": "Christopher Booth needs to take Micro Center satisfaction survey",
+      "description": "You need to click the Start Survey link in Micro Center's email.",
+      "descriptionPoints": [
+        "Christopher Booth needs: Complete Micro Center satisfaction survey",
+        "How: Click the Start Survey link in the email",
+        "From: Email from microcenter on Thu Feb 05 2026",
+        "Why: Provides feedback to improve service"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "ec4ed542-36c7-43fe-a839-4e853b48ad59",
+      "sourceLabel": null,
+      "people": [
+        "microcenter@email.microcenter.com"
+      ],
+      "domains": [],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "7ab82d5f-d638-45ea-b2b5-631d73736fd9",
+      "title": "Michael needs funnel recording",
+      "description": "You need to send Michael the recording (or confirm none exists).",
+      "descriptionPoints": [
+        "Michael needs: Recording of funnel build on Discord",
+        "How: Reply to email with the recording or a link",
+        "From: Email on Mon 2/2",
+        "Why: He missed the session"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "2afb43fc-a49e-4dbd-952a-41349c099832",
+      "sourceLabel": null,
+      "people": [
+        "michael@turboclaim.ai"
+      ],
+      "domains": [
+        "turboclaim.ai"
+      ],
+      "clientDomain": "turboclaim.ai",
+      "clientName": "TurboClaim",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "53e7670a-e6eb-495a-845b-788404cd5244",
+      "title": "Sam needs answers about lead capture",
+      "description": "You need to reply to Sam Agrawal with answers about high-converting forms.",
+      "descriptionPoints": [
+        "Sam needs: answers about high-converting forms and real-time qualification insights",
+        "How: Reply to 'Re: for David'",
+        "From: Email on Mon 2/2",
+        "Why: To discuss potential collaboration"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "a057d2c7-0803-4c8c-b672-50b6126deb58",
+      "sourceLabel": null,
+      "people": [
+        "samagrawal@surfaceboost.company"
+      ],
+      "domains": [
+        "surfaceboost.company"
+      ],
+      "clientDomain": "surfaceboost.company",
+      "clientName": "Surfaceboost",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "d677c686-b1b4-400a-959b-245a9b3ee691",
+      "title": "Sam needs review of inbound leads capabilities",
+      "description": "You need to review Sam Agrawal's attached inbound-leads capabilities and reply.",
+      "descriptionPoints": [
+        "Sam needs: Review of attached capabilities for inbound leads",
+        "How: Reply to the email thread",
+        "From: Email on Mon 2/2",
+        "Why: So Sam can get feedback"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "a057d2c7-0803-4c8c-b672-50b6126deb58",
+      "sourceLabel": null,
+      "people": [
+        "samagrawal@surfaceboost.company"
+      ],
+      "domains": [
+        "surfaceboost.company"
+      ],
+      "clientDomain": "surfaceboost.company",
+      "clientName": "Surfaceboost",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "7f8b0989-077c-4108-8754-c94dcf4d8afe",
+      "title": "Org engagement scoring + seat upgrades for Chris",
+      "description": "You need to create org-level engagement scoring and upgrade teammates' Day.ai seats.",
+      "descriptionPoints": [
+        "Chris needs: Org-level engagement scoring property with deterministic point values & teammate Day.ai seat upgrades",
+        "How: Add custom org property, document point system, update Day.ai seat permissions",
+        "From: Day.ai Product Demo and Feedback Session on 1/30",
+        "Why: Track engagement to trigger pipeline actions"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "FOLLOWUP",
+      "sourceId": "734b8759-023a-4753-8da7-7192ecb61983",
+      "sourceLabel": "Day.ai Product Demo and Feedback Session",
+      "people": [
+        "hannah@day.ai"
+      ],
+      "domains": [
+        "day.ai"
+      ],
+      "clientDomain": "day.ai",
+      "clientName": "Day.ai",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": "2026-01-30"
+    },
+    {
+      "objectId": "413c1dc9-25ab-43b0-91f8-3549efc5c81c",
+      "title": "Chris Booth needs lookalike match test & Slack report",
+      "description": "You need to test lookalike list matching with Day.ai using 250 closed-won & 35,000 prospects.",
+      "descriptionPoints": [
+        "Hire Charm needs: Lookalike match results from 250 closed-won vs 35,000 prospects",
+        "How: Run Day.ai prospecting waterfall & post results in Slack",
+        "From: Day.ai Product Demo and Feedback Session on 1/30",
+        "Why: Confirm platform can handle high-volume prospecting"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "SUPPORT",
+      "sourceId": "734b8759-023a-4753-8da7-7192ecb61983",
+      "sourceLabel": "Day.ai Product Demo and Feedback Session",
+      "people": [
+        "hannah@day.ai"
+      ],
+      "domains": [
+        "day.ai"
+      ],
+      "clientDomain": "day.ai",
+      "clientName": "Day.ai",
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": "2026-01-30"
+    },
+    {
+      "objectId": "956613a1-98b8-4723-b749-ef44344361bc",
+      "title": "Jay Gyuricza needs SOW update",
+      "description": "You need to update the SOW and route it for signature to Jay Gyuricza.",
+      "descriptionPoints": [
+        "Jay Gyuricza needs: Updated SOW with requested changes, signature routing",
+        "How: Reply to 'Re: SOW' with revised SOW attached",
+        "From: Email on Wednesday 1/28",
+        "Why: Jay requested updates and needs to review/sign"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "2f35c985-7064-4df3-89ba-df0737b8497d",
+      "sourceLabel": null,
+      "people": [
+        "jay.gyuricza@stablekernel.com"
+      ],
+      "domains": [],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderId": "90134376979",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "73864e21-5f85-4047-ab93-ac3e86c6d338",
+      "title": "Chris needs automated reporting dashboard for Barina",
+      "description": "You need to build the automated reporting dashboard for Barina.",
+      "descriptionPoints": [
+        "Chris needs: Automated reporting dashboard for Barina",
+        "How: Build internal app & share access",
+        "From: Team sync on client work and leads on 1/27",
+        "Why: Joshua requested it for Barina"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "FEATURE_REQUEST",
+      "sourceId": "1851e581-e144-45b1-8592-15ca6b62ed0b",
+      "sourceLabel": "Sales Touch-In - Team sync on client work and leads",
+      "people": [
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": "barrenabranding.com",
+      "clientName": "Barrena",
+      "clickupListId": null,
+      "clickupFolderId": "901315267333",
+      "clickupFolderName": "Barrena",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": null,
+      "meetingDate": "2026-01-27"
+    },
+    {
+      "objectId": "abedd8c2-a269-4ef5-984d-c538b76f2739",
+      "title": "Chris Booth needs to add Alex to Hay Reach",
+      "description": "You need to add Alex as a user to Hay Reach.",
+      "descriptionPoints": [
+        "Chris Booth needs: Add Alex as a user on Hay Reach",
+        "How: Invite Alex via Hay Reach user management",
+        "From: LinkedIn and Email Outreach Strategy Review on 1/23",
+        "Why: Alex needs to monitor campaign performance"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "SUPPORT",
+      "sourceId": "4f592e65-72fb-415c-8726-112c057d7ae1",
+      "sourceLabel": "Alex x Chris - LinkedIn and Email Outreach Strategy Review",
+      "people": [
+        "alex@appsbyanvil.com"
+      ],
+      "domains": [
+        "appsbyanvil.com"
+      ],
+      "clientDomain": "appsbyanvil.com",
+      "clientName": "Checkout Components",
+      "clickupListId": null,
+      "clickupFolderId": "901312288371",
+      "clickupFolderName": "Checkout Components",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": null,
+      "meetingDate": "2026-01-23"
+    },
+    {
+      "objectId": "c71600ee-4abd-42ef-841e-d9e5b0b661be",
+      "title": "Chris Booth needs to verify & push RB2B data",
+      "description": "You need to check if RB2B data was pushed to HubSpot & manually push it if missing.",
+      "descriptionPoints": [
+        "Chris Booth needs: Verify RB2B data presence in HubSpot & manually push missing records",
+        "How: Check integration logs & import missing data",
+        "From: LinkedIn and Email Outreach Strategy Review on 1/23",
+        "Why: RB2B retargeting depends on that data"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "SUPPORT",
+      "sourceId": "4f592e65-72fb-415c-8726-112c057d7ae1",
+      "sourceLabel": "Alex x Chris - LinkedIn and Email Outreach Strategy Review",
+      "people": [
+        "alex@appsbyanvil.com"
+      ],
+      "domains": [
+        "appsbyanvil.com"
+      ],
+      "clientDomain": "appsbyanvil.com",
+      "clientName": "Checkout Components",
+      "clickupListId": null,
+      "clickupFolderId": "901312288371",
+      "clickupFolderName": "Checkout Components",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": null,
+      "meetingDate": "2026-01-23"
+    },
+    {
+      "objectId": "629a52c5-2f1e-48ba-87ac-bdb9782645b4",
+      "title": "Chris Booth needs to update Alex's HubSpot permissions",
+      "description": "You need to update Alex's HubSpot permissions to admin/edit access.",
+      "descriptionPoints": [
+        "Chris Booth needs: Alex's HubSpot permissions updated to admin/edit",
+        "How: Change Alex's role in HubSpot admin",
+        "From: LinkedIn and Email Outreach Strategy Review on 1/23",
+        "Why: Alex currently has view-only access"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "SUPPORT",
+      "sourceId": "4f592e65-72fb-415c-8726-112c057d7ae1",
+      "sourceLabel": "Alex x Chris - LinkedIn and Email Outreach Strategy Review",
+      "people": [
+        "alex@appsbyanvil.com"
+      ],
+      "domains": [
+        "appsbyanvil.com"
+      ],
+      "clientDomain": "appsbyanvil.com",
+      "clientName": "Checkout Components",
+      "clickupListId": null,
+      "clickupFolderId": "901312288371",
+      "clickupFolderName": "Checkout Components",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": null,
+      "meetingDate": "2026-01-23"
+    },
+    {
+      "objectId": "1b9cf0f2-1816-46aa-a1ee-2940e1b2c78d",
+      "title": "Chris Booth needs: scrape leads for Joel",
+      "description": "You need to scrape leads for Joel's target verticals.",
+      "descriptionPoints": [
+        "Chris Booth needs: Scraped leads & crawled site data for Joel's verticals",
+        "How: Use the lead scraping tool & deliver CSVs",
+        "From: Cold Email Infrastructure Setup Discussed on 1/23",
+        "Why: Joel is blocked from launching outbound"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "SUPPORT",
+      "sourceId": "6dffef7a-dad9-4d5d-ac6f-1cb781005e2f",
+      "sourceLabel": "Real shooter hours - Cold Email Infrastructure Setup Discussed",
+      "people": [
+        "joelwall33@gmail.com"
+      ],
+      "domains": [],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": "2026-01-23"
+    },
+    {
+      "objectId": "9b4da3b9-09db-4bbc-b455-641f4b885bc3",
+      "title": "Sam needs Kinexis attendee list uploaded",
+      "description": "You need to upload Kinexis attendee list to the Google sheet for Sam.",
+      "descriptionPoints": [
+        "Sam McKeveny needs: Additional targeted Kinexis attendee list in Google Sheet",
+        "How: Upload list to shared sheet & notify Sam",
+        "From: Charm and Stable Kickoff Strategy Meeting on 1/23",
+        "Why: Conference happening Monday & team needs targeted outreach lists"
+      ],
+      "priority": "URGENT",
+      "dueDate": null,
+      "sourceType": "SUPPORT",
+      "sourceId": "d591c2b0-6858-4445-a291-52264c08a649",
+      "sourceLabel": "Jay x Chris - SoW/Proposal - Charm and Stable Kickoff Strategy Meeting",
+      "people": [
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderId": "90134376979",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": null,
+      "meetingDate": "2026-01-23"
+    },
+    {
+      "objectId": "c3915c31-4f19-4243-b57b-b4211e8bbdb4",
+      "title": "Chris needs to build HubSpot-to-Clay workflow",
+      "description": "You need to set up the HubSpot workflow to trigger sequences based on Clay integration source.",
+      "descriptionPoints": [
+        "Chris needs: HubSpot workflow triggering sequences from Clay integration source",
+        "How: Build workflow in HubSpot & configure triggers",
+        "From: Strategy session for outreach campaigns on 1/22",
+        "Why: Automates lead follow-ups"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "SUPPORT",
+      "sourceId": "747893a7-a98a-40be-b3d0-d8a449c46a42",
+      "sourceLabel": "Charm/SPUI Check-in - Strategy session for outreach campaigns",
+      "people": [
+        "neha@hirecharm.com",
+        "bhoumik.sheth@spui.net"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "spui.net"
+      ],
+      "clientDomain": "spui.net",
+      "clientName": "SPUI",
+      "clickupListId": null,
+      "clickupFolderId": "901312296678",
+      "clickupFolderName": "SPUI",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": null,
+      "meetingDate": "2026-01-22"
+    },
+    {
+      "objectId": "e80dfa9a-9933-4894-8722-2f25cb04c95c",
+      "title": "Anna needs form & documents",
+      "description": "You need to fill out the joint sponsor form and provide proof of citizenship, recent tax returns, evidence of current income, and any asset documentation.",
+      "descriptionPoints": [
+        "Anna needs: Filled joint-sponsor form, proof of citizenship, recent tax returns, evidence of income, asset documentation",
+        "How: Fill out the attached form and attach copies in a reply email",
+        "From: Email on Sat 12/27/2025",
+        "Why: To support Adam's US visa application"
+      ],
+      "priority": "MEDIUM",
+      "dueDate": null,
+      "sourceType": "EMAIL_RESPONSE",
+      "sourceId": "22122582-4da5-4bc4-87e5-0bc642c22570",
+      "sourceLabel": null,
+      "people": [
+        "annaandrewjeski@icloud.com"
+      ],
+      "domains": [],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": null,
+      "meetingDate": null
+    },
+    {
+      "objectId": "7c7c3e63-027a-4124-8984-7e500f7afb69",
+      "title": "[2/16] Investigate triggering Air Caller SMS from HubSpot",
+      "description": "Chris will research how to trigger Air Caller SMS messages directly from HubSpot workflows.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a710f58c-6a95-4cdc-b904-799eb71ff7d2",
+      "sourceLabel": "Sammy Exec Weekly - HubSpot Attribution and Automation Setup",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "bd65200b-c3da-4459-94ba-268aca78d55a",
+      "title": "[2/16] Set up exclusion criteria for current customers",
+      "description": "Ensure current customers are excluded from outreach campaigns by building exclusion lists or suppression rules in HubSpot.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a710f58c-6a95-4cdc-b904-799eb71ff7d2",
+      "sourceLabel": "Sammy Exec Weekly - HubSpot Attribution and Automation Setup",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "2deb407b-325e-4ab2-8ac5-2d22b45c4ff0",
+      "title": "[2/16] Implement customer onboarding pipeline with workflows",
+      "description": "Build an automated customer onboarding pipeline in HubSpot with workflow triggers for each stage.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a710f58c-6a95-4cdc-b904-799eb71ff7d2",
+      "sourceLabel": "Sammy Exec Weekly - HubSpot Attribution and Automation Setup",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "c23826c2-b4f5-4ff3-957c-8302de2691d6",
+      "title": "[2/16] Create welcome email sequences and rebooking flows",
+      "description": "Set up welcome email sequences for new customers and automated rebooking flows for missed demos in HubSpot.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a710f58c-6a95-4cdc-b904-799eb71ff7d2",
+      "sourceLabel": "Sammy Exec Weekly - HubSpot Attribution and Automation Setup",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "45bcb1d6-708b-4eb5-bdf6-7fdce27e3235",
+      "title": "[2/16] Write welcome email content and onboarding journey",
+      "description": "Jared will write the welcome email copy and outline the full customer journey for the onboarding flow.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a710f58c-6a95-4cdc-b904-799eb71ff7d2",
+      "sourceLabel": "Sammy Exec Weekly - HubSpot Attribution and Automation Setup",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "15f47037-1ebb-4765-b1aa-78d9ceae2086",
+      "title": "[2/16] Resume daily touch-ins with Lucas for call reviews",
+      "description": "Chris will resume daily coaching sessions with Lucas to review calls and provide feedback.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a710f58c-6a95-4cdc-b904-799eb71ff7d2",
+      "sourceLabel": "Sammy Exec Weekly - HubSpot Attribution and Automation Setup",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "bf4f8ef7-4f5b-4f99-b41a-850c74c6487c",
+      "title": "[2/16] Schedule call to attribute 27 customers for commissions",
+      "description": "Krishna and Lucas need to schedule a call to properly attribute all 27 customers for commission calculation.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a710f58c-6a95-4cdc-b904-799eb71ff7d2",
+      "sourceLabel": "Sammy Exec Weekly - HubSpot Attribution and Automation Setup",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "156642d7-b82e-44f2-81a9-f093a789f3cb",
+      "title": "[2/16] Gather customer testimonials for the website",
+      "description": "The team will reach out to existing customers to collect testimonials for the Sammy website.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a710f58c-6a95-4cdc-b904-799eb71ff7d2",
+      "sourceLabel": "Sammy Exec Weekly - HubSpot Attribution and Automation Setup",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "909255dc-2d6f-4aba-937c-b7730058b0be",
+      "title": "[2/16] Revise Lucas contract with commission and KPIs",
+      "description": "Chris will update Lucas's contract to include specific commission structure details and KPI targets.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a710f58c-6a95-4cdc-b904-799eb71ff7d2",
+      "sourceLabel": "Sammy Exec Weekly - HubSpot Attribution and Automation Setup",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "004f094f-ec98-4d11-822d-b52432aeed5d",
+      "title": "[2/16] Define cadence and working structure with Adam",
+      "description": "Chris will think through and follow up with Adam on the working cadence and collaboration structure.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "0d73a7ff-fb78-4f45-87ff-691ee186ad91",
+      "sourceLabel": "Chris x Adam - Work collaboration and visa sponsorship",
+      "people": [
+        "adam@stellargrowth.ai"
+      ],
+      "domains": [
+        "stellargrowth.ai"
+      ],
+      "clientDomain": "stellargrowth.ai",
+      "clientName": "Stellar Growth",
+      "clickupListId": null,
+      "clickupFolderName": "Stellar Growth",
+      "clickupSpaceName": null,
+      "unbundledFrom": "bed40934-c4f4-4cf8-b287-0d1fc6fa8e2d",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "e941bf0c-13c2-41ea-9882-6487b48081d0",
+      "title": "[2/16] Get example CPA letter format from Adam",
+      "description": "Adam will send Chris an example CPA letter that Chris's accountant can mirror for visa sponsorship documentation.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "0d73a7ff-fb78-4f45-87ff-691ee186ad91",
+      "sourceLabel": "Chris x Adam - Work collaboration and visa sponsorship",
+      "people": [
+        "adam@stellargrowth.ai"
+      ],
+      "domains": [
+        "stellargrowth.ai"
+      ],
+      "clientDomain": "stellargrowth.ai",
+      "clientName": "Stellar Growth",
+      "clickupListId": null,
+      "clickupFolderName": "Stellar Growth",
+      "clickupSpaceName": null,
+      "unbundledFrom": "bed40934-c4f4-4cf8-b287-0d1fc6fa8e2d",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "4f90cc5d-8104-4a57-849a-d248c5bd2a74",
+      "title": "[2/16] Send tax transcripts and documentation to Adam",
+      "description": "Chris will send Adam the required tax transcripts and documentation for the visa process.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "0d73a7ff-fb78-4f45-87ff-691ee186ad91",
+      "sourceLabel": "Chris x Adam - Work collaboration and visa sponsorship",
+      "people": [
+        "adam@stellargrowth.ai"
+      ],
+      "domains": [
+        "stellargrowth.ai"
+      ],
+      "clientDomain": "stellargrowth.ai",
+      "clientName": "Stellar Growth",
+      "clickupListId": null,
+      "clickupFolderName": "Stellar Growth",
+      "clickupSpaceName": null,
+      "unbundledFrom": "bed40934-c4f4-4cf8-b287-0d1fc6fa8e2d",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "611ed210-338e-439d-8858-f622b3fbda16",
+      "title": "[2/16] Invite Adam to Discord server",
+      "description": "Adam will join Chris's Discord server to connect with the broader team and community.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "0d73a7ff-fb78-4f45-87ff-691ee186ad91",
+      "sourceLabel": "Chris x Adam - Work collaboration and visa sponsorship",
+      "people": [
+        "adam@stellargrowth.ai"
+      ],
+      "domains": [
+        "stellargrowth.ai"
+      ],
+      "clientDomain": "stellargrowth.ai",
+      "clientName": "Stellar Growth",
+      "clickupListId": null,
+      "clickupFolderName": "Stellar Growth",
+      "clickupSpaceName": null,
+      "unbundledFrom": "bed40934-c4f4-4cf8-b287-0d1fc6fa8e2d",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "6ac13707-6e75-4574-b8fc-ff6137a15ba7",
+      "title": "[2/16] Ask neighbor about renting house for Adam",
+      "description": "Chris will inquire with his neighbor about renting the house next door for Adam if he moves to Arizona.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "0d73a7ff-fb78-4f45-87ff-691ee186ad91",
+      "sourceLabel": "Chris x Adam - Work collaboration and visa sponsorship",
+      "people": [
+        "adam@stellargrowth.ai"
+      ],
+      "domains": [
+        "stellargrowth.ai"
+      ],
+      "clientDomain": "stellargrowth.ai",
+      "clientName": "Stellar Growth",
+      "clickupListId": null,
+      "clickupFolderName": "Stellar Growth",
+      "clickupSpaceName": null,
+      "unbundledFrom": "bed40934-c4f4-4cf8-b287-0d1fc6fa8e2d",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "cd731970-a0b1-40cf-9c67-a91aafa4b790",
+      "title": "[2/16] Record intro video for speaker recruitment form",
+      "description": "Chris will record the introductory video for the TRC speaker recruitment form.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "dffabc48-b130-4729-84ad-39e93e466a5b",
+      "sourceLabel": "TRC - Admin - TRC Community Operations and Tech Setup",
+      "people": [
+        "nico@followingg.co",
+        "jenna@hirecharm.com",
+        "joelwall33@gmail.com",
+        "adam@stellargrowth.ai",
+        "logan@callamarketer.ca",
+        "logan@morpheusinteractive.com"
+      ],
+      "domains": [
+        "followingg.co",
+        "hirecharm.com",
+        "stellargrowth.ai",
+        "callamarketer.ca",
+        "morpheusinteractive.com"
+      ],
+      "clientDomain": "followingg.co",
+      "clientName": "Followingg",
+      "clickupListId": null,
+      "clickupFolderName": "Followingg",
+      "clickupSpaceName": null,
+      "unbundledFrom": "7ab5d558-9201-4de5-b9cd-24de3c2ea334",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "f98a24c6-1871-4497-bc8c-36f9998382c6",
+      "title": "[2/16] Resolve Coolify CPU issue and give Logan env access",
+      "description": "Elliot will fix the Coolify CPU issue and provide Logan with proper environment access for deployments.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "dffabc48-b130-4729-84ad-39e93e466a5b",
+      "sourceLabel": "TRC - Admin - TRC Community Operations and Tech Setup",
+      "people": [
+        "nico@followingg.co",
+        "jenna@hirecharm.com",
+        "joelwall33@gmail.com",
+        "adam@stellargrowth.ai",
+        "logan@callamarketer.ca",
+        "logan@morpheusinteractive.com"
+      ],
+      "domains": [
+        "followingg.co",
+        "hirecharm.com",
+        "stellargrowth.ai",
+        "callamarketer.ca",
+        "morpheusinteractive.com"
+      ],
+      "clientDomain": "followingg.co",
+      "clientName": "Followingg",
+      "clickupListId": null,
+      "clickupFolderName": "Followingg",
+      "clickupSpaceName": null,
+      "unbundledFrom": "7ab5d558-9201-4de5-b9cd-24de3c2ea334",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "43fc9c90-b9fb-45b2-b666-6383251f55d9",
+      "title": "[2/16] Set up GitHub repo and share access with team",
+      "description": "Logan will create the GitHub repository and share access with the team once the Coolify environment is ready.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "dffabc48-b130-4729-84ad-39e93e466a5b",
+      "sourceLabel": "TRC - Admin - TRC Community Operations and Tech Setup",
+      "people": [
+        "nico@followingg.co",
+        "jenna@hirecharm.com",
+        "joelwall33@gmail.com",
+        "adam@stellargrowth.ai",
+        "logan@callamarketer.ca",
+        "logan@morpheusinteractive.com"
+      ],
+      "domains": [
+        "followingg.co",
+        "hirecharm.com",
+        "stellargrowth.ai",
+        "callamarketer.ca",
+        "morpheusinteractive.com"
+      ],
+      "clientDomain": "followingg.co",
+      "clientName": "Followingg",
+      "clickupListId": null,
+      "clickupFolderName": "Followingg",
+      "clickupSpaceName": null,
+      "unbundledFrom": "7ab5d558-9201-4de5-b9cd-24de3c2ea334",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "5a556ae0-c0f9-445b-9cbf-7fb6bc0d1092",
+      "title": "[2/16] Configure MeeSix to pull speakers from spreadsheet",
+      "description": "Logan will configure MeeSix to pull speaker information from Adam's existing spreadsheet for automated community posts.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "dffabc48-b130-4729-84ad-39e93e466a5b",
+      "sourceLabel": "TRC - Admin - TRC Community Operations and Tech Setup",
+      "people": [
+        "nico@followingg.co",
+        "jenna@hirecharm.com",
+        "joelwall33@gmail.com",
+        "adam@stellargrowth.ai",
+        "logan@callamarketer.ca",
+        "logan@morpheusinteractive.com"
+      ],
+      "domains": [
+        "followingg.co",
+        "hirecharm.com",
+        "stellargrowth.ai",
+        "callamarketer.ca",
+        "morpheusinteractive.com"
+      ],
+      "clientDomain": "followingg.co",
+      "clientName": "Followingg",
+      "clickupListId": null,
+      "clickupFolderName": "Followingg",
+      "clickupSpaceName": null,
+      "unbundledFrom": "7ab5d558-9201-4de5-b9cd-24de3c2ea334",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "86f04a7e-e6dc-40ac-9bce-2d9958b9015f",
+      "title": "[2/16] Share Ravi pool route investment deck in Discord",
+      "description": "Chris will share Ravi's pool route investment deck with the Discord community once finalized.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "dffabc48-b130-4729-84ad-39e93e466a5b",
+      "sourceLabel": "TRC - Admin - TRC Community Operations and Tech Setup",
+      "people": [
+        "nico@followingg.co",
+        "jenna@hirecharm.com",
+        "joelwall33@gmail.com",
+        "adam@stellargrowth.ai",
+        "logan@callamarketer.ca",
+        "logan@morpheusinteractive.com"
+      ],
+      "domains": [
+        "followingg.co",
+        "hirecharm.com",
+        "stellargrowth.ai",
+        "callamarketer.ca",
+        "morpheusinteractive.com"
+      ],
+      "clientDomain": "followingg.co",
+      "clientName": "Followingg",
+      "clickupListId": null,
+      "clickupFolderName": "Followingg",
+      "clickupSpaceName": null,
+      "unbundledFrom": "7ab5d558-9201-4de5-b9cd-24de3c2ea334",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "e537ca81-7e7f-480f-9805-b2fabb604398",
+      "title": "[2/16] Complete spintax and spam word removal for Celery",
+      "description": "Chris will finish spintax work and spam word removal for Celery campaign copy.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "7f71c76e-dd2b-4be9-9d5e-0b3b71ba9218",
+      "title": "[2/16] Review and approve LinkedIn copy for Celery launch",
+      "description": "Chris will review and approve LinkedIn copy for Celery before Joshua launches the campaign.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "1ecd8b57-3389-4029-98a8-5f4e7b75e666",
+      "title": "[2/16] Define Search Atlas campaign structure and lead strategy",
+      "description": "Chris will create high-level campaign structure for Search Atlas and coordinate with Joshua on lead sourcing strategy.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "4c371cbf-1312-41d1-9160-6dde8f0a1a61",
+      "title": "[2/16] Provide LinkedIn copy for Search Atlas enterprise SEO",
+      "description": "Chris will write LinkedIn copy for Search Atlas targeting enterprise SEO roles.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "2c4ac308-ca3f-4900-96b6-45543c01f7e8",
+      "title": "[2/16] Set up Celery response tracking channel in Slack",
+      "description": "Joshua will create a Slack channel for tracking Celery campaign responses.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "3122354f-e079-4e72-8a66-b97dbafe6451",
+      "title": "[2/16] Reconnect Bison-Claude connector via Elliott",
+      "description": "Joshua will contact Elliott to reconnect the Bison-Claude connector integration.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "a1b25fcb-f8d5-4535-a437-c87526a3777a",
+      "title": "[2/16] Investigate Sammy email bounce rates and restore volume",
+      "description": "Neha will investigate bounce rate issues on Sammy email accounts and restore full sending volume.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "58fb72de-97b9-4efe-9c08-16a26ecec47a",
+      "title": "[2/16] Review HubSpot data for top Sammy industries",
+      "description": "Neha will review HubSpot data to identify top-performing industries for Sammy campaigns.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "a8be74d3-405e-49ee-bc2c-93fbd56e2431",
+      "title": "[2/16] Prepare Spout campaign ideas for Sales Dungeon",
+      "description": "Neha will prepare campaign ideas for Spout to present at the next Sales Dungeon meeting.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "555f9868-2ccc-481b-9027-640f22c55b31",
+      "title": "[2/16] Top off leads for Spout campaigns",
+      "description": "Neha will replenish leads for active Spout campaigns.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "02317c1b-db43-4680-a7a9-847a5d3e6036",
+      "title": "[2/16] Review Jenna Sammy AI screenshots and give feedback",
+      "description": "Chris will review Jenna's Sammy AI screenshots and provide detailed feedback.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "08c68834-b16f-47a7-a92e-c33172e1140a",
+      "title": "[2/16] Give Jenna access to upload FAQ content",
+      "description": "Chris will provide Jenna with permissions to upload FAQ content.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "185fa590-7ec2-48bd-8a76-ea0dce058284",
+      "sourceLabel": "Sales Directional - Celery campaign launch and client updates",
+      "people": [
+        "joshua@hirecharm.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": "Selery",
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
+      "meetingDate": "2026-02-16"
+    },
+    {
+      "objectId": "5a66545a-0139-4ad6-8003-78475f68f594",
+      "title": "[2/13] Define hiring criteria and labor qualification params",
+      "description": "Spencer will define parameters and criteria for qualifying and classifying good labor when hiring.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "3a885ac2-e24c-4cdb-9b89-fdec101d3edc",
+      "sourceLabel": "Chris x Spencer - Coaching session on scaling agency",
+      "people": [
+        "spencer@growthalliance.io",
+        "spencerthenomad@gmail.com"
+      ],
+      "domains": [
+        "growthalliance.io"
+      ],
+      "clientDomain": "growthalliance.io",
+      "clientName": "Growth Alliance",
+      "clickupListId": null,
+      "clickupFolderName": "Growth Alliance",
+      "clickupSpaceName": null,
+      "unbundledFrom": "c65f89ca-8060-4640-84d4-72d917553845",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "b22a2e9e-c635-4638-948e-484207d33fdc",
+      "title": "[2/13] Nail down revenue velocity partner positioning",
+      "description": "Chris and Spencer will clarify and articulate the core offering as \"revenue velocity partner.\"",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "3a885ac2-e24c-4cdb-9b89-fdec101d3edc",
+      "sourceLabel": "Chris x Spencer - Coaching session on scaling agency",
+      "people": [
+        "spencer@growthalliance.io",
+        "spencerthenomad@gmail.com"
+      ],
+      "domains": [
+        "growthalliance.io"
+      ],
+      "clientDomain": "growthalliance.io",
+      "clientName": "Growth Alliance",
+      "clickupListId": null,
+      "clickupFolderName": "Growth Alliance",
+      "clickupSpaceName": null,
+      "unbundledFrom": "c65f89ca-8060-4640-84d4-72d917553845",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "fd537d78-4bf0-46fe-9aa5-2a2bad1e540e",
+      "title": "[2/13] Establish content strategy for awareness and education",
+      "description": "Spencer will be principled about content strategy focused on building awareness and educating prospects.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "3a885ac2-e24c-4cdb-9b89-fdec101d3edc",
+      "sourceLabel": "Chris x Spencer - Coaching session on scaling agency",
+      "people": [
+        "spencer@growthalliance.io",
+        "spencerthenomad@gmail.com"
+      ],
+      "domains": [
+        "growthalliance.io"
+      ],
+      "clientDomain": "growthalliance.io",
+      "clientName": "Growth Alliance",
+      "clickupListId": null,
+      "clickupFolderName": "Growth Alliance",
+      "clickupSpaceName": null,
+      "unbundledFrom": "c65f89ca-8060-4640-84d4-72d917553845",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "c77e6b2e-906d-497f-ada1-6e44649a7b85",
+      "title": "[2/13] Build MD files with scraping requirements for Chris",
+      "description": "Nathan will build out MD files with specific scraping requirements and send them to Chris.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "b2c5c56d-86ec-41d5-919e-cd89d11c6c35",
+      "sourceLabel": "Nathan x Chris - Weekly Check-In - Lead Scraping Strategy and Tools Discussed",
+      "people": [
+        "carlos@bridgenow.co",
+        "nate@bridgenow.co"
+      ],
+      "domains": [
+        "bridgenow.co"
+      ],
+      "clientDomain": "bridgenow.co",
+      "clientName": "BridgeNow",
+      "clickupListId": null,
+      "clickupFolderName": "BridgeNow",
+      "clickupSpaceName": null,
+      "unbundledFrom": "6cc059ef-91d8-4b31-8877-cc2e3dc8709f",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "5407c37b-b04d-4791-aa03-16427c543c1a",
+      "title": "[2/13] Deliver MDM CEO scraper results and instructions",
+      "description": "Chris will provide the MDM CEO scraper results and MD file instructions once the scraper completes.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "b2c5c56d-86ec-41d5-919e-cd89d11c6c35",
+      "sourceLabel": "Nathan x Chris - Weekly Check-In - Lead Scraping Strategy and Tools Discussed",
+      "people": [
+        "carlos@bridgenow.co",
+        "nate@bridgenow.co"
+      ],
+      "domains": [
+        "bridgenow.co"
+      ],
+      "clientDomain": "bridgenow.co",
+      "clientName": "BridgeNow",
+      "clickupListId": null,
+      "clickupFolderName": "BridgeNow",
+      "clickupSpaceName": null,
+      "unbundledFrom": "6cc059ef-91d8-4b31-8877-cc2e3dc8709f",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "1f3a3120-e9bb-4536-8e03-519ded8fd9b5",
+      "title": "[2/13] Connect Carlos with professional speaker contact",
+      "description": "Carlos will connect with Chris's contact who is a professional speaker.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "b2c5c56d-86ec-41d5-919e-cd89d11c6c35",
+      "sourceLabel": "Nathan x Chris - Weekly Check-In - Lead Scraping Strategy and Tools Discussed",
+      "people": [
+        "carlos@bridgenow.co",
+        "nate@bridgenow.co"
+      ],
+      "domains": [
+        "bridgenow.co"
+      ],
+      "clientDomain": "bridgenow.co",
+      "clientName": "BridgeNow",
+      "clickupListId": null,
+      "clickupFolderName": "BridgeNow",
+      "clickupSpaceName": null,
+      "unbundledFrom": "6cc059ef-91d8-4b31-8877-cc2e3dc8709f",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "7e5cd1e9-964c-48a8-aa9e-af2d87e509f2",
+      "title": "[2/13] Discuss part-time ops role with Michael",
+      "description": "Chris offered Michael potential part-time operations work at a higher rate; Michael to decide if interested in project-based or ongoing ops work.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e3fe2e7c-24e7-4c52-a9ba-faf531a38ae6",
+      "sourceLabel": "Michael / Chris - Operations and AI Automation Discussion",
+      "people": [
+        "michael@turboclaim.ai"
+      ],
+      "domains": [
+        "turboclaim.ai"
+      ],
+      "clientDomain": "turboclaim.ai",
+      "clientName": "TurboClaim",
+      "clickupListId": null,
+      "clickupFolderName": "TurboClaim",
+      "clickupSpaceName": null,
+      "unbundledFrom": "f344443a-67b3-423c-810d-19f0b7726280",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "e6839178-e959-4d42-a0de-b4ed119a2def",
+      "title": "[2/13] Connect Michael with Shovel founders",
+      "description": "Michael should connect with the founders of Shovel, the building permits data company Chris knows.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e3fe2e7c-24e7-4c52-a9ba-faf531a38ae6",
+      "sourceLabel": "Michael / Chris - Operations and AI Automation Discussion",
+      "people": [
+        "michael@turboclaim.ai"
+      ],
+      "domains": [
+        "turboclaim.ai"
+      ],
+      "clientDomain": "turboclaim.ai",
+      "clientName": "TurboClaim",
+      "clickupListId": null,
+      "clickupFolderName": "TurboClaim",
+      "clickupSpaceName": null,
+      "unbundledFrom": "f344443a-67b3-423c-810d-19f0b7726280",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "38259824-8920-4250-879d-7ee20988ad3f",
+      "title": "[2/13] Share high-level audit of all client accounts",
+      "description": "Neha will share a high-level audit of all client accounts.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "fa244d96-7ce1-4904-b7e0-ad1aa02cbbc2",
+      "sourceLabel": "Sales Touch-In - Agency operations and client updates",
+      "people": [
+        "neha@hirecharm.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "7cac44eb-7d21-4e0e-a2c3-327912a5b488",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "555f22af-c3f8-43e1-b16f-ce17b40d7c6b",
+      "title": "[2/13] Map out Search Atlas/Link Graph inbox registration",
+      "description": "Chris and Neha will map out the Search Atlas/Link Graph inbox registration details.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "fa244d96-7ce1-4904-b7e0-ad1aa02cbbc2",
+      "sourceLabel": "Sales Touch-In - Agency operations and client updates",
+      "people": [
+        "neha@hirecharm.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "7cac44eb-7d21-4e0e-a2c3-327912a5b488",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "56bdf3d6-ec7f-4a78-887d-3bd5a05d56dd",
+      "title": "[2/13] Load highest-scored leads into LinkedIn for Ryan",
+      "description": "Joshua will load the highest-scored leads into LinkedIn for Ryan's campaign launch.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "fa244d96-7ce1-4904-b7e0-ad1aa02cbbc2",
+      "sourceLabel": "Sales Touch-In - Agency operations and client updates",
+      "people": [
+        "neha@hirecharm.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "7cac44eb-7d21-4e0e-a2c3-327912a5b488",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "40a87024-3bbb-4850-aa87-bd11a34e9c61",
+      "title": "[2/13] Schedule Tuesday budget and finance review with Josh",
+      "description": "Jenna will schedule a Tuesday meeting for Chris and Josh to review budget, finances, and standardize client meeting protocols.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "fa244d96-7ce1-4904-b7e0-ad1aa02cbbc2",
+      "sourceLabel": "Sales Touch-In - Agency operations and client updates",
+      "people": [
+        "neha@hirecharm.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "7cac44eb-7d21-4e0e-a2c3-327912a5b488",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "f9895c76-5c63-48ac-83a9-3a83a47d80f8",
+      "title": "[2/13] Finalize morning audit workflow for inbox health",
+      "description": "The team will finalize the morning audit workflow for inbox health monitoring.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "fa244d96-7ce1-4904-b7e0-ad1aa02cbbc2",
+      "sourceLabel": "Sales Touch-In - Agency operations and client updates",
+      "people": [
+        "neha@hirecharm.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "7cac44eb-7d21-4e0e-a2c3-327912a5b488",
+      "meetingDate": "2026-02-13"
+    },
+    {
+      "objectId": "97f98292-d4ac-4b43-ad77-1da45aff5b8d",
+      "title": "[2/12] Purchase and set up email inboxes for Search Atlas",
+      "description": "Chris's team will purchase and begin setting up email inboxes with 24-hour transfer time.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e394e1d0-f559-464a-a176-05b6ecf44d88",
+      "sourceLabel": "ICP + Strategy Discussion - Outbound Strategy Planning for Campaigns",
+      "people": [
+        "sarah.bachmeier@searchatlas.com",
+        "ryan.mcgovern@searchatlas.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "searchatlas.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "adb34e8c-f274-46f3-9d8e-369e7cfbd04e",
+      "title": "[2/12] Send LinkedIn 2FA setup docs to Search Atlas team",
+      "description": "Chris will send documentation on preparing LinkedIn accounts for connection including 2FA setup.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e394e1d0-f559-464a-a176-05b6ecf44d88",
+      "sourceLabel": "ICP + Strategy Discussion - Outbound Strategy Planning for Campaigns",
+      "people": [
+        "sarah.bachmeier@searchatlas.com",
+        "ryan.mcgovern@searchatlas.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "searchatlas.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "6872092d-bff9-43ae-b7a4-dc6013aa6eba",
+      "title": "[2/12] Provide initial copy drafts and campaign ideas",
+      "description": "Chris will deliver initial copy drafts and campaign ideas for Search Atlas review.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e394e1d0-f559-464a-a176-05b6ecf44d88",
+      "sourceLabel": "ICP + Strategy Discussion - Outbound Strategy Planning for Campaigns",
+      "people": [
+        "sarah.bachmeier@searchatlas.com",
+        "ryan.mcgovern@searchatlas.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "searchatlas.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "bde2eda7-57d9-4443-8e38-2074737076d1",
+      "title": "[2/12] Sarah and Ryan review signal smorgasbord document",
+      "description": "Sarah and Ryan should review the signal smorgasbord document and provide feedback.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e394e1d0-f559-464a-a176-05b6ecf44d88",
+      "sourceLabel": "ICP + Strategy Discussion - Outbound Strategy Planning for Campaigns",
+      "people": [
+        "sarah.bachmeier@searchatlas.com",
+        "ryan.mcgovern@searchatlas.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "searchatlas.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "53dab2c2-25fb-4a2d-a449-7c2d44522fa1",
+      "title": "[2/12] Run classification and scoring on closed-won list",
+      "description": "Chris will run classification and scoring on the closed-won list and send top 200 for approval.",
+      "descriptionPoints": [
+        "Week of Feb 20 target"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e394e1d0-f559-464a-a176-05b6ecf44d88",
+      "sourceLabel": "ICP + Strategy Discussion - Outbound Strategy Planning for Campaigns",
+      "people": [
+        "sarah.bachmeier@searchatlas.com",
+        "ryan.mcgovern@searchatlas.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "searchatlas.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "02b2d18a-8c9f-46e2-88f9-0f025cb5cd70",
+      "title": "[2/12] Get suppression list from Ryan via Slack",
+      "description": "Ryan will send the suppression list via Slack for campaign exclusions.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e394e1d0-f559-464a-a176-05b6ecf44d88",
+      "sourceLabel": "ICP + Strategy Discussion - Outbound Strategy Planning for Campaigns",
+      "people": [
+        "sarah.bachmeier@searchatlas.com",
+        "ryan.mcgovern@searchatlas.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "searchatlas.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "615c032b-e095-48bc-bfbf-8fed4b760fbf",
+      "title": "[2/12] Get admin access to Search Atlas HubSpot",
+      "description": "Sarah will provide Chris admin access to the Search Atlas HubSpot instance.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e394e1d0-f559-464a-a176-05b6ecf44d88",
+      "sourceLabel": "ICP + Strategy Discussion - Outbound Strategy Planning for Campaigns",
+      "people": [
+        "sarah.bachmeier@searchatlas.com",
+        "ryan.mcgovern@searchatlas.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "searchatlas.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "81a45645-cb06-4b70-83cb-5ea6ad1c4e7a",
+      "title": "[2/12] Split signal plays into Link Graph and Search Atlas",
+      "description": "Chris will break out the signal plays document into separate Link Graph and Search Atlas sections.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e394e1d0-f559-464a-a176-05b6ecf44d88",
+      "sourceLabel": "ICP + Strategy Discussion - Outbound Strategy Planning for Campaigns",
+      "people": [
+        "sarah.bachmeier@searchatlas.com",
+        "ryan.mcgovern@searchatlas.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "searchatlas.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "307aa6dd-ba43-43b4-a98a-1eaa2e0c86c3",
+      "title": "[2/12] Hire Filipino VA for delivery work at ~$5/hr",
+      "description": "Leo should hire a Filipino VA at approximately $5/hr to handle delivery work and scale capacity.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "f23ad843-3ea2-4cbd-a426-1aa853365c3b",
+      "sourceLabel": "TRC Consulting- Chris x Leo - Coaching call on scaling delivery work",
+      "people": [
+        "leogzd@gmail.com"
+      ],
+      "domains": [],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "01218ad6-1edc-42a5-806a-a29c5b04bf9f",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "3dc64b41-84f1-424c-b957-c18ae62ba716",
+      "title": "[2/12] Implement two-call sales process",
+      "description": "Leo should implement a two-call sales process with separate discovery and proposal calls.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "f23ad843-3ea2-4cbd-a426-1aa853365c3b",
+      "sourceLabel": "TRC Consulting- Chris x Leo - Coaching call on scaling delivery work",
+      "people": [
+        "leogzd@gmail.com"
+      ],
+      "domains": [],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "01218ad6-1edc-42a5-806a-a29c5b04bf9f",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "eebb3c10-ca5b-47c8-be1a-1703581ba036",
+      "title": "[2/12] Standardize client processes across accounts",
+      "description": "Leo should standardize client processes instead of customizing for each client.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "f23ad843-3ea2-4cbd-a426-1aa853365c3b",
+      "sourceLabel": "TRC Consulting- Chris x Leo - Coaching call on scaling delivery work",
+      "people": [
+        "leogzd@gmail.com"
+      ],
+      "domains": [],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "01218ad6-1edc-42a5-806a-a29c5b04bf9f",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "88ad3960-11ad-48c9-9176-b8bd0564c1fc",
+      "title": "[2/12] Reinvest client payments into hiring",
+      "description": "Leo needs to reinvest client payments into hiring rather than paying himself to enable growth.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "f23ad843-3ea2-4cbd-a426-1aa853365c3b",
+      "sourceLabel": "TRC Consulting- Chris x Leo - Coaching call on scaling delivery work",
+      "people": [
+        "leogzd@gmail.com"
+      ],
+      "domains": [],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "01218ad6-1edc-42a5-806a-a29c5b04bf9f",
+      "meetingDate": "2026-02-12"
+    },
+    {
+      "objectId": "3a38c572-087e-409a-ba7a-30fbec8f916b",
+      "title": "[2/11] Install and set up Claude Code and VS Code",
+      "description": "Andrew will install and set up Claude Code and VS Code for AI-assisted development.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "416385bc-95ac-424e-8cc8-68512d6d6434",
+      "sourceLabel": "Chris x Andrew - CC - Claude Code and AI Automation Training",
+      "people": [
+        "andrew@merchcamp.com"
+      ],
+      "domains": [
+        "merchcamp.com"
+      ],
+      "clientDomain": "merchcamp.com",
+      "clientName": "MerchCamp",
+      "clickupListId": null,
+      "clickupFolderName": "MerchCamp",
+      "clickupSpaceName": null,
+      "unbundledFrom": "aee45f08-a132-44c3-8d6d-9b8d36ba3718",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "f1194c3b-3e36-4d58-a8ee-1f0345b06857",
+      "title": "[2/11] Start using Whisper/SuperWhisper for voice input",
+      "description": "Andrew will begin using Whisper or SuperWhisper for voice input workflows.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "416385bc-95ac-424e-8cc8-68512d6d6434",
+      "sourceLabel": "Chris x Andrew - CC - Claude Code and AI Automation Training",
+      "people": [
+        "andrew@merchcamp.com"
+      ],
+      "domains": [
+        "merchcamp.com"
+      ],
+      "clientDomain": "merchcamp.com",
+      "clientName": "MerchCamp",
+      "clickupListId": null,
+      "clickupFolderName": "MerchCamp",
+      "clickupSpaceName": null,
+      "unbundledFrom": "aee45f08-a132-44c3-8d6d-9b8d36ba3718",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "98cff3fb-b57c-46ca-ad17-aae23b3b8423",
+      "title": "[2/11] Deploy and test Gmail assignment tool",
+      "description": "The Gmail assignment tool built during the session needs deployment and testing.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "416385bc-95ac-424e-8cc8-68512d6d6434",
+      "sourceLabel": "Chris x Andrew - CC - Claude Code and AI Automation Training",
+      "people": [
+        "andrew@merchcamp.com"
+      ],
+      "domains": [
+        "merchcamp.com"
+      ],
+      "clientDomain": "merchcamp.com",
+      "clientName": "MerchCamp",
+      "clickupListId": null,
+      "clickupFolderName": "MerchCamp",
+      "clickupSpaceName": null,
+      "unbundledFrom": "aee45f08-a132-44c3-8d6d-9b8d36ba3718",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "89e9e8d8-5433-4548-9b5e-b1bf0d305d09",
+      "title": "[2/11] Explore Supabase migration from Airtable",
+      "description": "Robbie will explore migrating from Airtable to Supabase for their data backend.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "416385bc-95ac-424e-8cc8-68512d6d6434",
+      "sourceLabel": "Chris x Andrew - CC - Claude Code and AI Automation Training",
+      "people": [
+        "andrew@merchcamp.com"
+      ],
+      "domains": [
+        "merchcamp.com"
+      ],
+      "clientDomain": "merchcamp.com",
+      "clientName": "MerchCamp",
+      "clickupListId": null,
+      "clickupFolderName": "MerchCamp",
+      "clickupSpaceName": null,
+      "unbundledFrom": "aee45f08-a132-44c3-8d6d-9b8d36ba3718",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "307e8d95-6d96-4be0-ae25-a811afcd9047",
+      "title": "[2/11] Andrew and Robbie join Chris Discord community",
+      "description": "Andrew and Robbie will join Chris's Discord community for collaboration.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "416385bc-95ac-424e-8cc8-68512d6d6434",
+      "sourceLabel": "Chris x Andrew - CC - Claude Code and AI Automation Training",
+      "people": [
+        "andrew@merchcamp.com"
+      ],
+      "domains": [
+        "merchcamp.com"
+      ],
+      "clientDomain": "merchcamp.com",
+      "clientName": "MerchCamp",
+      "clickupListId": null,
+      "clickupFolderName": "MerchCamp",
+      "clickupSpaceName": null,
+      "unbundledFrom": "aee45f08-a132-44c3-8d6d-9b8d36ba3718",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "59a34887-0f76-42a4-84ae-5d04f4660daf",
+      "title": "[2/11] Contact Tracy about Jet filling lead form directly",
+      "description": "Chris will contact Tracy to discuss having Jet fill out the lead form directly for interested prospects.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "23d7a881-56c4-49f1-9307-cdf6c272c76c",
+      "sourceLabel": "Ryan X Chris LinkedIn TouchIn - LinkedIn Account Setup and Lead Process",
+      "people": [
+        "ryan@fanofafan.co"
+      ],
+      "domains": [
+        "fanofafan.co"
+      ],
+      "clientDomain": "fanofafan.co",
+      "clientName": "FOAF",
+      "clickupListId": "901305827687",
+      "clickupFolderName": "FOAF",
+      "clickupSpaceName": "CS Delivery",
+      "unbundledFrom": "2e97a26a-efd7-4fa2-a7f2-7999aabc824e",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "e5b3f2f8-d925-40f9-8863-dfd87b3f86f5",
+      "title": "[2/11] Provide regular Slack updates once campaign is live",
+      "description": "HireCharm will provide regular updates through the Slack channel once the FOAF campaign is live.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "23d7a881-56c4-49f1-9307-cdf6c272c76c",
+      "sourceLabel": "Ryan X Chris LinkedIn TouchIn - LinkedIn Account Setup and Lead Process",
+      "people": [
+        "ryan@fanofafan.co"
+      ],
+      "domains": [
+        "fanofafan.co"
+      ],
+      "clientDomain": "fanofafan.co",
+      "clientName": "FOAF",
+      "clickupListId": "901305827687",
+      "clickupFolderName": "FOAF",
+      "clickupSpaceName": "CS Delivery",
+      "unbundledFrom": "2e97a26a-efd7-4fa2-a7f2-7999aabc824e",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "ed991952-37e9-4cc1-9ae0-2ce8c87ccb73",
+      "title": "[2/11] Complete onboarding form with signals and segments",
+      "description": "Ryan will complete the onboarding form, focusing on signals and defining industries/segments.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "aa5dadd8-31d6-4a18-ac32-3feb2f7070f8",
+      "sourceLabel": "Search Atlas/Linkgraph Kick-off - Onboarding call for outbound campaign setup",
+      "people": [
+        "joshua@hirecharm.com",
+        "ryan.mcgovern@searchatlas.com",
+        "sarah.bachmeier@searchatlas.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "searchatlas.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "cd351d21-cde3-4f5d-98c0-f44b49b64eb9",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "3215ba0a-ef94-450c-81c2-acdb3701cbec",
+      "title": "[2/11] Sarah send previous copy and campaign documentation",
+      "description": "Sarah will send Chris documentation of all previous copy and her letter about what didn't work.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "aa5dadd8-31d6-4a18-ac32-3feb2f7070f8",
+      "sourceLabel": "Search Atlas/Linkgraph Kick-off - Onboarding call for outbound campaign setup",
+      "people": [
+        "joshua@hirecharm.com",
+        "ryan.mcgovern@searchatlas.com",
+        "sarah.bachmeier@searchatlas.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "searchatlas.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "cd351d21-cde3-4f5d-98c0-f44b49b64eb9",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "25a6aae2-4196-4c58-86f3-79f2d71ac3f2",
+      "title": "[2/11] Schedule LinkedIn onboarding for 2FA and accounts",
+      "description": "Schedule LinkedIn onboarding meeting to exchange 2FA codes and set up three LinkedIn accounts.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "aa5dadd8-31d6-4a18-ac32-3feb2f7070f8",
+      "sourceLabel": "Search Atlas/Linkgraph Kick-off - Onboarding call for outbound campaign setup",
+      "people": [
+        "joshua@hirecharm.com",
+        "ryan.mcgovern@searchatlas.com",
+        "sarah.bachmeier@searchatlas.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "searchatlas.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "cd351d21-cde3-4f5d-98c0-f44b49b64eb9",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "3fa0f8db-c1ae-49ed-a4fa-a4c4c1c594f4",
+      "title": "[2/11] Begin Search Atlas infrastructure setup",
+      "description": "Chris will begin infrastructure setup for Search Atlas campaigns immediately.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "aa5dadd8-31d6-4a18-ac32-3feb2f7070f8",
+      "sourceLabel": "Search Atlas/Linkgraph Kick-off - Onboarding call for outbound campaign setup",
+      "people": [
+        "joshua@hirecharm.com",
+        "ryan.mcgovern@searchatlas.com",
+        "sarah.bachmeier@searchatlas.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "searchatlas.com"
+      ],
+      "clientDomain": "searchatlas.com",
+      "clientName": "Search Atlas",
+      "clickupListId": null,
+      "clickupFolderName": "Search Atlas",
+      "clickupSpaceName": null,
+      "unbundledFrom": "cd351d21-cde3-4f5d-98c0-f44b49b64eb9",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "1f74e1c0-b3d0-433c-b100-211c4d9c79e0",
+      "title": "[2/11] Propose ~13% revenue share compromise in renegotiation",
+      "description": "Sameer should maintain composure in client renegotiation and propose approximately 13% revenue share compromise.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "26d54698-73bf-41c7-a36c-001f1d641b2b",
+      "sourceLabel": "Chris x Sameer - Cold outreach strategy and client issues",
+      "people": [
+        "sameer@workwithvermamedia.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "workwithvermamedia.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "workwithvermamedia.com",
+      "clientName": "Verma Media",
+      "clickupListId": null,
+      "clickupFolderName": "Verma Media",
+      "clickupSpaceName": null,
+      "unbundledFrom": "63367f63-bfe0-4823-abbf-d10de24dc7e9",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "67b6dc2e-801b-4772-b3f3-dbd5d0dbee03",
+      "title": "[2/11] Get new agreement in writing with 24-month lock",
+      "description": "Sameer needs to get any new agreement in writing with defined time frames and a 24-month lock.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "26d54698-73bf-41c7-a36c-001f1d641b2b",
+      "sourceLabel": "Chris x Sameer - Cold outreach strategy and client issues",
+      "people": [
+        "sameer@workwithvermamedia.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "workwithvermamedia.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "workwithvermamedia.com",
+      "clientName": "Verma Media",
+      "clickupListId": null,
+      "clickupFolderName": "Verma Media",
+      "clickupSpaceName": null,
+      "unbundledFrom": "63367f63-bfe0-4823-abbf-d10de24dc7e9",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "ad8266ae-4957-4db7-8c11-cb1241cc3ba5",
+      "title": "[2/11] Use speaker list scraper results for outreach",
+      "description": "Sameer will use the speaker list scraper results Chris built for ghostwriting outreach to conference speakers.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "26d54698-73bf-41c7-a36c-001f1d641b2b",
+      "sourceLabel": "Chris x Sameer - Cold outreach strategy and client issues",
+      "people": [
+        "sameer@workwithvermamedia.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "workwithvermamedia.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "workwithvermamedia.com",
+      "clientName": "Verma Media",
+      "clickupListId": null,
+      "clickupFolderName": "Verma Media",
+      "clickupSpaceName": null,
+      "unbundledFrom": "63367f63-bfe0-4823-abbf-d10de24dc7e9",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "71a0115a-0859-4b83-a2e4-946b8529bd34",
+      "title": "[2/11] Update email copy with new subject lines and angles",
+      "description": "Sameer should update email copy: use \"First name introduced to [company]\" subjects, remove emojis, normalize names.",
+      "descriptionPoints": [
+        "Test \"Have you ever thought about writing a book?\" angle",
+        "Lead with bestseller guarantee rate"
+      ],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "26d54698-73bf-41c7-a36c-001f1d641b2b",
+      "sourceLabel": "Chris x Sameer - Cold outreach strategy and client issues",
+      "people": [
+        "sameer@workwithvermamedia.com",
+        "jenna@hirecharm.com"
+      ],
+      "domains": [
+        "workwithvermamedia.com",
+        "hirecharm.com"
+      ],
+      "clientDomain": "workwithvermamedia.com",
+      "clientName": "Verma Media",
+      "clickupListId": null,
+      "clickupFolderName": "Verma Media",
+      "clickupSpaceName": null,
+      "unbundledFrom": "63367f63-bfe0-4823-abbf-d10de24dc7e9",
+      "meetingDate": "2026-02-11"
+    },
+    {
+      "objectId": "2f7113bc-4fb8-44a5-83d2-8f3db519ec42",
+      "title": "[2/5] Fill in chatbot use case volumes and Zendesk setup",
+      "description": "Jesse will fill in estimated volumes for chatbot use cases and complete Zendesk integration.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "627198c3-b306-4fe9-a833-785e7067b8c7",
+      "sourceLabel": "Moov x Charm Touch-in - AI Chatbot Use Cases and Training Discussed",
+      "people": [
+        "jesse@hirecharm.com",
+        "jonathan.veilleux@moovpool.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "moovpool.com"
+      ],
+      "clientDomain": "moovpool.com",
+      "clientName": "Moov",
+      "clickupListId": null,
+      "clickupFolderName": "Moov",
+      "clickupSpaceName": null,
+      "unbundledFrom": "a6002594-8772-4b76-bc73-6eaf75604eeb",
+      "meetingDate": "2026-02-05"
+    },
+    {
+      "objectId": "3da4ab6c-36d2-4782-ae78-208cd0f51260",
+      "title": "[2/5] Add disclaimer to training course about discussion",
+      "description": "Jesse will add a disclaimer at the beginning of the training course about the discussion feature.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "627198c3-b306-4fe9-a833-785e7067b8c7",
+      "sourceLabel": "Moov x Charm Touch-in - AI Chatbot Use Cases and Training Discussed",
+      "people": [
+        "jesse@hirecharm.com",
+        "jonathan.veilleux@moovpool.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "moovpool.com"
+      ],
+      "clientDomain": "moovpool.com",
+      "clientName": "Moov",
+      "clickupListId": null,
+      "clickupFolderName": "Moov",
+      "clickupSpaceName": null,
+      "unbundledFrom": "a6002594-8772-4b76-bc73-6eaf75604eeb",
+      "meetingDate": "2026-02-05"
+    },
+    {
+      "objectId": "4927f4df-1b66-4c9c-8e24-5087ad46d337",
+      "title": "[2/5] Discuss timeline for additional CS support with Jordan",
+      "description": "Jonathan will discuss timeline for bringing on additional CS support with Jordan regarding the former Sutro team lead.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "627198c3-b306-4fe9-a833-785e7067b8c7",
+      "sourceLabel": "Moov x Charm Touch-in - AI Chatbot Use Cases and Training Discussed",
+      "people": [
+        "jesse@hirecharm.com",
+        "jonathan.veilleux@moovpool.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "moovpool.com"
+      ],
+      "clientDomain": "moovpool.com",
+      "clientName": "Moov",
+      "clickupListId": null,
+      "clickupFolderName": "Moov",
+      "clickupSpaceName": null,
+      "unbundledFrom": "a6002594-8772-4b76-bc73-6eaf75604eeb",
+      "meetingDate": "2026-02-05"
+    },
+    {
+      "objectId": "27f1b058-8874-432f-9f67-28034c8c4f65",
+      "title": "[2/5] Update training course with new product lines",
+      "description": "Training course needs updating with new product lines: M1 cleaners, pumps, heat pumps, salt systems, swim jet.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "627198c3-b306-4fe9-a833-785e7067b8c7",
+      "sourceLabel": "Moov x Charm Touch-in - AI Chatbot Use Cases and Training Discussed",
+      "people": [
+        "jesse@hirecharm.com",
+        "jonathan.veilleux@moovpool.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "moovpool.com"
+      ],
+      "clientDomain": "moovpool.com",
+      "clientName": "Moov",
+      "clickupListId": null,
+      "clickupFolderName": "Moov",
+      "clickupSpaceName": null,
+      "unbundledFrom": "a6002594-8772-4b76-bc73-6eaf75604eeb",
+      "meetingDate": "2026-02-05"
+    },
+    {
+      "objectId": "8763468a-1ff4-4af3-9c18-fec28075a87e",
+      "title": "[2/3] Implement HubSpot V2 system during paternity leave",
+      "description": "Chris will implement the HubSpot V2 system during his paternity leave over the next week.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "d8e952d7-6e0c-4b5c-983d-7ab8d47ba79a",
+      "sourceLabel": "Sammy Exec Weekly - Payment Processing and Product Roadmap",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
+      "meetingDate": "2026-02-03"
+    },
+    {
+      "objectId": "3fc106b3-7805-4267-99c7-c2879a4410e5",
+      "title": "[2/3] Set up API access for Jared website scraping",
+      "description": "Chris will set up API access for Jared to enable the website scraping automation.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "d8e952d7-6e0c-4b5c-983d-7ab8d47ba79a",
+      "sourceLabel": "Sammy Exec Weekly - Payment Processing and Product Roadmap",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
+      "meetingDate": "2026-02-03"
+    },
+    {
+      "objectId": "d41e7a29-fba0-4e9e-8c1a-6df37c6f1c98",
+      "title": "[2/3] Test personalized quote generation with top prospects",
+      "description": "Lucas will manually test the personalized quote generation approach with his top 10 prospects daily.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "d8e952d7-6e0c-4b5c-983d-7ab8d47ba79a",
+      "sourceLabel": "Sammy Exec Weekly - Payment Processing and Product Roadmap",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
+      "meetingDate": "2026-02-03"
+    },
+    {
+      "objectId": "e7bd49c3-6e74-4cd0-bf3a-900b71df784a",
+      "title": "[2/3] Define features for three pricing tiers",
+      "description": "The team will have a separate conversation to define features for the three pricing tiers: Basic, Pro, and Elite.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "d8e952d7-6e0c-4b5c-983d-7ab8d47ba79a",
+      "sourceLabel": "Sammy Exec Weekly - Payment Processing and Product Roadmap",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
+      "meetingDate": "2026-02-03"
+    },
+    {
+      "objectId": "363cc5b7-2927-4e7b-8bb0-d44422211b6f",
+      "title": "[2/3] Explore HubSpot Sales Workspace for Lucas workflow",
+      "description": "Chris will explore HubSpot's Sales Workspace feature to optimize Lucas's daily workflow.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "d8e952d7-6e0c-4b5c-983d-7ab8d47ba79a",
+      "sourceLabel": "Sammy Exec Weekly - Payment Processing and Product Roadmap",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
+      "meetingDate": "2026-02-03"
+    },
+    {
+      "objectId": "64e2b1c2-43c3-406a-ad17-a4b209b6c360",
+      "title": "[2/3] Continue equity discussion for Lucas",
+      "description": "Krishna and Jared will continue discussions about potential equity for Lucas.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "d8e952d7-6e0c-4b5c-983d-7ab8d47ba79a",
+      "sourceLabel": "Sammy Exec Weekly - Payment Processing and Product Roadmap",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
+      "meetingDate": "2026-02-03"
+    },
+    {
+      "objectId": "9ba9792f-90bc-4287-a387-613e5e6dfcbf",
+      "title": "[2/2] Sam/David/Jay send target account lists",
+      "description": "Sam, David, and Jay will send their target account lists and data wish lists to Chris.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "d803ada7-d7d2-46e9-8b1c-a4cfb1e087da",
+      "title": "[2/2] Refresh Georgia CIOs data with full insights",
+      "description": "Chris will refresh the Georgia CIOs data with full insights on each person.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "8adae144-0277-4caa-a429-2457054957c3",
+      "title": "[2/2] Build conference and marketing plays calendar",
+      "description": "Chris and Emily will put together a calendar of all conferences and marketing plays with clear timelines.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "85df9113-c30a-4c38-91d3-3cf0cbba53f6",
+      "title": "[2/2] Pull personal insights for all target accounts",
+      "description": "Chris will pull personal information and insights for all target accounts once he receives the lists.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "5be93c48-f54b-44f9-9178-fdef3f787a5c",
+      "title": "[2/2] Check Georgia CIOs list status in Day.ai",
+      "description": "Jay will check with Mary about the status of the Georgia CIOs list in Day.ai.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "4499b995-83da-47b6-bff4-ad0e1661024e",
+      "title": "[2/2] Export LinkedIn connections for champion reactivation",
+      "description": "Sam will export LinkedIn connections so Chris can identify champions for reactivation.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "1bf23762-280f-4ff2-a59b-3bdd52b49974",
+      "title": "[2/2] Send Jay video agency contacts from Caribbean",
+      "description": "Chris will send Jay information about video agencies in the Caribbean.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "ce23fff9-3f7e-4caf-8875-e6959bf86ab4",
+      "title": "[2/2] Send LinkedIn accounts and inbox setup info",
+      "description": "Chris will send information about LinkedIn accounts and domains/inbox setup to Stable Kernel.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "8dc45cf8-4ccd-4fe3-aec1-ef3ea420079e",
+      "title": "[2/2] Schedule time with David to discuss Invest Ops",
+      "description": "David and Chris will schedule time to discuss Invest Ops opportunities.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "e2308c62-fce1-404a-8103-8e9e0b2482ce",
+      "title": "[2/2] Get Invest Ops logo to David",
+      "description": "Chris will send the Invest Ops logo to David.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "8877673b-eb41-44fa-803b-2b9393ff3bf7",
+      "title": "[2/2] Build detailed execution timeline with Emily",
+      "description": "Chris and Emily will schedule time to put together a detailed execution timeline.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "28d3f6a0-4533-4eaa-a3ba-d0cf86ebbd7f",
+      "title": "[2/2] Jay create capabilities and marketing pillars doc",
+      "description": "Jay will create a document outlining Stable Kernel's capabilities, solutions, and marketing pillars.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "a2582fa8-2674-4091-b00d-d8f14339cb99",
+      "sourceLabel": "GTM Strategy Kick-off - Marketing Strategy and Campaign Planning",
+      "people": [
+        "jay.gyuricza@stablekernel.com",
+        "david.meeker@stablekernel.com",
+        "sam.mckeveny@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
+      "meetingDate": "2026-02-02"
+    },
+    {
+      "objectId": "1d3880e7-eb91-48d9-810c-73afe5fcd37b",
+      "title": "[1/29] Drew and Reese co-pilot calls before solo handoff",
+      "description": "Drew and Reese will co-pilot calls together before Drew takes them over solo.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "6250fd39-b3d2-4e68-aaf1-20d64ce7eab8",
+      "sourceLabel": "Drew @ Astra Catch-Up - CoderPad Campaign Review and Challenges",
+      "people": [
+        "drew@astragtm.io",
+        "rees@astragtm.io",
+        "grady@hirecharm.com",
+        "jesse@hirecharm.com"
+      ],
+      "domains": [
+        "astragtm.io",
+        "hirecharm.com"
+      ],
+      "clientDomain": "astragtm.io",
+      "clientName": "Astra GTM",
+      "clickupListId": "901323619034",
+      "clickupFolderName": "Selery",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "71ed7613-09ad-42d1-a934-ac77bef8a3af",
+      "title": "[1/29] Solve data tracking and attribution in Trellis",
+      "description": "Drew will work with Reese to solve the data tracking and campaign attribution problem in Trellis.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "6250fd39-b3d2-4e68-aaf1-20d64ce7eab8",
+      "sourceLabel": "Drew @ Astra Catch-Up - CoderPad Campaign Review and Challenges",
+      "people": [
+        "drew@astragtm.io",
+        "rees@astragtm.io",
+        "grady@hirecharm.com",
+        "jesse@hirecharm.com"
+      ],
+      "domains": [
+        "astragtm.io",
+        "hirecharm.com"
+      ],
+      "clientDomain": "astragtm.io",
+      "clientName": "Astra GTM",
+      "clickupListId": null,
+      "clickupFolderName": "Astra GTM",
+      "clickupSpaceName": null,
+      "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "013825c0-b16f-49a4-876c-eee61a3f2ad0",
+      "title": "[1/29] Send wrong-person screenshots for Clay analysis",
+      "description": "Grady will send Drew screenshots of the 34 \"wrong person\" contacts via Slack DM for Clay analysis.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "6250fd39-b3d2-4e68-aaf1-20d64ce7eab8",
+      "sourceLabel": "Drew @ Astra Catch-Up - CoderPad Campaign Review and Challenges",
+      "people": [
+        "drew@astragtm.io",
+        "rees@astragtm.io",
+        "grady@hirecharm.com",
+        "jesse@hirecharm.com"
+      ],
+      "domains": [
+        "astragtm.io",
+        "hirecharm.com"
+      ],
+      "clientDomain": "astragtm.io",
+      "clientName": "Astra GTM",
+      "clickupListId": null,
+      "clickupFolderName": "Astra GTM",
+      "clickupSpaceName": null,
+      "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "6073ef2d-5d04-451b-9ee2-ca218b558a66",
+      "title": "[1/29] Get Drew access to Trellis workspace",
+      "description": "Drew will get access to the Trellis workspace for campaign management.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "6250fd39-b3d2-4e68-aaf1-20d64ce7eab8",
+      "sourceLabel": "Drew @ Astra Catch-Up - CoderPad Campaign Review and Challenges",
+      "people": [
+        "drew@astragtm.io",
+        "rees@astragtm.io",
+        "grady@hirecharm.com",
+        "jesse@hirecharm.com"
+      ],
+      "domains": [
+        "astragtm.io",
+        "hirecharm.com"
+      ],
+      "clientDomain": "astragtm.io",
+      "clientName": "Astra GTM",
+      "clickupListId": null,
+      "clickupFolderName": "Astra GTM",
+      "clickupSpaceName": null,
+      "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "368a020e-3e04-4bb9-aacd-632709912dbd",
+      "title": "[1/29] Review Gong calls and Clay instance for insights",
+      "description": "Drew will review Gong calls and the Clay instance for additional campaign insights.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "6250fd39-b3d2-4e68-aaf1-20d64ce7eab8",
+      "sourceLabel": "Drew @ Astra Catch-Up - CoderPad Campaign Review and Challenges",
+      "people": [
+        "drew@astragtm.io",
+        "rees@astragtm.io",
+        "grady@hirecharm.com",
+        "jesse@hirecharm.com"
+      ],
+      "domains": [
+        "astragtm.io",
+        "hirecharm.com"
+      ],
+      "clientDomain": "astragtm.io",
+      "clientName": "Astra GTM",
+      "clickupListId": null,
+      "clickupFolderName": "Astra GTM",
+      "clickupSpaceName": null,
+      "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "6b42aa41-fefe-4a51-9c15-99ab78fa1865",
+      "title": "[1/29] Consolidate to three maximum campaign variants",
+      "description": "The team will consolidate toward three maximum campaign variants for focus.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "6250fd39-b3d2-4e68-aaf1-20d64ce7eab8",
+      "sourceLabel": "Drew @ Astra Catch-Up - CoderPad Campaign Review and Challenges",
+      "people": [
+        "drew@astragtm.io",
+        "rees@astragtm.io",
+        "grady@hirecharm.com",
+        "jesse@hirecharm.com"
+      ],
+      "domains": [
+        "astragtm.io",
+        "hirecharm.com"
+      ],
+      "clientDomain": "astragtm.io",
+      "clientName": "Astra GTM",
+      "clickupListId": null,
+      "clickupFolderName": "Astra GTM",
+      "clickupSpaceName": null,
+      "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "f3641c35-b0e8-45de-9b2b-d37fc1a45c88",
+      "title": "[1/29] Improve email copy and deliverability toward 5% reply",
+      "description": "Drew will work on improving email copy and deliverability toward the 5% reply rate goal.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "6250fd39-b3d2-4e68-aaf1-20d64ce7eab8",
+      "sourceLabel": "Drew @ Astra Catch-Up - CoderPad Campaign Review and Challenges",
+      "people": [
+        "drew@astragtm.io",
+        "rees@astragtm.io",
+        "grady@hirecharm.com",
+        "jesse@hirecharm.com"
+      ],
+      "domains": [
+        "astragtm.io",
+        "hirecharm.com"
+      ],
+      "clientDomain": "astragtm.io",
+      "clientName": "Astra GTM",
+      "clickupListId": null,
+      "clickupFolderName": "Astra GTM",
+      "clickupSpaceName": null,
+      "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "52b22fcd-1d2c-4a49-80ef-dd2bab1369a3",
+      "title": "[1/29] Create Google Chat group with Bhoumik, Jesse, Lynn",
+      "description": "Bhoumik will create a Google Chat group with himself, Jesse, and Lynn for CS coordination.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "56cb5089-5184-48aa-be6c-6094a074224f",
+      "sourceLabel": "Charm/SPUI Check-in - Meeting schedule changes and CS support",
+      "people": [
+        "grady@hirecharm.com",
+        "jesse@hirecharm.com",
+        "bhoumik.sheth@spui.net"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "spui.net"
+      ],
+      "clientDomain": "spui.net",
+      "clientName": "SPUI",
+      "clickupListId": null,
+      "clickupFolderName": "SPUI",
+      "clickupSpaceName": null,
+      "unbundledFrom": "e15153d4-f35b-436f-879e-cdd19d5d7604",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "c10f48d9-00ee-47e4-ba7e-a77d9262c9ed",
+      "title": "[1/29] Rewrite email campaign copy before next call",
+      "description": "Bhoumik will rewrite the email campaign copy before the next call.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "56cb5089-5184-48aa-be6c-6094a074224f",
+      "sourceLabel": "Charm/SPUI Check-in - Meeting schedule changes and CS support",
+      "people": [
+        "grady@hirecharm.com",
+        "jesse@hirecharm.com",
+        "bhoumik.sheth@spui.net"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "spui.net"
+      ],
+      "clientDomain": "spui.net",
+      "clientName": "SPUI",
+      "clickupListId": null,
+      "clickupFolderName": "SPUI",
+      "clickupSpaceName": null,
+      "unbundledFrom": "e15153d4-f35b-436f-879e-cdd19d5d7604",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "c2a3402c-c0ef-4375-a7ac-f0124039ba3e",
+      "title": "[1/29] Refine copy to be more personal and less salesy",
+      "description": "Chris will refine email copy incorporating Bhoumik's feedback about making it more personal and less salesy.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "56cb5089-5184-48aa-be6c-6094a074224f",
+      "sourceLabel": "Charm/SPUI Check-in - Meeting schedule changes and CS support",
+      "people": [
+        "grady@hirecharm.com",
+        "jesse@hirecharm.com",
+        "bhoumik.sheth@spui.net"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "spui.net"
+      ],
+      "clientDomain": "spui.net",
+      "clientName": "SPUI",
+      "clickupListId": null,
+      "clickupFolderName": "SPUI",
+      "clickupSpaceName": null,
+      "unbundledFrom": "e15153d4-f35b-436f-879e-cdd19d5d7604",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "427fecf3-723a-40ca-9f84-5eb928588319",
+      "title": "[1/29] Set up alternating meeting schedule",
+      "description": "Bhoumik will set up the alternating meeting schedule for Jesse weekly CS and Chris/Bhoumik alternating sales calls.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "56cb5089-5184-48aa-be6c-6094a074224f",
+      "sourceLabel": "Charm/SPUI Check-in - Meeting schedule changes and CS support",
+      "people": [
+        "grady@hirecharm.com",
+        "jesse@hirecharm.com",
+        "bhoumik.sheth@spui.net"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "spui.net"
+      ],
+      "clientDomain": "spui.net",
+      "clientName": "SPUI",
+      "clickupListId": null,
+      "clickupFolderName": "SPUI",
+      "clickupSpaceName": null,
+      "unbundledFrom": "e15153d4-f35b-436f-879e-cdd19d5d7604",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "77c58f28-7386-4ef3-8b37-665da08af6bf",
+      "title": "[1/29] Build ICP-specific website targeting realtors",
+      "description": "Leo should build a website specifically targeting realtors as his ideal customer.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "7c0f7f1a-8785-44ec-9ea0-217ee26c1e7e",
+      "sourceLabel": "TRC Consulting- Chris x Leo - Website Build and Cold Email Strategy",
+      "people": [
+        "leogzd@gmail.com"
+      ],
+      "domains": [],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "9e1a7e3b-a5a9-4e49-bdac-16ce229f9ba4",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "f74cd5bc-81a3-406c-8ea9-30a674242931",
+      "title": "[1/29] Call prospects who respond positively instead of email",
+      "description": "Leo should call prospects who respond positively to cold emails rather than replying via email.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "7c0f7f1a-8785-44ec-9ea0-217ee26c1e7e",
+      "sourceLabel": "TRC Consulting- Chris x Leo - Website Build and Cold Email Strategy",
+      "people": [
+        "leogzd@gmail.com"
+      ],
+      "domains": [],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "9e1a7e3b-a5a9-4e49-bdac-16ce229f9ba4",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "d8740960-77ca-4e98-a95c-50a1017623c4",
+      "title": "[1/29] Read all email copy out loud before sending",
+      "description": "Leo needs to read all email copy out loud before sending to ensure it sounds human and natural.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "7c0f7f1a-8785-44ec-9ea0-217ee26c1e7e",
+      "sourceLabel": "TRC Consulting- Chris x Leo - Website Build and Cold Email Strategy",
+      "people": [
+        "leogzd@gmail.com"
+      ],
+      "domains": [],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "9e1a7e3b-a5a9-4e49-bdac-16ce229f9ba4",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "2cebf2d3-ec90-4a1d-b5bf-fb9c0e397e30",
+      "title": "[1/29] Test cold email targeting realtors with content gaps",
+      "description": "Leo will test new cold email approach targeting realtors with social media posting gaps.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "7c0f7f1a-8785-44ec-9ea0-217ee26c1e7e",
+      "sourceLabel": "TRC Consulting- Chris x Leo - Website Build and Cold Email Strategy",
+      "people": [
+        "leogzd@gmail.com"
+      ],
+      "domains": [],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "9e1a7e3b-a5a9-4e49-bdac-16ce229f9ba4",
+      "meetingDate": "2026-01-29"
+    },
+    {
+      "objectId": "d21c2b67-5b3f-4095-9e20-25f04616954c",
+      "title": "[1/28] Purchase 4 Gmail packages via Hypertide for Sammy",
+      "description": "Neha will purchase four Gmail packages through Hypertide for Sammy and cancel all Azure accounts.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "fe6c4af1-7c21-49b1-a376-8769be44300a",
+      "sourceLabel": "Sales Touch-In - Team reviewed account status and leads",
+      "people": [
+        "neha@hirecharm.com",
+        "jenna@hirecharm.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "fdd1140d-181e-4880-9db0-9f5eccebf0a3",
+      "meetingDate": "2026-01-28"
+    },
+    {
+      "objectId": "d6d7f0eb-9dc7-46c1-be6d-3d1774155128",
+      "title": "[1/28] Scrape partnership hospital emails for Hello Hero",
+      "description": "Neha will scrape and send additional partnership hospital emails for Hello Hero.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "fe6c4af1-7c21-49b1-a376-8769be44300a",
+      "sourceLabel": "Sales Touch-In - Team reviewed account status and leads",
+      "people": [
+        "neha@hirecharm.com",
+        "jenna@hirecharm.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "fdd1140d-181e-4880-9db0-9f5eccebf0a3",
+      "meetingDate": "2026-01-28"
+    },
+    {
+      "objectId": "11db1e66-9303-4611-8b0a-068869ef897c",
+      "title": "[1/28] Complete Bridge account setup and distribution",
+      "description": "Neha will complete the Bridge account setup and distribution in Bison.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "fe6c4af1-7c21-49b1-a376-8769be44300a",
+      "sourceLabel": "Sales Touch-In - Team reviewed account status and leads",
+      "people": [
+        "neha@hirecharm.com",
+        "jenna@hirecharm.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "fdd1140d-181e-4880-9db0-9f5eccebf0a3",
+      "meetingDate": "2026-01-28"
+    },
+    {
+      "objectId": "159b3d6f-e845-4705-90d3-c7b486676b74",
+      "title": "[1/28] Conduct in-depth review of Celery leads",
+      "description": "Chris will conduct in-depth review of Celery leads before campaign launch. Joshua will hold leads until complete.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "fe6c4af1-7c21-49b1-a376-8769be44300a",
+      "sourceLabel": "Sales Touch-In - Team reviewed account status and leads",
+      "people": [
+        "neha@hirecharm.com",
+        "jenna@hirecharm.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "fdd1140d-181e-4880-9db0-9f5eccebf0a3",
+      "meetingDate": "2026-01-28"
+    },
+    {
+      "objectId": "685fb836-580d-4bac-b7cb-459c02abfe8d",
+      "title": "[1/28] Finalize lead databasing and lifecycle management",
+      "description": "Chris will work on finalizing the lead databasing and lifecycle management system.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "fe6c4af1-7c21-49b1-a376-8769be44300a",
+      "sourceLabel": "Sales Touch-In - Team reviewed account status and leads",
+      "people": [
+        "neha@hirecharm.com",
+        "jenna@hirecharm.com",
+        "joshua@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "fdd1140d-181e-4880-9db0-9f5eccebf0a3",
+      "meetingDate": "2026-01-28"
+    },
+    {
+      "objectId": "d838896c-3bd8-4be4-8af2-caba4e94e2f5",
+      "title": "[1/27] Request full InvestOps attendee list and exhibitor map",
+      "description": "David will contact InvestOps rep to request full attendees list with names/titles and exhibitor hall map.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e7aaaa76-d926-4942-a303-1aa98ecd4eb7",
+      "sourceLabel": "InvestOPS discussion - InvestOps Conference Sponsorship Discussed",
+      "people": [
+        "david.meeker@stablekernel.com",
+        "jay.gyuricza@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "be820917-6fd8-4f6d-9af2-d7192a5ced78",
+      "meetingDate": "2026-01-27"
+    },
+    {
+      "objectId": "58dd5fd9-a683-4ce2-b9e7-fb0cab2424e5",
+      "title": "[1/27] Get David InvestOps app login credentials",
+      "description": "David needs to provide his login credentials to InvestOps app to Chris.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e7aaaa76-d926-4942-a303-1aa98ecd4eb7",
+      "sourceLabel": "InvestOPS discussion - InvestOps Conference Sponsorship Discussed",
+      "people": [
+        "david.meeker@stablekernel.com",
+        "jay.gyuricza@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "be820917-6fd8-4f6d-9af2-d7192a5ced78",
+      "meetingDate": "2026-01-27"
+    },
+    {
+      "objectId": "ebc6c34e-e2a2-4170-9ba5-b7baf6d8ded3",
+      "title": "[1/27] Send David 2FA setup info for LinkedIn integration",
+      "description": "Chris will send David info about setting up 2FA and integrate David's LinkedIn.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e7aaaa76-d926-4942-a303-1aa98ecd4eb7",
+      "sourceLabel": "InvestOPS discussion - InvestOps Conference Sponsorship Discussed",
+      "people": [
+        "david.meeker@stablekernel.com",
+        "jay.gyuricza@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "be820917-6fd8-4f6d-9af2-d7192a5ced78",
+      "meetingDate": "2026-01-27"
+    },
+    {
+      "objectId": "d8d80d44-71bd-419f-87d3-b2fbec2aeb8b",
+      "title": "[1/27] Research InvestOps sponsors and speakers",
+      "description": "Chris will begin researching sponsors and speakers for the InvestOps conference immediately.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e7aaaa76-d926-4942-a303-1aa98ecd4eb7",
+      "sourceLabel": "InvestOPS discussion - InvestOps Conference Sponsorship Discussed",
+      "people": [
+        "david.meeker@stablekernel.com",
+        "jay.gyuricza@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "be820917-6fd8-4f6d-9af2-d7192a5ced78",
+      "meetingDate": "2026-01-27"
+    },
+    {
+      "objectId": "0f545fbb-fb86-4141-99a3-812c49282e5e",
+      "title": "[1/27] Introduce Chris to InvestOps contact once approved",
+      "description": "David will introduce Chris to InvestOps contact once Jay approves the sponsorship.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "e7aaaa76-d926-4942-a303-1aa98ecd4eb7",
+      "sourceLabel": "InvestOPS discussion - InvestOps Conference Sponsorship Discussed",
+      "people": [
+        "david.meeker@stablekernel.com",
+        "jay.gyuricza@stablekernel.com"
+      ],
+      "domains": [
+        "stablekernel.com"
+      ],
+      "clientDomain": "stablekernel.com",
+      "clientName": "Stable Kernel",
+      "clickupListId": "901307897354",
+      "clickupFolderName": "Stable Kernel",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "be820917-6fd8-4f6d-9af2-d7192a5ced78",
+      "meetingDate": "2026-01-27"
+    },
+    {
+      "objectId": "860ed79b-6c1e-4633-b503-87255d3409bd",
+      "title": "[1/27] Reword LinkedIn copy and share in Google Doc",
+      "description": "Joshua will reword all LinkedIn copy and share in Google Doc for review.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "87b0390a-3711-4aaa-a78c-14a3e421b574",
+      "sourceLabel": "Charm/Barrena Weekly Meeting - Marketing Campaign Review and Strategy",
+      "people": [
+        "joshua@hirecharm.com",
+        "emmab@barrenabranding.com",
+        "kelly@barrenabranding.com",
+        "bradleyd@barrenabranding.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "barrenabranding.com"
+      ],
+      "clientDomain": "barrenabranding.com",
+      "clientName": "Barrena",
+      "clickupListId": null,
+      "clickupFolderName": "Barrena",
+      "clickupSpaceName": null,
+      "unbundledFrom": "34a08a4f-9aa7-419d-8f07-99f8af218353",
+      "meetingDate": "2026-01-27"
+    },
+    {
+      "objectId": "b50fcc7b-d6c7-4765-a07a-105749dbba70",
+      "title": "[1/27] Clone campaign and relaunch with new messaging",
+      "description": "Joshua will clone campaign, migrate leads, and relaunch LinkedIn with new messaging once approved.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "87b0390a-3711-4aaa-a78c-14a3e421b574",
+      "sourceLabel": "Charm/Barrena Weekly Meeting - Marketing Campaign Review and Strategy",
+      "people": [
+        "joshua@hirecharm.com",
+        "emmab@barrenabranding.com",
+        "kelly@barrenabranding.com",
+        "bradleyd@barrenabranding.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "barrenabranding.com"
+      ],
+      "clientDomain": "barrenabranding.com",
+      "clientName": "Barrena",
+      "clickupListId": null,
+      "clickupFolderName": "Barrena",
+      "clickupSpaceName": null,
+      "unbundledFrom": "34a08a4f-9aa7-419d-8f07-99f8af218353",
+      "meetingDate": "2026-01-27"
+    },
+    {
+      "objectId": "c6c999c6-5ce4-42a4-ac96-d0f6b76df534",
+      "title": "[1/27] Check cost approval for additional email inboxes",
+      "description": "Joshua will check with Chris about cost approval for additional email inboxes.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "87b0390a-3711-4aaa-a78c-14a3e421b574",
+      "sourceLabel": "Charm/Barrena Weekly Meeting - Marketing Campaign Review and Strategy",
+      "people": [
+        "joshua@hirecharm.com",
+        "emmab@barrenabranding.com",
+        "kelly@barrenabranding.com",
+        "bradleyd@barrenabranding.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "barrenabranding.com"
+      ],
+      "clientDomain": "barrenabranding.com",
+      "clientName": "Barrena",
+      "clickupListId": null,
+      "clickupFolderName": "Barrena",
+      "clickupSpaceName": null,
+      "unbundledFrom": "34a08a4f-9aa7-419d-8f07-99f8af218353",
+      "meetingDate": "2026-01-27"
+    },
+    {
+      "objectId": "e8e7ee87-b352-4855-a6b5-15856e39eca2",
+      "title": "[1/27] Monitor bounce rate issue in campaigns",
+      "description": "Team will monitor and investigate the bounce rate issue noticed in campaigns.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "87b0390a-3711-4aaa-a78c-14a3e421b574",
+      "sourceLabel": "Charm/Barrena Weekly Meeting - Marketing Campaign Review and Strategy",
+      "people": [
+        "joshua@hirecharm.com",
+        "emmab@barrenabranding.com",
+        "kelly@barrenabranding.com",
+        "bradleyd@barrenabranding.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "barrenabranding.com"
+      ],
+      "clientDomain": "barrenabranding.com",
+      "clientName": "Barrena",
+      "clickupListId": null,
+      "clickupFolderName": "Barrena",
+      "clickupSpaceName": null,
+      "unbundledFrom": "34a08a4f-9aa7-419d-8f07-99f8af218353",
+      "meetingDate": "2026-01-27"
+    },
+    {
+      "objectId": "2cadbbb0-7b14-4642-a82a-82dc0066f601",
+      "title": "[1/27] Decide on purchased vs sales rep LinkedIn accounts",
+      "description": "Kelly and Bradley will discuss offline whether to pursue purchased LinkedIn accounts vs. using sales reps' accounts.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "87b0390a-3711-4aaa-a78c-14a3e421b574",
+      "sourceLabel": "Charm/Barrena Weekly Meeting - Marketing Campaign Review and Strategy",
+      "people": [
+        "joshua@hirecharm.com",
+        "emmab@barrenabranding.com",
+        "kelly@barrenabranding.com",
+        "bradleyd@barrenabranding.com"
+      ],
+      "domains": [
+        "hirecharm.com",
+        "barrenabranding.com"
+      ],
+      "clientDomain": "barrenabranding.com",
+      "clientName": "Barrena",
+      "clickupListId": null,
+      "clickupFolderName": "Barrena",
+      "clickupSpaceName": null,
+      "unbundledFrom": "34a08a4f-9aa7-419d-8f07-99f8af218353",
+      "meetingDate": "2026-01-27"
+    },
+    {
+      "objectId": "38916979-5634-4755-96a9-5f586793c828",
+      "title": "[1/26] Review Jared priorities doc and add comments",
+      "description": "Chris will review Jared's priorities document and add comments for discussion.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "2064f55e-bf99-472f-b314-2144a69bd8a0",
+      "sourceLabel": "Sammy Exec Weekly - Sales strategy and HubSpot setup reviewed",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
+      "meetingDate": "2026-01-26"
+    },
+    {
+      "objectId": "cdbb8e1b-a245-45ff-bc72-7790913e9231",
+      "title": "[1/26] Prepare equity proposal for Chris (10-25% range)",
+      "description": "Jared will prepare an equity proposal for Chris based on the 10-25% range discussed.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "2064f55e-bf99-472f-b314-2144a69bd8a0",
+      "sourceLabel": "Sammy Exec Weekly - Sales strategy and HubSpot setup reviewed",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
+      "meetingDate": "2026-01-26"
+    },
+    {
+      "objectId": "0637c85f-8d07-4c8c-9d94-c553ce597405",
+      "title": "[1/26] Build HubSpot sequences and nurture campaigns",
+      "description": "Chris will build out all HubSpot sequences and nurture campaigns.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "2064f55e-bf99-472f-b314-2144a69bd8a0",
+      "sourceLabel": "Sammy Exec Weekly - Sales strategy and HubSpot setup reviewed",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
+      "meetingDate": "2026-01-26"
+    },
+    {
+      "objectId": "0cf98240-930d-4f80-a08b-60b019033b8d",
+      "title": "[1/26] Contact Air Call to implement DID rotation",
+      "description": "The team needs to contact Air Call to implement DID rotation for phone numbers.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "2064f55e-bf99-472f-b314-2144a69bd8a0",
+      "sourceLabel": "Sammy Exec Weekly - Sales strategy and HubSpot setup reviewed",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
+      "meetingDate": "2026-01-26"
+    },
+    {
+      "objectId": "c413c32a-fe81-4c72-95c5-b20931e984ad",
+      "title": "[1/26] Implement Deep Attribution tracking for true CPA",
+      "description": "Jared will implement Deep Attribution tracking in the app to measure true CPA.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "2064f55e-bf99-472f-b314-2144a69bd8a0",
+      "sourceLabel": "Sammy Exec Weekly - Sales strategy and HubSpot setup reviewed",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
+      "meetingDate": "2026-01-26"
+    },
+    {
+      "objectId": "889d701c-6a20-4a3e-9d4f-2dec9d8af7c2",
+      "title": "[1/26] Push Lucas toward 5 demos per day target",
+      "description": "Chris will push Lucas toward a new target of 5 demos per day.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "2064f55e-bf99-472f-b314-2144a69bd8a0",
+      "sourceLabel": "Sammy Exec Weekly - Sales strategy and HubSpot setup reviewed",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
+      "meetingDate": "2026-01-26"
+    },
+    {
+      "objectId": "88a5be5d-9420-4642-95e0-3d4475abc2e5",
+      "title": "[1/26] Finalize Liam position and equity agreement",
+      "description": "The team will finalize Liam's position and equity agreement.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "2064f55e-bf99-472f-b314-2144a69bd8a0",
+      "sourceLabel": "Sammy Exec Weekly - Sales strategy and HubSpot setup reviewed",
+      "people": [
+        "chris@withsammy.ai",
+        "krishna@withsammy.ai",
+        "krishna@krishnapryor.com"
+      ],
+      "domains": [
+        "withsammy.ai",
+        "krishnapryor.com"
+      ],
+      "clientDomain": "withsammy.ai",
+      "clientName": "Sammy",
+      "clickupListId": "901318626259",
+      "clickupFolderName": "Sammy",
+      "clickupSpaceName": "Sales Delivery",
+      "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
+      "meetingDate": "2026-01-26"
+    },
+    {
+      "objectId": "70e54d1a-baa2-4af9-9d17-8b3cebe570c8",
+      "title": "[1/26] Schedule financial audit meeting for next month",
+      "description": "Chris and Grady will schedule a financial audit meeting for the beginning of next month.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "c920590b-1477-4553-9193-7378abce88d5",
+      "sourceLabel": "Operations Direcitonal - Business updates and client discussions",
+      "people": [
+        "grady@hirecharm.com",
+        "elliott@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "db9fd12c-25a9-4ea6-85ce-225ae10c0b8b",
+      "meetingDate": "2026-01-26"
+    },
+    {
+      "objectId": "0973a38a-1bdb-4721-a15e-12b09eeda4ea",
+      "title": "[1/26] Discuss Nextiva payment terms and discount option",
+      "description": "Chris will discuss payment terms with Nextiva, exploring the paid-in-full discount option.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "c920590b-1477-4553-9193-7378abce88d5",
+      "sourceLabel": "Operations Direcitonal - Business updates and client discussions",
+      "people": [
+        "grady@hirecharm.com",
+        "elliott@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "db9fd12c-25a9-4ea6-85ce-225ae10c0b8b",
+      "meetingDate": "2026-01-26"
+    },
+    {
+      "objectId": "12e474a4-fe88-4c79-bd1d-6dc71b5efc02",
+      "title": "[1/26] Review tools, website improvements, and marketing",
+      "description": "Chris and Grady plan to meet to review multiple business updates including tools, website improvements, and marketing initiatives.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "c920590b-1477-4553-9193-7378abce88d5",
+      "sourceLabel": "Operations Direcitonal - Business updates and client discussions",
+      "people": [
+        "grady@hirecharm.com",
+        "elliott@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "db9fd12c-25a9-4ea6-85ce-225ae10c0b8b",
+      "meetingDate": "2026-01-26"
+    },
+    {
+      "objectId": "e4adfb87-db8b-40a5-bbb6-86c01a6d477a",
+      "title": "[1/26] Monitor Alejandro performance on Coder Pad scripts",
+      "description": "Grady will continue monitoring Alejandro's performance across Coder Pad campaign scripts.",
+      "descriptionPoints": [],
+      "priority": "HIGH",
+      "dueDate": null,
+      "sourceType": "MEETING_RECORDING_FOLLOWUP",
+      "sourceId": "c920590b-1477-4553-9193-7378abce88d5",
+      "sourceLabel": "Operations Direcitonal - Business updates and client discussions",
+      "people": [
+        "grady@hirecharm.com",
+        "elliott@hirecharm.com"
+      ],
+      "domains": [
+        "hirecharm.com"
+      ],
+      "clientDomain": null,
+      "clientName": null,
+      "clickupListId": null,
+      "clickupFolderName": null,
+      "clickupSpaceName": null,
+      "unbundledFrom": "db9fd12c-25a9-4ea6-85ce-225ae10c0b8b",
+      "meetingDate": "2026-01-26"
+    }
+  ],
+  "dismissed": [
+    "1d3880e7-eb91-48d9-810c-73afe5fcd37b"
+  ]
+}

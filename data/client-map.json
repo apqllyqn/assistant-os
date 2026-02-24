@@ -1,0 +1,212 @@
+{
+  "workspaceId": "9013024763",
+  "clickupApiToken": "pk_54217175_YFNN6PBVB5468IN1ZOPB7VNR8GED16AE",
+  "ownDomain": "hirecharm.com",
+  "defaultSpace": "Sales Delivery",
+  "defaultSpaceId": "90137808568",
+  "clients": {
+    "withsammy.ai": {
+      "name": "Sammy",
+      "folderId": "901312288448",
+      "listId": "901318626259",
+      "listName": "Projects",
+      "space": "Sales Delivery"
+    },
+    "fanofafan.co": {
+      "name": "FOAF",
+      "folderId": "90133145140",
+      "listId": "901305827687",
+      "listName": "Client To-Dos",
+      "space": "CS Delivery"
+    },
+    "stablekernel.com": {
+      "name": "Stable Kernel",
+      "folderId": "90134376979",
+      "listId": "901307897354",
+      "listName": "Projects",
+      "space": "Sales Delivery"
+    },
+    "hellohero.com": {
+      "name": "HelloHero",
+      "folderId": "90135899949",
+      "listId": "901310040582",
+      "listName": "Projects",
+      "space": "Sales Delivery"
+    },
+    "inkdstores.com": {
+      "name": "Ink'd",
+      "folderId": "90135847941",
+      "listId": "901309965902",
+      "listName": "Projects",
+      "space": "Sales Delivery"
+    },
+    "selery.com": {
+      "name": "Selery",
+      "folderId": "901315849284",
+      "listId": "901323619034",
+      "listName": "Projects",
+      "space": "Sales Delivery"
+    },
+    "astragtm.io": {
+      "name": "Astra GTM",
+      "folderId": "90135717008",
+      "listId": "901309784499",
+      "listName": "Projects",
+      "space": "CS Delivery"
+    }
+  },
+  "spaces": {
+    "Sales Delivery": {
+      "id": "90137808568",
+      "folders": {
+        "HelloHero": "90135899949",
+        "OrderlyMeds": "901312288063",
+        "Stable Kernel": "90134376979",
+        "Ink'd": "90135847941",
+        "Root Access": "901310621464",
+        "Sammy": "901312288448",
+        "Checkout Components": "901312288371",
+        "Cooper White Sax": "90133997485",
+        "SPUI": "901312296678",
+        "Gigamind": "901312812468",
+        "Spout": "901312812489",
+        "Hurricane": "901312812514",
+        "Peaksave": "901313670363",
+        "GTM Campaign Ideas": "901315015171",
+        "Barrena": "901315267333",
+        "Selery": "901315849284"
+      }
+    },
+    "CS Delivery": {
+      "id": "90130290615",
+      "folders": {
+        "URSA": "90133260656",
+        "Spout": "90133137944",
+        "UTV Source": "90133138035",
+        "CHARM": "90135717008",
+        "FOAF": "90133145140",
+        "Moov": "901314489838",
+        "Little Chonk": "90133175438",
+        "Sutro": "90134073894",
+        "Irrational Labs": "90133217788",
+        "WOO More Play": "90137831528",
+        "HelloHero": "90136170337",
+        "Collxab": "90136170526"
+      }
+    },
+    "TRC-Coaching": {
+      "id": "901311786277",
+      "folders": {}
+    }
+  },
+  "folderLists": {
+    "90135899949": {
+      "listId": "901310040582",
+      "listName": "Projects"
+    },
+    "901312288063": {
+      "listId": "901318625765",
+      "listName": "Projects"
+    },
+    "90134376979": {
+      "listId": "901307897354",
+      "listName": "Projects"
+    },
+    "90135847941": {
+      "listId": "901309965902",
+      "listName": "Projects"
+    },
+    "901310621464": {
+      "listId": "901316600562",
+      "listName": "Projects"
+    },
+    "901312288448": {
+      "listId": "901318626259",
+      "listName": "Projects"
+    },
+    "901312288371": {
+      "listId": "901318626153",
+      "listName": "Projects"
+    },
+    "90133997485": {
+      "listId": "901307317811",
+      "listName": "Projects"
+    },
+    "901312296678": {
+      "listId": "901318636849",
+      "listName": "Projects"
+    },
+    "901312812468": {
+      "listId": "901319294454",
+      "listName": "Projects"
+    },
+    "901312812489": {
+      "listId": "901319294478",
+      "listName": "Projects"
+    },
+    "901313670363": {
+      "listId": "901320399706",
+      "listName": "Projects"
+    },
+    "901315015171": {
+      "listId": "901322435882",
+      "listName": "Projects"
+    },
+    "901315267333": {
+      "listId": "901322778377",
+      "listName": "Projects"
+    },
+    "901315849284": {
+      "listId": "901323619034",
+      "listName": "Projects"
+    },
+    "90133260656": {
+      "listId": "901309779554",
+      "listName": "List"
+    },
+    "90133137944": {
+      "listId": "901305813302",
+      "listName": "Projects"
+    },
+    "90133138035": {
+      "listId": "901305813558",
+      "listName": "Projects"
+    },
+    "90135717008": {
+      "listId": "901309784499",
+      "listName": "Action Items"
+    },
+    "90133145140": {
+      "listId": "901305827687",
+      "listName": "Client To-Dos"
+    },
+    "901314489838": {
+      "listId": "901321639459",
+      "listName": "List"
+    },
+    "90133175438": {
+      "listId": "901305891085",
+      "listName": "Projects"
+    },
+    "90134073894": {
+      "listId": "901307439442",
+      "listName": "Projects"
+    },
+    "90133217788": {
+      "listId": "901305980121",
+      "listName": "Projects"
+    },
+    "90137831528": {
+      "listId": "901312784882",
+      "listName": "Projects"
+    },
+    "90136170337": {
+      "listId": "901310415828",
+      "listName": "List"
+    },
+    "90136170526": {
+      "listId": "901310416081",
+      "listName": "List"
+    }
+  }
+}
