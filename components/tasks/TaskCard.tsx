@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { ArrowUpToLine, ChevronDown, ChevronRight, ExternalLink, XCircle, Pencil, Check, X } from 'lucide-react';
 import { useTaskStore } from '@/lib/stores';
-import { cn, priorityColor, statusColor, sourceTypeLabel } from '@/lib/utils';
+import { cn, priorityColor, statusColor, sourceTypeLabel, getTaskAge } from '@/lib/utils';
 import { PushConfirmDialog } from './PushConfirmDialog';
 import { FolderPicker } from './FolderPicker';
 import { toast } from 'sonner';
@@ -30,6 +30,8 @@ export function TaskCard({ task }: { task: EnrichedTask }) {
   const isExpanded = expandedId === task.objectId;
   const isPending = task.syncStatus === 'pending';
   const hasList = !!task.clickupListId;
+  const age = getTaskAge(task.createdAt, task.meetingDate);
+  const isOverdue = isPending && age.days >= 7;
 
   const handleDismiss = async () => {
     await dismissTasks([task.objectId]);
@@ -121,12 +123,15 @@ export function TaskCard({ task }: { task: EnrichedTask }) {
               ))}
             </select>
           ) : (
-            <div className={cn('mt-1.5 h-2.5 w-2.5 rounded-full flex-shrink-0', {
-              'bg-red-500': task.priority === 'URGENT',
-              'bg-orange-500': task.priority === 'HIGH',
-              'bg-yellow-400': task.priority === 'MEDIUM',
-              'bg-blue-400': task.priority === 'LOW',
-            })} title={task.priority} />
+            <div
+              className={cn('mt-1.5 h-2.5 w-2.5 rounded-full flex-shrink-0', {
+                'bg-red-500': isOverdue || task.priority === 'URGENT',
+                'bg-orange-500': !isOverdue && task.priority === 'HIGH',
+                'bg-yellow-400': !isOverdue && task.priority === 'MEDIUM',
+                'bg-blue-400': !isOverdue && task.priority === 'LOW',
+              })}
+              title={isOverdue ? `Auto-escalated — ${age.days} days old (was ${task.priority})` : task.priority}
+            />
           )}
 
           {/* Content */}
@@ -149,6 +154,16 @@ export function TaskCard({ task }: { task: EnrichedTask }) {
                 </button>
               )}
               <div className="flex items-center gap-1.5 flex-shrink-0">
+                {/* Age badge */}
+                {isPending && (
+                  <span className={cn('inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium', {
+                    'bg-green-100 text-green-700': age.color === 'green',
+                    'bg-yellow-100 text-yellow-700': age.color === 'yellow',
+                    'bg-red-100 text-red-700': age.color === 'red',
+                  })} title={isOverdue ? `Overdue — ${age.days} days old` : `${age.days} days old`}>
+                    {age.label}
+                  </span>
+                )}
                 {/* Status badge */}
                 <span className={cn('inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium', statusColor(task.syncStatus))}>
                   {task.syncStatus}
@@ -252,6 +267,7 @@ export function TaskCard({ task }: { task: EnrichedTask }) {
                   <FolderPicker
                     clientDomain={task.clientDomain}
                     clientName={task.clientName}
+                    inferredOrg={task.inferredOrg}
                     onSelect={handleAssign}
                   />
                 )}

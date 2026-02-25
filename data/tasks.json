@@ -30,7 +30,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "dc56c9e4-ddfc-48c1-aa82-68205dc815e1",
@@ -60,7 +61,8 @@
       "clickupFolderName": "Selery",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": null,
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "2822a311-7a34-4c04-85a9-747fb2352837",
@@ -88,7 +90,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "860f3817-12f3-407a-945d-098707aae5bb",
@@ -119,7 +122,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "921cbf59-b31f-427d-ab75-30eafb95b3e1",
@@ -147,7 +151,8 @@
       "clickupFolderName": "Ink'd",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "efa4f188-4d5f-4ce0-869e-16a2cd2a397e",
@@ -175,7 +180,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "2b04d98c-0c7a-47ed-8b40-2d8db2c4dca2",
@@ -198,12 +204,13 @@
       "domains": [],
       "clientDomain": "followingg.co",
       "clientName": "Followingg",
-      "clickupListId": null,
+      "clickupListId": "901310416081",
       "clickupFolderId": null,
-      "clickupFolderName": null,
-      "clickupSpaceName": null,
+      "clickupFolderName": "Collxab",
+      "clickupSpaceName": "CS Delivery",
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "74a8c5b7-8e77-4630-8a3b-8b6ee32d647e",
@@ -231,7 +238,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "879bf1c7-5fa5-4651-8364-cb99800e3476",
@@ -259,7 +267,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "fb8077ba-e43c-468a-ad9c-0086486984b0",
@@ -287,7 +296,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "7580f585-dd21-4ec2-a654-d67bcab3988a",
@@ -315,7 +325,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "21d1d0d6-ada5-40e2-a28a-16e5743fa28a",
@@ -343,7 +354,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "44a3c57d-6337-4296-ba39-9ece2c306c6c",
@@ -371,7 +383,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "a0ac0ed7-cef5-473c-8b4d-cc743702638a",
@@ -399,7 +412,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "c466ae0a-f474-4321-b1fb-fbb011c76c0c",
@@ -427,7 +441,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "9cc96385-fa29-4495-a76e-e23778a92848",
@@ -455,7 +470,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "7ab82d5f-d638-45ea-b2b5-631d73736fd9",
@@ -485,7 +501,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "53e7670a-e6eb-495a-845b-788404cd5244",
@@ -515,7 +532,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "d677c686-b1b4-400a-959b-245a9b3ee691",
@@ -545,7 +563,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "7f8b0989-077c-4108-8754-c94dcf4d8afe",
@@ -575,7 +594,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": "2026-01-30"
+      "meetingDate": "2026-01-30",
+      "createdAt": "2026-01-30"
     },
     {
       "objectId": "413c1dc9-25ab-43b0-91f8-3549efc5c81c",
@@ -605,7 +625,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": "2026-01-30"
+      "meetingDate": "2026-01-30",
+      "createdAt": "2026-01-30"
     },
     {
       "objectId": "956613a1-98b8-4723-b749-ef44344361bc",
@@ -633,7 +654,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "73864e21-5f85-4047-ab93-ac3e86c6d338",
@@ -663,7 +685,8 @@
       "clickupFolderName": "Barrena",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": null,
-      "meetingDate": "2026-01-27"
+      "meetingDate": "2026-01-27",
+      "createdAt": "2026-01-27"
     },
     {
       "objectId": "abedd8c2-a269-4ef5-984d-c538b76f2739",
@@ -693,7 +716,8 @@
       "clickupFolderName": "Checkout Components",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": null,
-      "meetingDate": "2026-01-23"
+      "meetingDate": "2026-01-23",
+      "createdAt": "2026-01-23"
     },
     {
       "objectId": "c71600ee-4abd-42ef-841e-d9e5b0b661be",
@@ -723,7 +747,8 @@
       "clickupFolderName": "Checkout Components",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": null,
-      "meetingDate": "2026-01-23"
+      "meetingDate": "2026-01-23",
+      "createdAt": "2026-01-23"
     },
     {
       "objectId": "629a52c5-2f1e-48ba-87ac-bdb9782645b4",
@@ -753,7 +778,8 @@
       "clickupFolderName": "Checkout Components",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": null,
-      "meetingDate": "2026-01-23"
+      "meetingDate": "2026-01-23",
+      "createdAt": "2026-01-23"
     },
     {
       "objectId": "1b9cf0f2-1816-46aa-a1ee-2940e1b2c78d",
@@ -781,7 +807,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": "2026-01-23"
+      "meetingDate": "2026-01-23",
+      "createdAt": "2026-01-23"
     },
     {
       "objectId": "9b4da3b9-09db-4bbc-b455-641f4b885bc3",
@@ -811,7 +838,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": null,
-      "meetingDate": "2026-01-23"
+      "meetingDate": "2026-01-23",
+      "createdAt": "2026-01-23"
     },
     {
       "objectId": "c3915c31-4f19-4243-b57b-b4211e8bbdb4",
@@ -843,7 +871,8 @@
       "clickupFolderName": "SPUI",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": null,
-      "meetingDate": "2026-01-22"
+      "meetingDate": "2026-01-22",
+      "createdAt": "2026-01-22"
     },
     {
       "objectId": "e80dfa9a-9933-4894-8722-2f25cb04c95c",
@@ -871,7 +900,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": null,
-      "meetingDate": null
+      "meetingDate": null,
+      "createdAt": "2026-02-17T12:00:00Z"
     },
     {
       "objectId": "7c7c3e63-027a-4124-8984-7e500f7afb69",
@@ -898,7 +928,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "bd65200b-c3da-4459-94ba-268aca78d55a",
@@ -925,7 +956,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "2deb407b-325e-4ab2-8ac5-2d22b45c4ff0",
@@ -952,7 +984,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "c23826c2-b4f5-4ff3-957c-8302de2691d6",
@@ -979,7 +1012,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "45bcb1d6-708b-4eb5-bdf6-7fdce27e3235",
@@ -1006,7 +1040,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "15f47037-1ebb-4765-b1aa-78d9ceae2086",
@@ -1033,7 +1068,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "bf4f8ef7-4f5b-4f99-b41a-850c74c6487c",
@@ -1060,7 +1096,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "156642d7-b82e-44f2-81a9-f093a789f3cb",
@@ -1087,7 +1124,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "909255dc-2d6f-4aba-937c-b7730058b0be",
@@ -1114,7 +1152,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ab88893c-fd4b-400f-b684-780e56e03db1",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "004f094f-ec98-4d11-822d-b52432aeed5d",
@@ -1138,7 +1177,8 @@
       "clickupFolderName": "Stellar Growth",
       "clickupSpaceName": null,
       "unbundledFrom": "bed40934-c4f4-4cf8-b287-0d1fc6fa8e2d",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "e941bf0c-13c2-41ea-9882-6487b48081d0",
@@ -1162,7 +1202,8 @@
       "clickupFolderName": "Stellar Growth",
       "clickupSpaceName": null,
       "unbundledFrom": "bed40934-c4f4-4cf8-b287-0d1fc6fa8e2d",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "4f90cc5d-8104-4a57-849a-d248c5bd2a74",
@@ -1186,7 +1227,8 @@
       "clickupFolderName": "Stellar Growth",
       "clickupSpaceName": null,
       "unbundledFrom": "bed40934-c4f4-4cf8-b287-0d1fc6fa8e2d",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "611ed210-338e-439d-8858-f622b3fbda16",
@@ -1210,7 +1252,8 @@
       "clickupFolderName": "Stellar Growth",
       "clickupSpaceName": null,
       "unbundledFrom": "bed40934-c4f4-4cf8-b287-0d1fc6fa8e2d",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "6ac13707-6e75-4574-b8fc-ff6137a15ba7",
@@ -1234,7 +1277,8 @@
       "clickupFolderName": "Stellar Growth",
       "clickupSpaceName": null,
       "unbundledFrom": "bed40934-c4f4-4cf8-b287-0d1fc6fa8e2d",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "cd731970-a0b1-40cf-9c67-a91aafa4b790",
@@ -1267,7 +1311,8 @@
       "clickupFolderName": "Followingg",
       "clickupSpaceName": null,
       "unbundledFrom": "7ab5d558-9201-4de5-b9cd-24de3c2ea334",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "f98a24c6-1871-4497-bc8c-36f9998382c6",
@@ -1300,7 +1345,8 @@
       "clickupFolderName": "Followingg",
       "clickupSpaceName": null,
       "unbundledFrom": "7ab5d558-9201-4de5-b9cd-24de3c2ea334",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "43fc9c90-b9fb-45b2-b666-6383251f55d9",
@@ -1333,7 +1379,8 @@
       "clickupFolderName": "Followingg",
       "clickupSpaceName": null,
       "unbundledFrom": "7ab5d558-9201-4de5-b9cd-24de3c2ea334",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "5a556ae0-c0f9-445b-9cbf-7fb6bc0d1092",
@@ -1366,7 +1413,8 @@
       "clickupFolderName": "Followingg",
       "clickupSpaceName": null,
       "unbundledFrom": "7ab5d558-9201-4de5-b9cd-24de3c2ea334",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "86f04a7e-e6dc-40ac-9bce-2d9958b9015f",
@@ -1399,7 +1447,8 @@
       "clickupFolderName": "Followingg",
       "clickupSpaceName": null,
       "unbundledFrom": "7ab5d558-9201-4de5-b9cd-24de3c2ea334",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "e537ca81-7e7f-480f-9805-b2fabb604398",
@@ -1424,7 +1473,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "7f71c76e-dd2b-4be9-9d5e-0b3b71ba9218",
@@ -1449,7 +1499,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "1ecd8b57-3389-4029-98a8-5f4e7b75e666",
@@ -1474,7 +1525,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "4c371cbf-1312-41d1-9160-6dde8f0a1a61",
@@ -1499,7 +1551,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "2c4ac308-ca3f-4900-96b6-45543c01f7e8",
@@ -1524,7 +1577,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "3122354f-e079-4e72-8a66-b97dbafe6451",
@@ -1549,7 +1603,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "a1b25fcb-f8d5-4535-a437-c87526a3777a",
@@ -1574,7 +1629,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "58fb72de-97b9-4efe-9c08-16a26ecec47a",
@@ -1599,7 +1655,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "a8be74d3-405e-49ee-bc2c-93fbd56e2431",
@@ -1624,7 +1681,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "555f9868-2ccc-481b-9027-640f22c55b31",
@@ -1649,7 +1707,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "02317c1b-db43-4680-a7a9-847a5d3e6036",
@@ -1674,7 +1733,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "08c68834-b16f-47a7-a92e-c33172e1140a",
@@ -1699,7 +1759,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "cdf63c93-37c2-4b8c-9dbf-09591209b500",
-      "meetingDate": "2026-02-16"
+      "meetingDate": "2026-02-16",
+      "createdAt": "2026-02-16"
     },
     {
       "objectId": "5a66545a-0139-4ad6-8003-78475f68f594",
@@ -1724,7 +1785,8 @@
       "clickupFolderName": "Growth Alliance",
       "clickupSpaceName": null,
       "unbundledFrom": "c65f89ca-8060-4640-84d4-72d917553845",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "b22a2e9e-c635-4638-948e-484207d33fdc",
@@ -1749,7 +1811,8 @@
       "clickupFolderName": "Growth Alliance",
       "clickupSpaceName": null,
       "unbundledFrom": "c65f89ca-8060-4640-84d4-72d917553845",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "fd537d78-4bf0-46fe-9aa5-2a2bad1e540e",
@@ -1774,7 +1837,8 @@
       "clickupFolderName": "Growth Alliance",
       "clickupSpaceName": null,
       "unbundledFrom": "c65f89ca-8060-4640-84d4-72d917553845",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "c77e6b2e-906d-497f-ada1-6e44649a7b85",
@@ -1799,7 +1863,8 @@
       "clickupFolderName": "BridgeNow",
       "clickupSpaceName": null,
       "unbundledFrom": "6cc059ef-91d8-4b31-8877-cc2e3dc8709f",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "5407c37b-b04d-4791-aa03-16427c543c1a",
@@ -1824,7 +1889,8 @@
       "clickupFolderName": "BridgeNow",
       "clickupSpaceName": null,
       "unbundledFrom": "6cc059ef-91d8-4b31-8877-cc2e3dc8709f",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "1f3a3120-e9bb-4536-8e03-519ded8fd9b5",
@@ -1849,7 +1915,8 @@
       "clickupFolderName": "BridgeNow",
       "clickupSpaceName": null,
       "unbundledFrom": "6cc059ef-91d8-4b31-8877-cc2e3dc8709f",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "7e5cd1e9-964c-48a8-aa9e-af2d87e509f2",
@@ -1873,7 +1940,8 @@
       "clickupFolderName": "TurboClaim",
       "clickupSpaceName": null,
       "unbundledFrom": "f344443a-67b3-423c-810d-19f0b7726280",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "e6839178-e959-4d42-a0de-b4ed119a2def",
@@ -1897,7 +1965,8 @@
       "clickupFolderName": "TurboClaim",
       "clickupSpaceName": null,
       "unbundledFrom": "f344443a-67b3-423c-810d-19f0b7726280",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "38259824-8920-4250-879d-7ee20988ad3f",
@@ -1922,7 +1991,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "7cac44eb-7d21-4e0e-a2c3-327912a5b488",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "555f22af-c3f8-43e1-b16f-ce17b40d7c6b",
@@ -1947,7 +2017,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "7cac44eb-7d21-4e0e-a2c3-327912a5b488",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "56bdf3d6-ec7f-4a78-887d-3bd5a05d56dd",
@@ -1972,7 +2043,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "7cac44eb-7d21-4e0e-a2c3-327912a5b488",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "40a87024-3bbb-4850-aa87-bd11a34e9c61",
@@ -1997,7 +2069,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "7cac44eb-7d21-4e0e-a2c3-327912a5b488",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "f9895c76-5c63-48ac-83a9-3a83a47d80f8",
@@ -2022,7 +2095,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "7cac44eb-7d21-4e0e-a2c3-327912a5b488",
-      "meetingDate": "2026-02-13"
+      "meetingDate": "2026-02-13",
+      "createdAt": "2026-02-13"
     },
     {
       "objectId": "97f98292-d4ac-4b43-ad77-1da45aff5b8d",
@@ -2049,7 +2123,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "adb34e8c-f274-46f3-9d8e-369e7cfbd04e",
@@ -2076,7 +2151,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "6872092d-bff9-43ae-b7a4-dc6013aa6eba",
@@ -2103,7 +2179,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "bde2eda7-57d9-4443-8e38-2074737076d1",
@@ -2130,7 +2207,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "53dab2c2-25fb-4a2d-a449-7c2d44522fa1",
@@ -2159,7 +2237,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "02b2d18a-8c9f-46e2-88f9-0f025cb5cd70",
@@ -2186,7 +2265,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "615c032b-e095-48bc-bfbf-8fed4b760fbf",
@@ -2213,7 +2293,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "81a45645-cb06-4b70-83cb-5ea6ad1c4e7a",
@@ -2240,7 +2321,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "f0acbcee-5eaf-42f6-84e2-6680e1818558",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "307aa6dd-ba43-43b4-a98a-1eaa2e0c86c3",
@@ -2262,7 +2344,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "01218ad6-1edc-42a5-806a-a29c5b04bf9f",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "3dc64b41-84f1-424c-b957-c18ae62ba716",
@@ -2284,7 +2367,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "01218ad6-1edc-42a5-806a-a29c5b04bf9f",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "eebb3c10-ca5b-47c8-be1a-1703581ba036",
@@ -2306,7 +2390,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "01218ad6-1edc-42a5-806a-a29c5b04bf9f",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "88ad3960-11ad-48c9-9176-b8bd0564c1fc",
@@ -2328,7 +2413,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "01218ad6-1edc-42a5-806a-a29c5b04bf9f",
-      "meetingDate": "2026-02-12"
+      "meetingDate": "2026-02-12",
+      "createdAt": "2026-02-12"
     },
     {
       "objectId": "3a38c572-087e-409a-ba7a-30fbec8f916b",
@@ -2352,7 +2438,8 @@
       "clickupFolderName": "MerchCamp",
       "clickupSpaceName": null,
       "unbundledFrom": "aee45f08-a132-44c3-8d6d-9b8d36ba3718",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "f1194c3b-3e36-4d58-a8ee-1f0345b06857",
@@ -2376,7 +2463,8 @@
       "clickupFolderName": "MerchCamp",
       "clickupSpaceName": null,
       "unbundledFrom": "aee45f08-a132-44c3-8d6d-9b8d36ba3718",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "98cff3fb-b57c-46ca-ad17-aae23b3b8423",
@@ -2400,7 +2488,8 @@
       "clickupFolderName": "MerchCamp",
       "clickupSpaceName": null,
       "unbundledFrom": "aee45f08-a132-44c3-8d6d-9b8d36ba3718",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "89e9e8d8-5433-4548-9b5e-b1bf0d305d09",
@@ -2424,7 +2513,8 @@
       "clickupFolderName": "MerchCamp",
       "clickupSpaceName": null,
       "unbundledFrom": "aee45f08-a132-44c3-8d6d-9b8d36ba3718",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "307e8d95-6d96-4be0-ae25-a811afcd9047",
@@ -2448,7 +2538,8 @@
       "clickupFolderName": "MerchCamp",
       "clickupSpaceName": null,
       "unbundledFrom": "aee45f08-a132-44c3-8d6d-9b8d36ba3718",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "59a34887-0f76-42a4-84ae-5d04f4660daf",
@@ -2472,7 +2563,8 @@
       "clickupFolderName": "FOAF",
       "clickupSpaceName": "CS Delivery",
       "unbundledFrom": "2e97a26a-efd7-4fa2-a7f2-7999aabc824e",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "e5b3f2f8-d925-40f9-8863-dfd87b3f86f5",
@@ -2496,7 +2588,8 @@
       "clickupFolderName": "FOAF",
       "clickupSpaceName": "CS Delivery",
       "unbundledFrom": "2e97a26a-efd7-4fa2-a7f2-7999aabc824e",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "ed991952-37e9-4cc1-9ae0-2ce8c87ccb73",
@@ -2523,7 +2616,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "cd351d21-cde3-4f5d-98c0-f44b49b64eb9",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "3215ba0a-ef94-450c-81c2-acdb3701cbec",
@@ -2550,7 +2644,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "cd351d21-cde3-4f5d-98c0-f44b49b64eb9",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "25a6aae2-4196-4c58-86f3-79f2d71ac3f2",
@@ -2577,7 +2672,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "cd351d21-cde3-4f5d-98c0-f44b49b64eb9",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "3fa0f8db-c1ae-49ed-a4fa-a4c4c1c594f4",
@@ -2604,7 +2700,8 @@
       "clickupFolderName": "Search Atlas",
       "clickupSpaceName": null,
       "unbundledFrom": "cd351d21-cde3-4f5d-98c0-f44b49b64eb9",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "1f74e1c0-b3d0-433c-b100-211c4d9c79e0",
@@ -2630,7 +2727,8 @@
       "clickupFolderName": "Verma Media",
       "clickupSpaceName": null,
       "unbundledFrom": "63367f63-bfe0-4823-abbf-d10de24dc7e9",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "67b6dc2e-801b-4772-b3f3-dbd5d0dbee03",
@@ -2656,7 +2754,8 @@
       "clickupFolderName": "Verma Media",
       "clickupSpaceName": null,
       "unbundledFrom": "63367f63-bfe0-4823-abbf-d10de24dc7e9",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "ad8266ae-4957-4db7-8c11-cb1241cc3ba5",
@@ -2682,7 +2781,8 @@
       "clickupFolderName": "Verma Media",
       "clickupSpaceName": null,
       "unbundledFrom": "63367f63-bfe0-4823-abbf-d10de24dc7e9",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "71a0115a-0859-4b83-a2e4-946b8529bd34",
@@ -2711,7 +2811,8 @@
       "clickupFolderName": "Verma Media",
       "clickupSpaceName": null,
       "unbundledFrom": "63367f63-bfe0-4823-abbf-d10de24dc7e9",
-      "meetingDate": "2026-02-11"
+      "meetingDate": "2026-02-11",
+      "createdAt": "2026-02-11"
     },
     {
       "objectId": "2f7113bc-4fb8-44a5-83d2-8f3db519ec42",
@@ -2737,7 +2838,8 @@
       "clickupFolderName": "Moov",
       "clickupSpaceName": null,
       "unbundledFrom": "a6002594-8772-4b76-bc73-6eaf75604eeb",
-      "meetingDate": "2026-02-05"
+      "meetingDate": "2026-02-05",
+      "createdAt": "2026-02-05"
     },
     {
       "objectId": "3da4ab6c-36d2-4782-ae78-208cd0f51260",
@@ -2763,7 +2865,8 @@
       "clickupFolderName": "Moov",
       "clickupSpaceName": null,
       "unbundledFrom": "a6002594-8772-4b76-bc73-6eaf75604eeb",
-      "meetingDate": "2026-02-05"
+      "meetingDate": "2026-02-05",
+      "createdAt": "2026-02-05"
     },
     {
       "objectId": "4927f4df-1b66-4c9c-8e24-5087ad46d337",
@@ -2789,7 +2892,8 @@
       "clickupFolderName": "Moov",
       "clickupSpaceName": null,
       "unbundledFrom": "a6002594-8772-4b76-bc73-6eaf75604eeb",
-      "meetingDate": "2026-02-05"
+      "meetingDate": "2026-02-05",
+      "createdAt": "2026-02-05"
     },
     {
       "objectId": "27f1b058-8874-432f-9f67-28034c8c4f65",
@@ -2815,7 +2919,8 @@
       "clickupFolderName": "Moov",
       "clickupSpaceName": null,
       "unbundledFrom": "a6002594-8772-4b76-bc73-6eaf75604eeb",
-      "meetingDate": "2026-02-05"
+      "meetingDate": "2026-02-05",
+      "createdAt": "2026-02-05"
     },
     {
       "objectId": "8763468a-1ff4-4af3-9c18-fec28075a87e",
@@ -2842,7 +2947,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
-      "meetingDate": "2026-02-03"
+      "meetingDate": "2026-02-03",
+      "createdAt": "2026-02-03"
     },
     {
       "objectId": "3fc106b3-7805-4267-99c7-c2879a4410e5",
@@ -2869,7 +2975,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
-      "meetingDate": "2026-02-03"
+      "meetingDate": "2026-02-03",
+      "createdAt": "2026-02-03"
     },
     {
       "objectId": "d41e7a29-fba0-4e9e-8c1a-6df37c6f1c98",
@@ -2896,7 +3003,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
-      "meetingDate": "2026-02-03"
+      "meetingDate": "2026-02-03",
+      "createdAt": "2026-02-03"
     },
     {
       "objectId": "e7bd49c3-6e74-4cd0-bf3a-900b71df784a",
@@ -2923,7 +3031,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
-      "meetingDate": "2026-02-03"
+      "meetingDate": "2026-02-03",
+      "createdAt": "2026-02-03"
     },
     {
       "objectId": "363cc5b7-2927-4e7b-8bb0-d44422211b6f",
@@ -2950,7 +3059,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
-      "meetingDate": "2026-02-03"
+      "meetingDate": "2026-02-03",
+      "createdAt": "2026-02-03"
     },
     {
       "objectId": "64e2b1c2-43c3-406a-ad17-a4b209b6c360",
@@ -2977,7 +3087,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "0b7a8d72-4c85-4561-8116-e49f56197fc4",
-      "meetingDate": "2026-02-03"
+      "meetingDate": "2026-02-03",
+      "createdAt": "2026-02-03"
     },
     {
       "objectId": "9ba9792f-90bc-4287-a387-613e5e6dfcbf",
@@ -3003,7 +3114,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "d803ada7-d7d2-46e9-8b1c-a4cfb1e087da",
@@ -3029,7 +3141,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "8adae144-0277-4caa-a429-2457054957c3",
@@ -3055,7 +3168,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "85df9113-c30a-4c38-91d3-3cf0cbba53f6",
@@ -3081,7 +3195,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "5be93c48-f54b-44f9-9178-fdef3f787a5c",
@@ -3107,7 +3222,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "4499b995-83da-47b6-bff4-ad0e1661024e",
@@ -3133,7 +3249,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "1bf23762-280f-4ff2-a59b-3bdd52b49974",
@@ -3159,7 +3276,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "ce23fff9-3f7e-4caf-8875-e6959bf86ab4",
@@ -3185,7 +3303,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "8dc45cf8-4ccd-4fe3-aec1-ef3ea420079e",
@@ -3211,7 +3330,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "e2308c62-fce1-404a-8103-8e9e0b2482ce",
@@ -3237,7 +3357,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "8877673b-eb41-44fa-803b-2b9393ff3bf7",
@@ -3263,7 +3384,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "28d3f6a0-4533-4eaa-a3ba-d0cf86ebbd7f",
@@ -3289,7 +3411,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "6d0af21f-a1ef-4944-8236-1ee871e0cd84",
-      "meetingDate": "2026-02-02"
+      "meetingDate": "2026-02-02",
+      "createdAt": "2026-02-02"
     },
     {
       "objectId": "1d3880e7-eb91-48d9-810c-73afe5fcd37b",
@@ -3317,7 +3440,8 @@
       "clickupFolderName": "Selery",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "71ed7613-09ad-42d1-a934-ac77bef8a3af",
@@ -3345,7 +3469,8 @@
       "clickupFolderName": "Astra GTM",
       "clickupSpaceName": null,
       "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "013825c0-b16f-49a4-876c-eee61a3f2ad0",
@@ -3373,7 +3498,8 @@
       "clickupFolderName": "Astra GTM",
       "clickupSpaceName": null,
       "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "6073ef2d-5d04-451b-9ee2-ca218b558a66",
@@ -3397,11 +3523,12 @@
       ],
       "clientDomain": "astragtm.io",
       "clientName": "Astra GTM",
-      "clickupListId": null,
-      "clickupFolderName": "Astra GTM",
-      "clickupSpaceName": null,
+      "clickupListId": "901322435882",
+      "clickupFolderName": "GTM Campaign Ideas",
+      "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "368a020e-3e04-4bb9-aacd-632709912dbd",
@@ -3429,7 +3556,8 @@
       "clickupFolderName": "Astra GTM",
       "clickupSpaceName": null,
       "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "6b42aa41-fefe-4a51-9c15-99ab78fa1865",
@@ -3457,7 +3585,8 @@
       "clickupFolderName": "Astra GTM",
       "clickupSpaceName": null,
       "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "f3641c35-b0e8-45de-9b2b-d37fc1a45c88",
@@ -3485,7 +3614,8 @@
       "clickupFolderName": "Astra GTM",
       "clickupSpaceName": null,
       "unbundledFrom": "62b07ba2-d9b4-4d4c-8b3e-890b7d53a425",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "52b22fcd-1d2c-4a49-80ef-dd2bab1369a3",
@@ -3512,7 +3642,8 @@
       "clickupFolderName": "SPUI",
       "clickupSpaceName": null,
       "unbundledFrom": "e15153d4-f35b-436f-879e-cdd19d5d7604",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "c10f48d9-00ee-47e4-ba7e-a77d9262c9ed",
@@ -3539,7 +3670,8 @@
       "clickupFolderName": "SPUI",
       "clickupSpaceName": null,
       "unbundledFrom": "e15153d4-f35b-436f-879e-cdd19d5d7604",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "c2a3402c-c0ef-4375-a7ac-f0124039ba3e",
@@ -3566,7 +3698,8 @@
       "clickupFolderName": "SPUI",
       "clickupSpaceName": null,
       "unbundledFrom": "e15153d4-f35b-436f-879e-cdd19d5d7604",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "427fecf3-723a-40ca-9f84-5eb928588319",
@@ -3593,7 +3726,8 @@
       "clickupFolderName": "SPUI",
       "clickupSpaceName": null,
       "unbundledFrom": "e15153d4-f35b-436f-879e-cdd19d5d7604",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "77c58f28-7386-4ef3-8b37-665da08af6bf",
@@ -3615,7 +3749,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "9e1a7e3b-a5a9-4e49-bdac-16ce229f9ba4",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "f74cd5bc-81a3-406c-8ea9-30a674242931",
@@ -3637,7 +3772,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "9e1a7e3b-a5a9-4e49-bdac-16ce229f9ba4",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "d8740960-77ca-4e98-a95c-50a1017623c4",
@@ -3659,7 +3795,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "9e1a7e3b-a5a9-4e49-bdac-16ce229f9ba4",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "2cebf2d3-ec90-4a1d-b5bf-fb9c0e397e30",
@@ -3681,7 +3818,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "9e1a7e3b-a5a9-4e49-bdac-16ce229f9ba4",
-      "meetingDate": "2026-01-29"
+      "meetingDate": "2026-01-29",
+      "createdAt": "2026-01-29"
     },
     {
       "objectId": "d21c2b67-5b3f-4095-9e20-25f04616954c",
@@ -3707,7 +3845,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "fdd1140d-181e-4880-9db0-9f5eccebf0a3",
-      "meetingDate": "2026-01-28"
+      "meetingDate": "2026-01-28",
+      "createdAt": "2026-01-28"
     },
     {
       "objectId": "d6d7f0eb-9dc7-46c1-be6d-3d1774155128",
@@ -3733,7 +3872,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "fdd1140d-181e-4880-9db0-9f5eccebf0a3",
-      "meetingDate": "2026-01-28"
+      "meetingDate": "2026-01-28",
+      "createdAt": "2026-01-28"
     },
     {
       "objectId": "11db1e66-9303-4611-8b0a-068869ef897c",
@@ -3759,7 +3899,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "fdd1140d-181e-4880-9db0-9f5eccebf0a3",
-      "meetingDate": "2026-01-28"
+      "meetingDate": "2026-01-28",
+      "createdAt": "2026-01-28"
     },
     {
       "objectId": "159b3d6f-e845-4705-90d3-c7b486676b74",
@@ -3785,7 +3926,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "fdd1140d-181e-4880-9db0-9f5eccebf0a3",
-      "meetingDate": "2026-01-28"
+      "meetingDate": "2026-01-28",
+      "createdAt": "2026-01-28"
     },
     {
       "objectId": "685fb836-580d-4bac-b7cb-459c02abfe8d",
@@ -3811,7 +3953,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "fdd1140d-181e-4880-9db0-9f5eccebf0a3",
-      "meetingDate": "2026-01-28"
+      "meetingDate": "2026-01-28",
+      "createdAt": "2026-01-28"
     },
     {
       "objectId": "d838896c-3bd8-4be4-8af2-caba4e94e2f5",
@@ -3836,7 +3979,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "be820917-6fd8-4f6d-9af2-d7192a5ced78",
-      "meetingDate": "2026-01-27"
+      "meetingDate": "2026-01-27",
+      "createdAt": "2026-01-27"
     },
     {
       "objectId": "58dd5fd9-a683-4ce2-b9e7-fb0cab2424e5",
@@ -3861,7 +4005,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "be820917-6fd8-4f6d-9af2-d7192a5ced78",
-      "meetingDate": "2026-01-27"
+      "meetingDate": "2026-01-27",
+      "createdAt": "2026-01-27"
     },
     {
       "objectId": "ebc6c34e-e2a2-4170-9ba5-b7baf6d8ded3",
@@ -3886,7 +4031,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "be820917-6fd8-4f6d-9af2-d7192a5ced78",
-      "meetingDate": "2026-01-27"
+      "meetingDate": "2026-01-27",
+      "createdAt": "2026-01-27"
     },
     {
       "objectId": "d8d80d44-71bd-419f-87d3-b2fbec2aeb8b",
@@ -3911,7 +4057,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "be820917-6fd8-4f6d-9af2-d7192a5ced78",
-      "meetingDate": "2026-01-27"
+      "meetingDate": "2026-01-27",
+      "createdAt": "2026-01-27"
     },
     {
       "objectId": "0f545fbb-fb86-4141-99a3-812c49282e5e",
@@ -3936,7 +4083,8 @@
       "clickupFolderName": "Stable Kernel",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "be820917-6fd8-4f6d-9af2-d7192a5ced78",
-      "meetingDate": "2026-01-27"
+      "meetingDate": "2026-01-27",
+      "createdAt": "2026-01-27"
     },
     {
       "objectId": "860ed79b-6c1e-4633-b503-87255d3409bd",
@@ -3964,7 +4112,8 @@
       "clickupFolderName": "Barrena",
       "clickupSpaceName": null,
       "unbundledFrom": "34a08a4f-9aa7-419d-8f07-99f8af218353",
-      "meetingDate": "2026-01-27"
+      "meetingDate": "2026-01-27",
+      "createdAt": "2026-01-27"
     },
     {
       "objectId": "b50fcc7b-d6c7-4765-a07a-105749dbba70",
@@ -3992,7 +4141,8 @@
       "clickupFolderName": "Barrena",
       "clickupSpaceName": null,
       "unbundledFrom": "34a08a4f-9aa7-419d-8f07-99f8af218353",
-      "meetingDate": "2026-01-27"
+      "meetingDate": "2026-01-27",
+      "createdAt": "2026-01-27"
     },
     {
       "objectId": "c6c999c6-5ce4-42a4-ac96-d0f6b76df534",
@@ -4020,7 +4170,8 @@
       "clickupFolderName": "Barrena",
       "clickupSpaceName": null,
       "unbundledFrom": "34a08a4f-9aa7-419d-8f07-99f8af218353",
-      "meetingDate": "2026-01-27"
+      "meetingDate": "2026-01-27",
+      "createdAt": "2026-01-27"
     },
     {
       "objectId": "e8e7ee87-b352-4855-a6b5-15856e39eca2",
@@ -4048,7 +4199,8 @@
       "clickupFolderName": "Barrena",
       "clickupSpaceName": null,
       "unbundledFrom": "34a08a4f-9aa7-419d-8f07-99f8af218353",
-      "meetingDate": "2026-01-27"
+      "meetingDate": "2026-01-27",
+      "createdAt": "2026-01-27"
     },
     {
       "objectId": "2cadbbb0-7b14-4642-a82a-82dc0066f601",
@@ -4076,7 +4228,8 @@
       "clickupFolderName": "Barrena",
       "clickupSpaceName": null,
       "unbundledFrom": "34a08a4f-9aa7-419d-8f07-99f8af218353",
-      "meetingDate": "2026-01-27"
+      "meetingDate": "2026-01-27",
+      "createdAt": "2026-01-27"
     },
     {
       "objectId": "38916979-5634-4755-96a9-5f586793c828",
@@ -4103,7 +4256,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
-      "meetingDate": "2026-01-26"
+      "meetingDate": "2026-01-26",
+      "createdAt": "2026-01-26"
     },
     {
       "objectId": "cdbb8e1b-a245-45ff-bc72-7790913e9231",
@@ -4130,7 +4284,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
-      "meetingDate": "2026-01-26"
+      "meetingDate": "2026-01-26",
+      "createdAt": "2026-01-26"
     },
     {
       "objectId": "0637c85f-8d07-4c8c-9d94-c553ce597405",
@@ -4157,7 +4312,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
-      "meetingDate": "2026-01-26"
+      "meetingDate": "2026-01-26",
+      "createdAt": "2026-01-26"
     },
     {
       "objectId": "0cf98240-930d-4f80-a08b-60b019033b8d",
@@ -4184,7 +4340,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
-      "meetingDate": "2026-01-26"
+      "meetingDate": "2026-01-26",
+      "createdAt": "2026-01-26"
     },
     {
       "objectId": "c413c32a-fe81-4c72-95c5-b20931e984ad",
@@ -4211,7 +4368,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
-      "meetingDate": "2026-01-26"
+      "meetingDate": "2026-01-26",
+      "createdAt": "2026-01-26"
     },
     {
       "objectId": "889d701c-6a20-4a3e-9d4f-2dec9d8af7c2",
@@ -4238,7 +4396,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
-      "meetingDate": "2026-01-26"
+      "meetingDate": "2026-01-26",
+      "createdAt": "2026-01-26"
     },
     {
       "objectId": "88a5be5d-9420-4642-95e0-3d4475abc2e5",
@@ -4265,7 +4424,8 @@
       "clickupFolderName": "Sammy",
       "clickupSpaceName": "Sales Delivery",
       "unbundledFrom": "ef3f4efd-d67c-4eb2-a0c8-9c428e54f515",
-      "meetingDate": "2026-01-26"
+      "meetingDate": "2026-01-26",
+      "createdAt": "2026-01-26"
     },
     {
       "objectId": "70e54d1a-baa2-4af9-9d17-8b3cebe570c8",
@@ -4290,7 +4450,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "db9fd12c-25a9-4ea6-85ce-225ae10c0b8b",
-      "meetingDate": "2026-01-26"
+      "meetingDate": "2026-01-26",
+      "createdAt": "2026-01-26"
     },
     {
       "objectId": "0973a38a-1bdb-4721-a15e-12b09eeda4ea",
@@ -4315,7 +4476,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "db9fd12c-25a9-4ea6-85ce-225ae10c0b8b",
-      "meetingDate": "2026-01-26"
+      "meetingDate": "2026-01-26",
+      "createdAt": "2026-01-26"
     },
     {
       "objectId": "12e474a4-fe88-4c79-bd1d-6dc71b5efc02",
@@ -4340,7 +4502,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "db9fd12c-25a9-4ea6-85ce-225ae10c0b8b",
-      "meetingDate": "2026-01-26"
+      "meetingDate": "2026-01-26",
+      "createdAt": "2026-01-26"
     },
     {
       "objectId": "e4adfb87-db8b-40a5-bbb6-86c01a6d477a",
@@ -4365,7 +4528,8 @@
       "clickupFolderName": null,
       "clickupSpaceName": null,
       "unbundledFrom": "db9fd12c-25a9-4ea6-85ce-225ae10c0b8b",
-      "meetingDate": "2026-01-26"
+      "meetingDate": "2026-01-26",
+      "createdAt": "2026-01-26"
     }
   ],
   "dismissed": [

@@ -17,6 +17,7 @@ export interface Task {
   clickupSpaceName: string | null;
   unbundledFrom: string | null;
   meetingDate: string | null;
+  createdAt: string | null;
 }
 
 export interface EnrichedTask extends Task {
@@ -24,6 +25,7 @@ export interface EnrichedTask extends Task {
   clickupTaskId?: string;
   clickupUrl?: string;
   syncedAt?: string;
+  inferredOrg?: string | null;
 }
 
 export interface TasksFile {
@@ -69,6 +71,7 @@ export interface TaskFilters {
   status: string | null;
   sourceType: string | null;
   search: string;
+  overdue: boolean;
 }
 
 export interface TaskStats {
@@ -77,6 +80,8 @@ export interface TaskStats {
   pushed: number;
   dismissed: number;
   unresolvedClient: number;
+  overdue: number;
+  unresolvedByDomain: Record<string, number>;
 }
 
 export interface PushResult {

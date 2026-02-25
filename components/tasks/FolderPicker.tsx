@@ -1,46 +1,26 @@
 'use client';
 
 import { useEffect, useMemo, useState, useRef } from 'react';
-import { FolderOpen, Search, ChevronDown, Star } from 'lucide-react';
+import { FolderOpen, Search, ChevronDown, Star, Plus } from 'lucide-react';
 import { useTaskStore } from '@/lib/stores';
 import { cn } from '@/lib/utils';
+import { fuzzyMatch } from '@/lib/fuzzy-match';
+import { toast } from 'sonner';
 import type { FolderOption } from '@/lib/types/task';
-
-function levenshtein(a: string, b: string): number {
-  const m = a.length, n = b.length;
-  const dp: number[][] = Array.from({ length: m + 1 }, (_, i) =>
-    Array.from({ length: n + 1 }, (_, j) => (i === 0 ? j : j === 0 ? i : 0))
-  );
-  for (let i = 1; i <= m; i++) {
-    for (let j = 1; j <= n; j++) {
-      dp[i][j] = a[i - 1] === b[j - 1]
-        ? dp[i - 1][j - 1]
-        : 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
-    }
-  }
-  return dp[m][n];
-}
-
-function fuzzyScore(query: string, target: string): number {
-  const q = query.toLowerCase().replace(/[^a-z0-9]/g, '');
-  const t = target.toLowerCase().replace(/[^a-z0-9]/g, '');
-  if (!q || !t) return 100;
-  if (t === q) return 0;
-  if (t.includes(q)) return 1;
-  if (q.includes(t)) return 2;
-  return levenshtein(q, t);
-}
 
 interface FolderPickerProps {
   clientDomain?: string | null;
   clientName?: string | null;
+  inferredOrg?: string | null;
   onSelect: (folder: FolderOption) => void;
 }
 
-export function FolderPicker({ clientDomain, clientName, onSelect }: FolderPickerProps) {
+export function FolderPicker({ clientDomain, clientName, inferredOrg, onSelect }: FolderPickerProps) {
   const { folders, foldersLoaded, fetchFolders } = useTaskStore();
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState('');
+  const [showCreate, setShowCreate] = useState(false);
+  const [newClientName, setNewClientName] = useState('');
   const containerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -60,16 +40,18 @@ export function FolderPicker({ clientDomain, clientName, onSelect }: FolderPicke
     const handler = (e: MouseEvent) => {
       if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
         setOpen(false);
+        setShowCreate(false);
       }
     };
     document.addEventListener('mousedown', handler);
     return () => document.removeEventListener('mousedown', handler);
   }, [open]);
 
-  const matchHint = clientName || clientDomain?.split('.')[0] || '';
+  // Match hint: try clientName, then domain prefix, then inferred org
+  const matchHint = clientName || clientDomain?.split('.')[0] || inferredOrg || '';
 
   const { suggested, rest } = useMemo(() => {
-    // Filter by search text
+    // Filter by search text first
     let list = folders;
     if (search) {
       const q = search.toLowerCase();
@@ -78,18 +60,27 @@ export function FolderPicker({ clientDomain, clientName, onSelect }: FolderPicke
 
     if (!matchHint) return { suggested: [], rest: list };
 
-    // Score and sort
-    const scored = list.map((f) => ({
-      folder: f,
-      score: fuzzyScore(matchHint, f.folderName),
-    }));
-    scored.sort((a, b) => a.score - b.score);
+    // Build target strings: folder name + all known client names
+    const targets = list.map((f) => f.folderName);
+    const matches = fuzzyMatch(matchHint, targets, 0.2);
 
-    const suggested = scored.filter((s) => s.score <= 3).map((s) => s.folder);
-    const rest = scored.filter((s) => s.score > 3).map((s) => s.folder);
+    const suggestedIndices = new Set(matches.slice(0, 5).map((m) => m.index));
+    const suggested = list.filter((_, i) => suggestedIndices.has(i));
+    const rest = list.filter((_, i) => !suggestedIndices.has(i));
 
     return { suggested, rest };
   }, [folders, search, matchHint]);
+
+  const handleCreateClient = (folder: FolderOption) => {
+    if (!folder.listId) {
+      toast.error('This folder has no list ID configured');
+      return;
+    }
+    onSelect(folder);
+    setOpen(false);
+    setShowCreate(false);
+    setSearch('');
+  };
 
   if (!foldersLoaded) {
     return (
@@ -112,7 +103,7 @@ export function FolderPicker({ clientDomain, clientName, onSelect }: FolderPicke
       </button>
 
       {open && (
-        <div className="absolute right-0 top-full mt-1 z-50 w-72 rounded-lg border bg-popover shadow-lg">
+        <div className="absolute right-0 top-full mt-1 z-50 w-80 rounded-lg border bg-popover shadow-lg">
           {/* Search */}
           <div className="flex items-center gap-2 border-b px-3 py-2">
             <Search className="h-3.5 w-3.5 text-muted-foreground" />
@@ -132,7 +123,7 @@ export function FolderPicker({ clientDomain, clientName, onSelect }: FolderPicke
               <>
                 <div className="px-2 py-1 text-xs font-medium text-muted-foreground flex items-center gap-1">
                   <Star className="h-3 w-3 text-orange-400" />
-                  Suggested
+                  Suggested for &ldquo;{matchHint}&rdquo;
                 </div>
                 {suggested.map((f) => (
                   <FolderItem
@@ -159,6 +150,34 @@ export function FolderPicker({ clientDomain, clientName, onSelect }: FolderPicke
                 No folders found
               </div>
             ) : null}
+          </div>
+
+          {/* Create New Client */}
+          <div className="border-t p-2">
+            {!showCreate ? (
+              <button
+                onClick={() => {
+                  setShowCreate(true);
+                  setNewClientName(clientName || inferredOrg || clientDomain?.split('.')[0] || '');
+                }}
+                className="flex w-full items-center gap-2 rounded-md px-2 py-1.5 text-sm text-muted-foreground hover:bg-accent hover:text-foreground transition-colors"
+              >
+                <Plus className="h-3.5 w-3.5" />
+                Create new client mapping
+              </button>
+            ) : (
+              <div className="space-y-2">
+                <input
+                  type="text"
+                  value={newClientName}
+                  onChange={(e) => setNewClientName(e.target.value)}
+                  placeholder="Client name"
+                  className="w-full rounded border bg-background px-2 py-1 text-sm"
+                  autoFocus
+                />
+                <p className="text-xs text-muted-foreground">Pick a folder above to map this client</p>
+              </div>
+            )}
           </div>
         </div>
       )}

@@ -1,6 +1,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import type { TasksFile, SyncLedger, SyncEntry, ClientMap, Task, EnrichedTask, TaskStats, FolderOption, TaskEditRequest } from '@/lib/types/task';
+import { extractOrgName } from '@/lib/fuzzy-match';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 
@@ -43,6 +44,11 @@ export async function getEnrichedTasks(): Promise<{ tasks: EnrichedTask[]; refre
   const [tasksFile, ledger] = await Promise.all([readTasksFile(), readSyncLedger()]);
 
   const enriched: EnrichedTask[] = tasksFile.tasks.map((task) => {
+    // For domainless tasks, try to extract an org name
+    const inferredOrg = (!task.clientDomain && !task.clientName)
+      ? extractOrgName(task.title, task.description)
+      : null;
+
     if (ledger[task.objectId]) {
       const entry = ledger[task.objectId];
       return {
@@ -51,20 +57,40 @@ export async function getEnrichedTasks(): Promise<{ tasks: EnrichedTask[]; refre
         clickupTaskId: entry.clickupTaskId,
         clickupUrl: entry.clickupUrl,
         syncedAt: entry.syncedAt,
+        inferredOrg,
       };
     }
     if (tasksFile.dismissed.includes(task.objectId)) {
-      return { ...task, syncStatus: 'dismissed' as const };
+      return { ...task, syncStatus: 'dismissed' as const, inferredOrg };
     }
-    return { ...task, syncStatus: 'pending' as const };
+    return { ...task, syncStatus: 'pending' as const, inferredOrg };
   });
+
+  const pendingTasks = enriched.filter((t) => t.syncStatus === 'pending');
+  const OVERDUE_DAYS = 7;
+  const now = Date.now();
+  const overdueTasks = pendingTasks.filter((t) => {
+    const ref = t.createdAt || t.meetingDate;
+    if (!ref) return false;
+    return (now - new Date(ref).getTime()) / 86400000 >= OVERDUE_DAYS;
+  });
+
+  const unresolvedByDomain: Record<string, number> = {};
+  for (const t of pendingTasks) {
+    if (!t.clickupListId) {
+      const key = t.clientDomain || 'unknown';
+      unresolvedByDomain[key] = (unresolvedByDomain[key] || 0) + 1;
+    }
+  }
 
   const stats: TaskStats = {
     total: enriched.length,
-    pending: enriched.filter((t) => t.syncStatus === 'pending').length,
+    pending: pendingTasks.length,
     pushed: enriched.filter((t) => t.syncStatus === 'pushed').length,
     dismissed: enriched.filter((t) => t.syncStatus === 'dismissed').length,
     unresolvedClient: enriched.filter((t) => !t.clientDomain).length,
+    overdue: overdueTasks.length,
+    unresolvedByDomain,
   };
 
   return { tasks: enriched, refreshedAt: tasksFile.refreshedAt, stats };

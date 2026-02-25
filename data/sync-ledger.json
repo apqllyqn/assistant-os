@@ -34,5 +34,23 @@
     "clientName": "FOAF",
     "syncedAt": "2026-02-16T23:15:30Z",
     "title": "Recap + next steps for Ryan"
+  },
+  "6073ef2d-5d04-451b-9ee2-ca218b558a66": {
+    "clickupTaskId": "86afpe5t2",
+    "clickupUrl": "https://app.clickup.com/t/86afpe5t2",
+    "clickupListId": "901322435882",
+    "clientDomain": "astragtm.io",
+    "clientName": "Astra GTM",
+    "syncedAt": "2026-02-24T18:34:11.935Z",
+    "title": "[1/29] Get Drew access to Trellis workspace"
+  },
+  "2b04d98c-0c7a-47ed-8b40-2d8db2c4dca2": {
+    "clickupTaskId": "86afpe724",
+    "clickupUrl": "https://app.clickup.com/t/86afpe724",
+    "clickupListId": "901310416081",
+    "clientDomain": "followingg.co",
+    "clientName": "Followingg",
+    "syncedAt": "2026-02-24T18:34:53.305Z",
+    "title": "Nico needs issue reports from Chris"
   }
 }

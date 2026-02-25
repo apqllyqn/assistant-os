@@ -1,49 +1,73 @@
 'use client';
 
-import { RefreshCw, AlertTriangle } from 'lucide-react';
+import { useState } from 'react';
+import { RefreshCw } from 'lucide-react';
 import { useTaskStore } from '@/lib/stores';
 import { timeAgo, cn } from '@/lib/utils';
+import { toast } from 'sonner';
 
-function isStale(refreshedAt: string | null): boolean {
-  if (!refreshedAt) return true;
-  const diff = Date.now() - new Date(refreshedAt).getTime();
-  return diff > 4 * 60 * 60 * 1000; // 4 hours
+function freshness(refreshedAt: string | null): { color: string; dotClass: string } {
+  if (!refreshedAt) return { color: 'text-red-600', dotClass: 'bg-red-500' };
+  const hours = (Date.now() - new Date(refreshedAt).getTime()) / 3600000;
+  if (hours < 4) return { color: 'text-muted-foreground', dotClass: 'bg-green-500' };
+  if (hours < 8) return { color: 'text-yellow-600', dotClass: 'bg-yellow-500' };
+  return { color: 'text-red-600', dotClass: 'bg-red-500' };
 }
 
 export function Header() {
   const { refreshedAt, isLoading, fetchTasks } = useTaskStore();
-  const stale = isStale(refreshedAt);
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const { color, dotClass } = freshness(refreshedAt);
+
+  const handleRefresh = async () => {
+    setIsRefreshing(true);
+    try {
+      const res = await fetch('/api/refresh', { method: 'POST' });
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        if (res.status === 429) {
+          toast.info(data.message || 'Refreshed recently — try again later');
+        } else {
+          toast.error(data.error || 'Refresh failed');
+        }
+      } else {
+        const data = await res.json();
+        toast.success(`Refreshed — ${data.added} new task${data.added !== 1 ? 's' : ''}`);
+        await fetchTasks();
+      }
+    } catch {
+      toast.error('Refresh failed — check connection');
+    } finally {
+      setIsRefreshing(false);
+    }
+  };
+
+  const spinning = isLoading || isRefreshing;
 
   return (
-    <div>
-      {stale && refreshedAt && (
-        <div className="flex items-center gap-2 bg-yellow-50 border-b border-yellow-200 px-6 py-2 text-xs text-yellow-800">
-          <AlertTriangle className="h-3.5 w-3.5" />
-          Task data is stale (last updated {timeAgo(refreshedAt)}). Run <code className="bg-yellow-100 px-1.5 py-0.5 rounded font-mono">/refresh-tasks</code> in Claude Code to pull latest actions.
-        </div>
-      )}
-      <div className="flex h-14 items-center justify-between border-b px-6">
-        <h1 className="text-lg font-semibold">Task Triage</h1>
-        <div className="flex items-center gap-3">
-          {refreshedAt && (
-            <span className="text-xs text-muted-foreground">
+    <div className="flex h-14 items-center justify-between border-b px-6">
+      <h1 className="text-lg font-semibold">Task Triage</h1>
+      <div className="flex items-center gap-3">
+        {refreshedAt ? (
+          <div className="flex items-center gap-2">
+            <span className={cn('h-2 w-2 rounded-full', dotClass)} />
+            <span className={cn('text-xs', color)}>
               Updated {timeAgo(refreshedAt)}
             </span>
-          )}
-          {!refreshedAt && (
-            <span className="text-xs text-warning">
-              No data — run /refresh-tasks
-            </span>
-          )}
-          <button
-            onClick={() => fetchTasks()}
-            disabled={isLoading}
-            className="p-2 rounded-md hover:bg-accent disabled:opacity-50"
-            title="Reload from disk"
-          >
-            <RefreshCw className={cn('h-4 w-4', isLoading && 'animate-spin')} />
-          </button>
-        </div>
+          </div>
+        ) : (
+          <span className="text-xs text-red-600">
+            No data yet
+          </span>
+        )}
+        <button
+          onClick={handleRefresh}
+          disabled={spinning}
+          className="p-2 rounded-md hover:bg-accent disabled:opacity-50"
+          title="Refresh from Day.ai"
+        >
+          <RefreshCw className={cn('h-4 w-4', spinning && 'animate-spin')} />
+        </button>
       </div>
     </div>
   );

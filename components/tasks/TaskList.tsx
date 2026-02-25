@@ -15,6 +15,16 @@ export function TaskList() {
     if (filters.priority) result = result.filter((t) => t.priority === filters.priority);
     if (filters.status) result = result.filter((t) => t.syncStatus === filters.status);
     if (filters.sourceType) result = result.filter((t) => t.sourceType === filters.sourceType);
+    if (filters.overdue) {
+      const OVERDUE_MS = 7 * 86400000;
+      const now = Date.now();
+      result = result.filter((t) => {
+        if (t.syncStatus !== 'pending') return false;
+        const ref = t.createdAt || t.meetingDate;
+        if (!ref) return false;
+        return (now - new Date(ref).getTime()) >= OVERDUE_MS;
+      });
+    }
     if (filters.search) {
       const q = filters.search.toLowerCase();
       result = result.filter((t) =>
@@ -33,6 +43,19 @@ export function TaskList() {
       if (!map.has(key)) map.set(key, []);
       map.get(key)!.push(t);
     });
+    // Sort tasks within each group: pending oldest-first, then pushed, then dismissed
+    for (const [, groupTasks] of map) {
+      groupTasks.sort((a, b) => {
+        const statusOrder = { pending: 0, pushed: 1, dismissed: 2 };
+        const sa = statusOrder[a.syncStatus] ?? 1;
+        const sb = statusOrder[b.syncStatus] ?? 1;
+        if (sa !== sb) return sa - sb;
+        // Within same status, sort oldest-first
+        const dateA = new Date(a.createdAt || a.meetingDate || '2099-01-01').getTime();
+        const dateB = new Date(b.createdAt || b.meetingDate || '2099-01-01').getTime();
+        return dateA - dateB;
+      });
+    }
     // Sort groups: Unresolved last
     const entries = Array.from(map.entries());
     entries.sort((a, b) => {

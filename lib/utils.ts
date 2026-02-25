@@ -56,6 +56,16 @@ export function statusColor(status: string): string {
   return colors[status] || 'bg-muted text-muted-foreground';
 }
 
+export function getTaskAge(createdAt: string | null, meetingDate: string | null): { days: number; label: string; color: 'green' | 'yellow' | 'red' } {
+  const ref = createdAt || meetingDate;
+  if (!ref) return { days: 0, label: '?', color: 'green' };
+  const diffMs = Date.now() - new Date(ref).getTime();
+  const days = Math.max(0, Math.floor(diffMs / 86400000));
+  const label = days === 0 ? 'today' : `${days}d`;
+  const color = days < 3 ? 'green' : days < 7 ? 'yellow' : 'red';
+  return { days, label, color };
+}
+
 export function sourceTypeLabel(sourceType: string): string {
   const labels: Record<string, string> = {
     MEETING_RECORDING_FOLLOWUP: 'Meeting',

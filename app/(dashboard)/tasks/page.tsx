@@ -29,7 +29,7 @@ export default function TasksPage() {
         <div className="text-6xl mb-4">📋</div>
         <h2 className="text-xl font-semibold mb-2">No tasks yet</h2>
         <p className="text-muted-foreground max-w-md">
-          Run <code className="bg-muted px-2 py-1 rounded text-sm">/refresh-tasks</code> in Claude Code to pull action items from Day.ai.
+          Click the refresh button in the header to pull action items from Day.ai, or wait for the next auto-refresh.
         </p>
       </div>
     );

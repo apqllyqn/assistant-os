@@ -36,6 +36,7 @@ const defaultFilters: TaskFilters = {
   status: null,
   sourceType: null,
   search: '',
+  overdue: false,
 };
 
 const defaultStats: TaskStats = {
@@ -44,6 +45,8 @@ const defaultStats: TaskStats = {
   pushed: 0,
   dismissed: 0,
   unresolvedClient: 0,
+  overdue: 0,
+  unresolvedByDomain: {},
 };
 
 export const useTaskStore = create<TaskState>((set, get) => ({
@@ -169,7 +172,12 @@ export const useTaskStore = create<TaskState>((set, get) => ({
   setEditing: (editingId) => set({ editingId }),
 
   setFilter: (key, value) => {
-    set({ filters: { ...get().filters, [key]: value } });
+    const update: Record<string, unknown> = { [key]: value };
+    // Handle boolean overdue filter
+    if (key === 'overdue') {
+      update[key] = !!value;
+    }
+    set({ filters: { ...get().filters, ...update } as TaskFilters });
   },
 
   clearFilters: () => set({ filters: { ...defaultFilters } }),

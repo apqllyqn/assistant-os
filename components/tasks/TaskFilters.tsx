@@ -1,8 +1,9 @@
 'use client';
 
 import { useMemo } from 'react';
-import { Search, X } from 'lucide-react';
+import { Search, X, AlertTriangle } from 'lucide-react';
 import { useTaskStore } from '@/lib/stores';
+import { cn } from '@/lib/utils';
 
 export function TaskFilters() {
   const { tasks, filters, setFilter, clearFilters } = useTaskStore();
@@ -19,10 +20,37 @@ export function TaskFilters() {
     return Array.from(set).sort();
   }, [tasks]);
 
-  const hasFilters = filters.client || filters.priority || filters.status || filters.sourceType || filters.search;
+  const overdueCount = useMemo(() => {
+    const OVERDUE_MS = 7 * 86400000;
+    const now = Date.now();
+    return tasks.filter((t) => {
+      if (t.syncStatus !== 'pending') return false;
+      const ref = t.createdAt || t.meetingDate;
+      if (!ref) return false;
+      return (now - new Date(ref).getTime()) >= OVERDUE_MS;
+    }).length;
+  }, [tasks]);
+
+  const hasFilters = filters.client || filters.priority || filters.status || filters.sourceType || filters.search || filters.overdue;
 
   return (
     <div className="flex flex-wrap items-center gap-2">
+      {/* Overdue chip */}
+      {overdueCount > 0 && (
+        <button
+          onClick={() => setFilter('overdue', filters.overdue ? null : 'true')}
+          className={cn(
+            'flex items-center gap-1.5 h-9 px-3 rounded-md border text-sm font-medium transition-colors',
+            filters.overdue
+              ? 'bg-red-100 border-red-300 text-red-700'
+              : 'bg-background border-dashed border-red-300 text-red-600 hover:bg-red-50'
+          )}
+        >
+          <AlertTriangle className="h-3.5 w-3.5" />
+          Overdue ({overdueCount})
+        </button>
+      )}
+
       {/* Search */}
       <div className="relative">
         <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
