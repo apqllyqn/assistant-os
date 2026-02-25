@@ -96,7 +96,7 @@ export async function getFolderOptions(): Promise<FolderOption[]> {
   const folderToList = new Map<string, { listId: string; listName: string }>();
 
   // From folderLists (comprehensive)
-  const folderLists = (clientMap as Record<string, unknown>).folderLists as Record<string, { listId: string; listName: string }> | undefined;
+  const folderLists = (clientMap as unknown as Record<string, unknown>).folderLists as Record<string, { listId: string; listName: string }> | undefined;
   if (folderLists) {
     for (const [folderId, info] of Object.entries(folderLists)) {
       folderToList.set(folderId, info);
