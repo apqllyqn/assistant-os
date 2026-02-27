@@ -1,7 +1,9 @@
-// Day.ai REST API client for fetching actions
-// Uses the same underlying API that the Day.ai MCP server wraps
+// Day.ai MCP client for fetching actions
+// Uses Day.ai's MCP endpoint with OAuth PKCE refresh tokens
 
-const DAYAI_API_URL = 'https://api.day.ai/v1';
+const DAYAI_BASE_URL = 'https://day.ai';
+const DAYAI_MCP_URL = `${DAYAI_BASE_URL}/api/mcp`;
+const DAYAI_TOKEN_URL = `${DAYAI_BASE_URL}/api/oauth`;
 
 interface DayAiAction {
   objectId: string;
@@ -20,32 +22,79 @@ interface DayAiAction {
   }>;
 }
 
-interface SearchResult {
-  objects: DayAiAction[];
-  totalCount: number;
-  hasMore: boolean;
+// OAuth token cache
+let cachedAccessToken: string | null = null;
+let tokenExpiresAt = 0;
+
+async function getAccessToken(): Promise<string> {
+  // Return cached token if still valid (60s buffer)
+  if (cachedAccessToken && tokenExpiresAt > Date.now() + 60_000) {
+    return cachedAccessToken;
+  }
+
+  const clientId = process.env.DAYAI_CLIENT_ID;
+  const refreshToken = process.env.DAYAI_REFRESH_TOKEN;
+  if (!clientId || !refreshToken) {
+    throw new Error('DAYAI_CLIENT_ID and DAYAI_REFRESH_TOKEN environment variables are required');
+  }
+
+  const res = await fetch(DAYAI_TOKEN_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({
+      grant_type: 'refresh_token',
+      client_id: clientId,
+      refresh_token: refreshToken,
+    }).toString(),
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Day.ai token refresh failed (${res.status}): ${text}`);
+  }
+
+  const data = await res.json();
+  cachedAccessToken = data.access_token;
+  tokenExpiresAt = Date.now() + (data.expires_in || 3300) * 1000;
+  return cachedAccessToken!;
 }
 
-function getToken(): string {
-  const token = process.env.DAYAI_API_TOKEN;
-  if (!token) throw new Error('DAYAI_API_TOKEN environment variable is required');
-  return token;
+async function mcpCall(toolName: string, args: Record<string, unknown>): Promise<unknown> {
+  const token = await getAccessToken();
+  const res = await fetch(DAYAI_MCP_URL, {
+    method: 'POST',
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      jsonrpc: '2.0',
+      id: Date.now(),
+      method: 'tools/call',
+      params: { name: toolName, arguments: args },
+    }),
+  });
+
+  if (!res.ok) {
+    throw new Error(`Day.ai MCP call failed (${res.status})`);
+  }
+
+  const rpc = await res.json();
+  if (rpc.error) {
+    throw new Error(`Day.ai MCP error: ${rpc.error.message}`);
+  }
+
+  const text = rpc.result?.content?.[0]?.text;
+  return text ? JSON.parse(text) : null;
 }
 
 export async function fetchActions(): Promise<DayAiAction[]> {
-  const token = getToken();
   const actions: DayAiAction[] = [];
 
-  // Fetch actions with different statuses
   for (const status of ['UNREAD', 'READ', 'IN_PROGRESS']) {
     try {
-      const res = await fetch(`${DAYAI_API_URL}/objects/search`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
+      const data = await mcpCall('search_objects', {
+        queries: [{
           objectType: 'native_action',
           filter: {
             propertyFilters: [
@@ -54,16 +103,24 @@ export async function fetchActions(): Promise<DayAiAction[]> {
           },
           includeRelationships: true,
           limit: 100,
-        }),
-      });
+        }],
+      }) as Record<string, unknown>;
 
-      if (!res.ok) {
-        console.error(`Day.ai fetch failed for status ${status}: ${res.status}`);
-        continue;
+      const results = (data?.native_action as Record<string, unknown>)?.results as Array<Record<string, unknown>> ?? [];
+
+      for (const r of results) {
+        actions.push({
+          objectId: r.objectId as string,
+          title: r.title as string || '',
+          body: r.description as string || '',
+          type: r.type as string || '',
+          status: status,
+          createdAt: r.createdAt as string || '',
+          updatedAt: r.updatedAt as string || '',
+          properties: r.properties as Record<string, unknown> || {},
+          relationships: r.relationships as DayAiAction['relationships'],
+        });
       }
-
-      const data: SearchResult = await res.json();
-      actions.push(...data.objects);
     } catch (err) {
       console.error(`Day.ai fetch error for status ${status}:`, err);
     }
