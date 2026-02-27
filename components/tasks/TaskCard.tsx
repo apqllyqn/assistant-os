@@ -6,6 +6,7 @@ import { useTaskStore } from '@/lib/stores';
 import { cn, priorityColor, statusColor, sourceTypeLabel, getTaskAge } from '@/lib/utils';
 import { PushConfirmDialog } from './PushConfirmDialog';
 import { FolderPicker } from './FolderPicker';
+import { MeetingContextPanel } from './MeetingContextPanel';
 import { toast } from 'sonner';
 import type { EnrichedTask, FolderOption } from '@/lib/types/task';
 
@@ -17,6 +18,7 @@ export function TaskCard({ task }: { task: EnrichedTask }) {
     editingId, setEditing, dismissTasks, assignFolder, editTask,
   } = useTaskStore();
   const [showPush, setShowPush] = useState(false);
+  const [showMeeting, setShowMeeting] = useState(false);
   const [isAssigning, setIsAssigning] = useState(false);
 
   // Edit state
@@ -191,11 +193,14 @@ export function TaskCard({ task }: { task: EnrichedTask }) {
                 </div>
               ) : (
                 <>
-                  {task.meetingTitle && (
-                    <span className="inline-flex items-center gap-1 text-blue-600">
+                  {task.meetingTitle && task.meetingId && (
+                    <button
+                      onClick={() => setShowMeeting(true)}
+                      className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 hover:underline"
+                    >
                       <Video className="h-3 w-3" />
                       {task.meetingTitle}
-                    </span>
+                    </button>
                   )}
                   {task.people.length > 0 && (
                     <span>{task.people.join(', ')}</span>
@@ -333,6 +338,14 @@ export function TaskCard({ task }: { task: EnrichedTask }) {
         onClose={() => setShowPush(false)}
         tasks={[task]}
       />
+
+      {task.meetingId && (
+        <MeetingContextPanel
+          meetingId={task.meetingId}
+          open={showMeeting}
+          onClose={() => setShowMeeting(false)}
+        />
+      )}
     </>
   );
 }

@@ -1,7 +1,27 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { readTasksFile, addSyncEntry } from '@/lib/api/tasks';
 import { createClickUpTask } from '@/lib/api/clickup';
+import { fetchMeetingContext } from '@/lib/dayai-client';
 import type { PushResult, SyncEntry, Task } from '@/lib/types/task';
+
+// Simple in-memory cache for meeting summaries during bulk push
+const summaryCache = new Map<string, string>();
+
+async function getMeetingSummary(meetingId: string | null): Promise<string | undefined> {
+  if (!meetingId) return undefined;
+  if (summaryCache.has(meetingId)) return summaryCache.get(meetingId);
+
+  try {
+    const ctx = await fetchMeetingContext(meetingId);
+    if (ctx?.summary) {
+      summaryCache.set(meetingId, ctx.summary);
+      return ctx.summary;
+    }
+  } catch {
+    // Non-critical — push without meeting summary
+  }
+  return undefined;
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -28,7 +48,8 @@ export async function POST(request: NextRequest) {
       }
 
       try {
-        const { taskId: clickupTaskId, url: clickupUrl } = await createClickUpTask(task);
+        const meetingSummary = await getMeetingSummary(task.meetingId);
+        const { taskId: clickupTaskId, url: clickupUrl } = await createClickUpTask(task, meetingSummary);
 
         const entry: SyncEntry = {
           clickupTaskId,

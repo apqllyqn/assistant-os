@@ -19,8 +19,24 @@ const TAG_MAP: Record<string, string> = {
   OTHER: 'other',
 };
 
-function formatDescription(task: Task): string {
+function formatDescription(task: Task, meetingSummary?: string): string {
   const parts: string[] = [];
+
+  // Meeting context section (if task came from a meeting)
+  if (task.meetingTitle) {
+    parts.push('**Meeting Context:**');
+    parts.push(`- Meeting: ${task.meetingTitle}`);
+    if (task.meetingDate) {
+      parts.push(`- Date: ${new Date(task.meetingDate).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}`);
+    }
+    if (task.meetingAttendees.length > 0) {
+      parts.push(`- Attendees: ${task.meetingAttendees.join(', ')}`);
+    }
+    if (meetingSummary) {
+      parts.push(`- Summary: ${meetingSummary.slice(0, 200)}${meetingSummary.length > 200 ? '...' : ''}`);
+    }
+    parts.push('');
+  }
 
   if (task.description) {
     parts.push(task.description);
@@ -49,7 +65,7 @@ function formatDescription(task: Task): string {
   return parts.join('\n');
 }
 
-export async function createClickUpTask(task: Task): Promise<{ taskId: string; url: string }> {
+export async function createClickUpTask(task: Task, meetingSummary?: string): Promise<{ taskId: string; url: string }> {
   const clientMap = await readClientMap();
 
   if (!task.clickupListId) {
@@ -58,7 +74,7 @@ export async function createClickUpTask(task: Task): Promise<{ taskId: string; u
 
   const body: Record<string, unknown> = {
     name: task.title,
-    description: formatDescription(task),
+    description: formatDescription(task, meetingSummary),
     priority: PRIORITY_MAP[task.priority] ?? 3,
     tags: [TAG_MAP[task.sourceType] ?? 'other'],
   };
