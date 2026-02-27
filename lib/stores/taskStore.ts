@@ -37,6 +37,11 @@ const defaultFilters: TaskFilters = {
   sourceType: null,
   search: '',
   overdue: false,
+  dateRange: '7d',
+  showFiltered: false,
+  sortField: 'date',
+  sortDirection: 'desc',
+  groupMode: 'meeting',
 };
 
 const defaultStats: TaskStats = {
@@ -173,8 +178,8 @@ export const useTaskStore = create<TaskState>((set, get) => ({
 
   setFilter: (key, value) => {
     const update: Record<string, unknown> = { [key]: value };
-    // Handle boolean overdue filter
-    if (key === 'overdue') {
+    // Handle boolean filters
+    if (key === 'overdue' || key === 'showFiltered') {
       update[key] = !!value;
     }
     set({ filters: { ...get().filters, ...update } as TaskFilters });

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { ArrowUpToLine, ChevronDown, ChevronRight, ExternalLink, XCircle, Pencil, Check, X } from 'lucide-react';
+import { ArrowUpToLine, ChevronDown, ChevronRight, ExternalLink, XCircle, Pencil, Check, X, Video } from 'lucide-react';
 import { useTaskStore } from '@/lib/stores';
 import { cn, priorityColor, statusColor, sourceTypeLabel, getTaskAge } from '@/lib/utils';
 import { PushConfirmDialog } from './PushConfirmDialog';
@@ -191,6 +191,12 @@ export function TaskCard({ task }: { task: EnrichedTask }) {
                 </div>
               ) : (
                 <>
+                  {task.meetingTitle && (
+                    <span className="inline-flex items-center gap-1 text-blue-600">
+                      <Video className="h-3 w-3" />
+                      {task.meetingTitle}
+                    </span>
+                  )}
                   {task.people.length > 0 && (
                     <span>{task.people.join(', ')}</span>
                   )}
@@ -202,6 +208,9 @@ export function TaskCard({ task }: { task: EnrichedTask }) {
                   )}
                   {!hasList && task.clientDomain && (
                     <span className="text-orange-500">No folder mapped</span>
+                  )}
+                  {task.isFiltered && (
+                    <span className="text-amber-500 font-medium">noise</span>
                   )}
                 </>
               )}

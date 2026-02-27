@@ -18,6 +18,10 @@ export interface Task {
   unbundledFrom: string | null;
   meetingDate: string | null;
   createdAt: string | null;
+  meetingId: string | null;
+  meetingTitle: string | null;
+  meetingAttendees: string[];
+  isFiltered: boolean;
 }
 
 export interface EnrichedTask extends Task {
@@ -65,6 +69,11 @@ export interface ClientMap {
   spaces: Record<string, { id: string; folders: Record<string, string> }>;
 }
 
+export type SortField = 'date' | 'priority' | 'client';
+export type SortDirection = 'asc' | 'desc';
+export type GroupMode = 'meeting' | 'client' | 'none';
+export type DateRange = 'today' | '7d' | '30d' | 'all';
+
 export interface TaskFilters {
   client: string | null;
   priority: string | null;
@@ -72,6 +81,11 @@ export interface TaskFilters {
   sourceType: string | null;
   search: string;
   overdue: boolean;
+  dateRange: DateRange;
+  showFiltered: boolean;
+  sortField: SortField;
+  sortDirection: SortDirection;
+  groupMode: GroupMode;
 }
 
 export interface TaskStats {

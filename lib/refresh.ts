@@ -1,7 +1,8 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { readTasksFile, writeTasksFile, readClientMap } from './api/tasks';
-import { fetchActions, transformAction } from './dayai-client';
+import { fetchActions, fetchMeetings, transformAction } from './dayai-client';
+import type { DayAiMeeting } from './dayai-client';
 import type { Task, TasksFile } from './types/task';
 
 let lastRefreshTime = 0;
@@ -26,18 +27,45 @@ export async function refreshTasks(): Promise<RefreshResult> {
   }
 
   const clientMap = await readClientMap();
-  const actions = await fetchActions();
+  const [actions, meetings] = await Promise.all([
+    fetchActions(),
+    fetchMeetings(7),
+  ]);
   const tasksFile = await readTasksFile();
+
+  // Build meeting lookup by date for linking actions to meetings
+  const meetingsByDate = new Map<string, DayAiMeeting>();
+  const meetingsById = new Map<string, DayAiMeeting>();
+  for (const m of meetings) {
+    meetingsById.set(m.objectId, m);
+    // Index by date (YYYY-MM-DD) for proximity matching
+    const dateKey = m.createdAt.slice(0, 10);
+    if (!meetingsByDate.has(dateKey)) {
+      meetingsByDate.set(dateKey, m);
+    }
+  }
 
   // Build set of existing objectIds
   const existingIds = new Set(tasksFile.tasks.map((t) => t.objectId));
 
-  // Transform new actions
+  // Transform new actions and link to meetings
   let added = 0;
   for (const action of actions) {
     if (existingIds.has(action.objectId)) continue;
 
     const task = transformAction(action, clientMap.ownDomain);
+
+    // Link to source meeting by date proximity
+    const actionDate = task.meetingDate || task.createdAt;
+    if (actionDate) {
+      const dateKey = actionDate.slice(0, 10);
+      const meeting = meetingsByDate.get(dateKey);
+      if (meeting) {
+        task.meetingId = meeting.objectId;
+        task.meetingTitle = meeting.title;
+        task.meetingAttendees = meeting.attendees;
+      }
+    }
 
     // Auto-resolve client from client-map
     if (task.clientDomain && clientMap.clients[task.clientDomain]) {

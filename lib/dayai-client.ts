@@ -88,6 +88,123 @@ async function mcpCall(toolName: string, args: Record<string, unknown>): Promise
   return text ? JSON.parse(text) : null;
 }
 
+// Meeting recording type
+export interface DayAiMeeting {
+  objectId: string;
+  title: string;
+  createdAt: string;
+  updatedAt: string;
+  attendees: string[]; // email addresses
+}
+
+// Meeting context (fetched lazily)
+export interface MeetingContext {
+  meetingId: string;
+  title: string;
+  summary: string;
+  notes: string;
+  attendees: string[];
+  createdAt: string;
+  fetchedAt: string;
+}
+
+export async function fetchMeetings(daysBack: number = 7): Promise<DayAiMeeting[]> {
+  const since = new Date(Date.now() - daysBack * 86400000).toISOString();
+  try {
+    const data = await mcpCall('search_objects', {
+      queries: [{
+        objectType: 'native_meetingrecording',
+        timeframeStart: since,
+        includeRelationships: true,
+        limit: 50,
+      }],
+    }) as Record<string, unknown>;
+
+    const results = (data?.native_meetingrecording as Record<string, unknown>)?.results as Array<Record<string, unknown>> ?? [];
+
+    return results.map((r) => {
+      const attendees: string[] = [];
+      const rels = r.relationships as Array<Record<string, unknown>> | undefined;
+      if (rels) {
+        for (const rel of rels) {
+          if (rel.targetObjectType === 'native_contact' && typeof rel.targetObjectId === 'string') {
+            attendees.push(rel.targetObjectId);
+          }
+        }
+      }
+      return {
+        objectId: r.objectId as string,
+        title: r.title as string || '',
+        createdAt: r.createdAt as string || '',
+        updatedAt: r.updatedAt as string || '',
+        attendees,
+      };
+    });
+  } catch (err) {
+    console.error('Day.ai meeting fetch error:', err);
+    return [];
+  }
+}
+
+export async function fetchMeetingContext(meetingId: string): Promise<MeetingContext | null> {
+  try {
+    const data = await mcpCall('get_meeting_recording_context', {
+      meetingRecordingId: meetingId,
+    }) as Record<string, unknown>;
+
+    if (!data) return null;
+
+    // Day.ai returns a single contextString with title, participants, transcript
+    const contextString = data.contextString as string || '';
+
+    // Parse title from "Title: ..." line
+    const titleMatch = contextString.match(/^Title:\s*(.+)$/m);
+    const title = titleMatch?.[1] || '';
+
+    // Parse participants from "Participants: ..." line
+    const participantsMatch = contextString.match(/^Participants:\s*(.+)$/m);
+    const attendees = participantsMatch?.[1]?.split(',').map((s) => s.trim()).filter(Boolean) || [];
+
+    // Extract date from "Stored At: ..." line
+    const storedAtMatch = contextString.match(/^Stored At:\s*(.+)$/m);
+    const createdAt = storedAtMatch?.[1] || '';
+
+    // Everything after "Transcript:" is the transcript; use the pre-transcript part as summary
+    const transcriptIdx = contextString.indexOf('Transcript:');
+    const summary = transcriptIdx > 0
+      ? contextString.slice(0, transcriptIdx).trim()
+      : contextString.slice(0, 500);
+
+    return {
+      meetingId,
+      title,
+      summary,
+      notes: contextString,
+      attendees,
+      createdAt,
+      fetchedAt: new Date().toISOString(),
+    };
+  } catch (err) {
+    console.error(`Day.ai meeting context fetch error for ${meetingId}:`, err);
+    return null;
+  }
+}
+
+// Noise filter patterns
+const FILTERED_TITLE_PATTERNS = [
+  /^Recap\s+(for|&|\+)/i,
+  /^Send\s+(recap|meeting\s+notes|summary)/i,
+  /^Share\s+(recap|meeting\s+notes|summary)/i,
+];
+
+export function isNoiseAction(title: string, description: string): boolean {
+  // Title matches recap/summary pattern
+  if (FILTERED_TITLE_PATTERNS.some((p) => p.test(title))) return true;
+  // Description starts with "Completed -"
+  if (description.trim().startsWith('Completed -')) return true;
+  return false;
+}
+
 export async function fetchActions(): Promise<DayAiAction[]> {
   const actions: DayAiAction[] = [];
 
@@ -146,6 +263,10 @@ export function transformAction(action: DayAiAction, ownDomain: string): {
   unbundledFrom: string | null;
   meetingDate: string | null;
   createdAt: string;
+  meetingId: string | null;
+  meetingTitle: string | null;
+  meetingAttendees: string[];
+  isFiltered: boolean;
 } {
   // Extract description points from body
   const body = (action.body || '').trim();
@@ -200,9 +321,11 @@ export function transformAction(action: DayAiAction, ownDomain: string): {
   };
   const sourceType = typeMap[action.type?.toLowerCase()] || action.type?.toUpperCase() || 'OTHER';
 
+  const title = action.title || 'Untitled action';
+
   return {
     objectId: action.objectId,
-    title: action.title || 'Untitled action',
+    title,
     description: body,
     descriptionPoints: points,
     priority: 'MEDIUM',
@@ -217,5 +340,9 @@ export function transformAction(action: DayAiAction, ownDomain: string): {
     unbundledFrom: null,
     meetingDate: action.properties?.meetingDate as string || null,
     createdAt: action.createdAt,
+    meetingId: null,       // populated by refresh pipeline
+    meetingTitle: null,    // populated by refresh pipeline
+    meetingAttendees: [],  // populated by refresh pipeline
+    isFiltered: isNoiseAction(title, body),
   };
 }
