@@ -5,21 +5,22 @@ const DAYAI_BASE_URL = 'https://day.ai';
 const DAYAI_MCP_URL = `${DAYAI_BASE_URL}/api/mcp`;
 const DAYAI_TOKEN_URL = `${DAYAI_BASE_URL}/api/oauth`;
 
+interface DayAiRelationship {
+  objectType: string;
+  objectId: string;
+  title: string;
+  description: string;
+  relationship: string;
+}
+
 interface DayAiAction {
   objectId: string;
   title: string;
-  body: string;
-  type: string;
-  status: string;
+  description: string;
   createdAt: string;
   updatedAt: string;
-  properties: Record<string, unknown>;
-  relationships?: Array<{
-    targetObjectId: string;
-    targetObjectType: string;
-    relationshipType: string;
-    targetObjectProperties?: Record<string, unknown>;
-  }>;
+  properties: Record<string, string>;
+  relationships?: DayAiRelationship[];
 }
 
 // OAuth token cache
@@ -191,60 +192,80 @@ export async function fetchMeetingContext(meetingId: string): Promise<MeetingCon
 }
 
 // Noise filter patterns
-const FILTERED_TITLE_PATTERNS = [
-  /^Recap\s+(for|&|\+)/i,
-  /^Send\s+(recap|meeting\s+notes|summary)/i,
-  /^Share\s+(recap|meeting\s+notes|summary)/i,
+const NOISE_TITLE_PATTERNS = [
+  /\brecap\b/i,                                    // Any title containing "recap"
+  /^Send\s+(meeting\s+notes|summary)/i,            // "Send meeting notes/summary"
+  /^Share\s+(meeting\s+notes|summary)/i,            // "Share meeting notes/summary"
+  /^.+\s+tasks$/i,                                  // Bucket labels: "Chris Booth tasks", "Joshua tasks"
 ];
 
-export function isNoiseAction(title: string, description: string): boolean {
-  // Title matches recap/summary pattern
-  if (FILTERED_TITLE_PATTERNS.some((p) => p.test(title))) return true;
-  // Description starts with "Completed -"
+const NOISE_ACTION_TYPES = new Set(['NUDGE', 'SCHEDULE_MEETING']);
+
+export function isNoiseAction(title: string, description: string, actionType?: string): boolean {
+  if (NOISE_TITLE_PATTERNS.some((p) => p.test(title))) return true;
   if (description.trim().startsWith('Completed -')) return true;
+  if (actionType && NOISE_ACTION_TYPES.has(actionType)) return true;
+  // Description mentions sending a meeting recap
+  if (/send\s+(a\s+)?meeting\s+recap/i.test(description)) return true;
   return false;
 }
 
-export async function fetchActions(): Promise<DayAiAction[]> {
-  const actions: DayAiAction[] = [];
+export async function fetchActions(daysBack: number = 14): Promise<DayAiAction[]> {
+  try {
+    const since = new Date(Date.now() - daysBack * 86400000).toISOString();
+    const data = await mcpCall('search_objects', {
+      queries: [{
+        objectType: 'native_action',
+        where: {
+          propertyId: 'status',
+          operator: 'isAnyOf',
+          value: ['UNREAD', 'READ', 'IN_PROGRESS'],
+        },
+        includeRelationships: true,
+      }],
+      propertiesToReturn: '*',
+      timeframeStart: since,
+      timeframeField: 'createdAt',
+    }) as Record<string, unknown>;
 
-  for (const status of ['UNREAD', 'READ', 'IN_PROGRESS']) {
-    try {
-      const data = await mcpCall('search_objects', {
-        queries: [{
-          objectType: 'native_action',
-          filter: {
-            propertyFilters: [
-              { property: 'status', operator: 'eq', value: status },
-            ],
-          },
-          includeRelationships: true,
-          limit: 100,
-        }],
-      }) as Record<string, unknown>;
+    const results = (data?.native_action as Record<string, unknown>)?.results as Array<Record<string, unknown>> ?? [];
 
-      const results = (data?.native_action as Record<string, unknown>)?.results as Array<Record<string, unknown>> ?? [];
-
-      for (const r of results) {
-        actions.push({
-          objectId: r.objectId as string,
-          title: r.title as string || '',
-          body: r.description as string || '',
-          type: r.type as string || '',
-          status: status,
-          createdAt: r.createdAt as string || '',
-          updatedAt: r.updatedAt as string || '',
-          properties: r.properties as Record<string, unknown> || {},
-          relationships: r.relationships as DayAiAction['relationships'],
-        });
-      }
-    } catch (err) {
-      console.error(`Day.ai fetch error for status ${status}:`, err);
+    // Deduplicate by objectId within the batch
+    const seen = new Set<string>();
+    const actions: DayAiAction[] = [];
+    for (const r of results) {
+      const id = r.objectId as string;
+      if (seen.has(id)) continue;
+      seen.add(id);
+      actions.push({
+        objectId: id,
+        title: r.title as string || '',
+        description: r.description as string || '',
+        createdAt: r.createdAt as string || '',
+        updatedAt: r.updatedAt as string || '',
+        properties: (r.properties as Record<string, string>) || {},
+        relationships: r.relationships as DayAiRelationship[] | undefined,
+      });
     }
+    return actions;
+  } catch (err) {
+    console.error('Day.ai fetch actions error:', err);
+    return [];
   }
-
-  return actions;
 }
+
+// Safe JSON array parser for Day.ai string-encoded arrays
+function parseJsonArray(val: unknown): string[] {
+  if (!val || typeof val !== 'string') return [];
+  try {
+    const arr = JSON.parse(val);
+    return Array.isArray(arr) ? arr.filter((v): v is string => typeof v === 'string') : [];
+  } catch {
+    return [];
+  }
+}
+
+const VALID_PRIORITIES = new Set(['URGENT', 'HIGH', 'MEDIUM', 'LOW']);
 
 export function transformAction(action: DayAiAction, ownDomain: string): {
   objectId: string;
@@ -260,6 +281,7 @@ export function transformAction(action: DayAiAction, ownDomain: string): {
   domains: string[];
   clientDomain: string | null;
   clientName: string | null;
+  reasoning: string | null;
   unbundledFrom: string | null;
   meetingDate: string | null;
   createdAt: string;
@@ -268,12 +290,37 @@ export function transformAction(action: DayAiAction, ownDomain: string): {
   meetingAttendees: string[];
   isFiltered: boolean;
 } {
-  // Extract description points from body
-  const body = (action.body || '').trim();
-  const points = body.split('\n').filter((l) => l.trim().startsWith('-') || l.trim().startsWith('*'))
-    .map((l) => l.trim().replace(/^[-*]\s*/, ''));
+  const props = action.properties;
+  const title = action.title || props.title || 'Untitled action';
+  const description = (props.description || action.description || '').trim();
 
-  // Extract people from relationships
+  // Use Day.ai's native descriptionPoints (JSON string array) or fall back to parsing
+  let descriptionPoints = parseJsonArray(props.descriptionPoints);
+  if (descriptionPoints.length === 0 && description) {
+    descriptionPoints = description.split('\n')
+      .filter((l) => l.trim().startsWith('-') || l.trim().startsWith('*'))
+      .map((l) => l.trim().replace(/^[-*]\s*/, ''));
+  }
+
+  // Use Day.ai's native priority
+  const rawPriority = (props.priority || '').toUpperCase();
+  const priority = VALID_PRIORITIES.has(rawPriority)
+    ? rawPriority as 'URGENT' | 'HIGH' | 'MEDIUM' | 'LOW'
+    : 'MEDIUM';
+
+  // Use Day.ai's sourceType and sourceId directly
+  const sourceType = props.sourceType || props.type || 'OTHER';
+  const sourceId = props.sourceId || null;
+  const sourceLabel = props.sourceLabel || null;
+  const reasoning = props.reasoning || null;
+  const actionType = props.type || '';
+
+  // Meeting linking: if source is a meeting recording, use sourceId as meetingId
+  const isMeetingSource = sourceType === 'MEETING_RECORDING';
+  const meetingId = isMeetingSource && sourceId ? sourceId : null;
+  const meetingTitle = isMeetingSource && sourceLabel ? sourceLabel : null;
+
+  // Extract people and domains from relationships
   const people: string[] = [];
   const domains: string[] = [];
   let clientDomain: string | null = null;
@@ -281,11 +328,9 @@ export function transformAction(action: DayAiAction, ownDomain: string): {
 
   if (action.relationships) {
     for (const rel of action.relationships) {
-      if (rel.targetObjectType === 'native_contact') {
-        const name = rel.targetObjectProperties?.name as string | undefined;
-        if (name) people.push(name);
-        // Extract domain from email
-        const email = rel.targetObjectId;
+      if (rel.objectType === 'native_contact') {
+        if (rel.title) people.push(rel.title);
+        const email = rel.objectId;
         if (email?.includes('@')) {
           const domain = email.split('@')[1];
           if (domain && domain !== ownDomain && !domains.includes(domain)) {
@@ -293,13 +338,35 @@ export function transformAction(action: DayAiAction, ownDomain: string): {
           }
         }
       }
-      if (rel.targetObjectType === 'native_organization') {
-        const orgDomain = rel.targetObjectId;
+      if (rel.objectType === 'native_organization') {
+        const orgDomain = rel.objectId;
         if (orgDomain && orgDomain !== ownDomain) {
           clientDomain = orgDomain;
-          clientName = (rel.targetObjectProperties?.name as string) || orgDomain.split('.')[0];
+          clientName = rel.title || orgDomain.split('.')[0];
         }
       }
+    }
+  }
+
+  // Also parse people/domains from properties as fallback
+  if (people.length === 0) {
+    const propPeople = parseJsonArray(props.people);
+    for (const email of propPeople) {
+      if (email.includes('@')) {
+        const domain = email.split('@')[1];
+        if (domain && domain !== ownDomain && !domains.includes(domain)) {
+          domains.push(domain);
+        }
+      }
+    }
+  }
+  if (!clientDomain) {
+    const propDomains = parseJsonArray(props.domains);
+    const external = propDomains.find((d) => d !== ownDomain);
+    if (external) {
+      clientDomain = external;
+      clientName = external.split('.')[0];
+      clientName = clientName.charAt(0).toUpperCase() + clientName.slice(1);
     }
   }
 
@@ -307,42 +374,30 @@ export function transformAction(action: DayAiAction, ownDomain: string): {
   if (!clientDomain && domains.length > 0) {
     clientDomain = domains[0];
     clientName = clientDomain.split('.')[0];
-    // Capitalize first letter
     clientName = clientName.charAt(0).toUpperCase() + clientName.slice(1);
   }
-
-  // Determine source type from action type
-  const typeMap: Record<string, string> = {
-    'meeting_followup': 'MEETING_RECORDING_FOLLOWUP',
-    'email_response': 'EMAIL_RESPONSE',
-    'support': 'SUPPORT',
-    'followup': 'FOLLOWUP',
-    'schedule_meeting': 'SCHEDULE_MEETING',
-  };
-  const sourceType = typeMap[action.type?.toLowerCase()] || action.type?.toUpperCase() || 'OTHER';
-
-  const title = action.title || 'Untitled action';
 
   return {
     objectId: action.objectId,
     title,
-    description: body,
-    descriptionPoints: points,
-    priority: 'MEDIUM',
+    description,
+    descriptionPoints,
+    priority,
     dueDate: null,
     sourceType,
-    sourceId: action.objectId,
-    sourceLabel: action.properties?.sourceLabel as string || null,
+    sourceId,
+    sourceLabel,
     people,
     domains,
     clientDomain,
     clientName,
+    reasoning,
     unbundledFrom: null,
-    meetingDate: action.properties?.meetingDate as string || null,
+    meetingDate: action.createdAt || null,
     createdAt: action.createdAt,
-    meetingId: null,       // populated by refresh pipeline
-    meetingTitle: null,    // populated by refresh pipeline
-    meetingAttendees: [],  // populated by refresh pipeline
-    isFiltered: isNoiseAction(title, body),
+    meetingId,
+    meetingTitle,
+    meetingAttendees: [],
+    isFiltered: isNoiseAction(title, description, actionType),
   };
 }

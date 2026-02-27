@@ -15,6 +15,7 @@ export interface Task {
   clickupListId: string | null;
   clickupFolderName: string | null;
   clickupSpaceName: string | null;
+  reasoning: string | null;
   unbundledFrom: string | null;
   meetingDate: string | null;
   createdAt: string | null;

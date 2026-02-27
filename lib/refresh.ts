@@ -1,9 +1,8 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { readTasksFile, writeTasksFile, readClientMap } from './api/tasks';
-import { fetchActions, fetchMeetings, transformAction } from './dayai-client';
-import type { DayAiMeeting } from './dayai-client';
-import type { Task, TasksFile } from './types/task';
+import { readTasksFile, readClientMap } from './api/tasks';
+import { fetchActions, transformAction } from './dayai-client';
+import type { Task } from './types/task';
 
 let lastRefreshTime = 0;
 const RATE_LIMIT_MS = 60_000; // 1 minute
@@ -27,45 +26,25 @@ export async function refreshTasks(): Promise<RefreshResult> {
   }
 
   const clientMap = await readClientMap();
-  const [actions, meetings] = await Promise.all([
-    fetchActions(),
-    fetchMeetings(7),
-  ]);
+  const actions = await fetchActions(14);
   const tasksFile = await readTasksFile();
 
-  // Build meeting lookup by date for linking actions to meetings
-  const meetingsByDate = new Map<string, DayAiMeeting>();
-  const meetingsById = new Map<string, DayAiMeeting>();
-  for (const m of meetings) {
-    meetingsById.set(m.objectId, m);
-    // Index by date (YYYY-MM-DD) for proximity matching
-    const dateKey = m.createdAt.slice(0, 10);
-    if (!meetingsByDate.has(dateKey)) {
-      meetingsByDate.set(dateKey, m);
-    }
+  // Build set of existing objectIds (deduplicate existing file too)
+  const existingIds = new Set<string>();
+  const deduped: Task[] = [];
+  for (const t of tasksFile.tasks) {
+    if (existingIds.has(t.objectId)) continue;
+    existingIds.add(t.objectId);
+    deduped.push(t);
   }
+  tasksFile.tasks = deduped;
 
-  // Build set of existing objectIds
-  const existingIds = new Set(tasksFile.tasks.map((t) => t.objectId));
-
-  // Transform new actions and link to meetings
+  // Transform new actions — meeting linking is done inside transformAction via sourceId
   let added = 0;
   for (const action of actions) {
     if (existingIds.has(action.objectId)) continue;
 
     const task = transformAction(action, clientMap.ownDomain);
-
-    // Link to source meeting by date proximity
-    const actionDate = task.meetingDate || task.createdAt;
-    if (actionDate) {
-      const dateKey = actionDate.slice(0, 10);
-      const meeting = meetingsByDate.get(dateKey);
-      if (meeting) {
-        task.meetingId = meeting.objectId;
-        task.meetingTitle = meeting.title;
-        task.meetingAttendees = meeting.attendees;
-      }
-    }
 
     // Auto-resolve client from client-map
     if (task.clientDomain && clientMap.clients[task.clientDomain]) {
@@ -77,6 +56,7 @@ export async function refreshTasks(): Promise<RefreshResult> {
     }
 
     tasksFile.tasks.push(task as Task);
+    existingIds.add(action.objectId);
     added++;
   }
 

@@ -234,6 +234,11 @@ export function TaskCard({ task }: { task: EnrichedTask }) {
                     ))}
                   </ul>
                 )}
+                {task.reasoning && (
+                  <p className="text-xs text-muted-foreground italic">
+                    {task.reasoning}
+                  </p>
+                )}
                 {task.sourceLabel && (
                   <p className="text-xs text-muted-foreground">Source: {task.sourceLabel}</p>
                 )}
